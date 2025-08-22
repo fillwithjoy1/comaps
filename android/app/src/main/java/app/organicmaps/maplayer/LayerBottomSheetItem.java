@@ -2,6 +2,7 @@ package app.organicmaps.maplayer;
 
 import android.content.Context;
 import android.view.View;
+import androidx.annotation.AttrRes;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
@@ -33,31 +34,29 @@ public class LayerBottomSheetItem
   public static LayerBottomSheetItem create(@NonNull Context mContext, Mode mode,
                                             @NonNull OnItemClickListener<LayerBottomSheetItem> layerItemClickListener)
   {
-    @AttrRes
-    int drawableRes = 0;
+    @DrawableRes
+    int drawableResId = 0;
     @StringRes
     int buttonTextResource = R.string.layers_title;
     switch (mode)
     {
     case OUTDOORS:
-      drawableRes = R.attr.outdoorsMenuIcon;
+      drawableResId = R.drawable.ic_layers_outdoors;
       buttonTextResource = R.string.button_layer_outdoor;
       break;
     case SUBWAY:
-      drawableRes = R.attr.subwayMenuIcon;
+      drawableResId = R.drawable.ic_layers_subway;
       buttonTextResource = R.string.button_layer_subway;
       break;
     case ISOLINES:
-      drawableRes = R.attr.isolinesMenuIcon;
+      drawableResId = R.drawable.ic_layers_isoline;
       buttonTextResource = R.string.button_layer_isolines;
       break;
     case TRAFFIC:
-      drawableRes = R.attr.trafficMenuIcon;
+      drawableResId = R.drawable.ic_layers_traffic;
       buttonTextResource = R.string.button_layer_traffic;
       break;
     }
-    @DrawableRes
-    final int drawableResId = ThemeUtils.getResource(mContext, drawableRes);
     return new LayerBottomSheetItem(drawableResId, buttonTextResource, mode, layerItemClickListener);
   }
 
