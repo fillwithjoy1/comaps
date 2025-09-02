@@ -180,8 +180,6 @@
     <string name="done">Готово</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMap подаци: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Да ли сте сигурни да желите да се одјавите са OpenStreetMap налога?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Путање</string>
     <!-- Length of track in cell that describes route -->

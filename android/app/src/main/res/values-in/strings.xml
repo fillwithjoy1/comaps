@@ -179,8 +179,6 @@
     <string name="done">Selesai</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">Data OpenStreetMap: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Apakah Anda yakin ingin keluar dari akun OpenStreetMap Anda?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Jalur</string>
     <!-- Length of track in cell that describes route -->

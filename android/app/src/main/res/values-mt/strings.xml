@@ -171,7 +171,6 @@
     <string name="copied_to_clipboard">Ikkupjat fuq il-klibbord: %s</string>
     <string name="done">Lest</string>
     <string name="data_version">Dejta tal-OpenStreetMap: %s</string>
-    <string name="osm_log_out_confirmation">Ċert li trid toħroġ mill-akkount tal-OpenStreetMap?</string>
     <string name="tracks_title">Korsa</string>
     <string name="share_my_location">Ixxerja l-post tiegħi</string>
     <string name="prefs_group_information">Informazzjoni</string>

@@ -180,8 +180,6 @@
     <string name="done">Gereed</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMap-data: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Is jy seker jy wil by jou OpenStreetMap-rekening afmeld?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Paaie</string>
     <!-- Length of track in cell that describes route -->

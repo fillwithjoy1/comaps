@@ -183,8 +183,6 @@
     <string name="done">Kész</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMap adatok: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Biztosan ki akar jelentkezni az OpenStreetMap fiókjából?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Nyomvonalak</string>
     <!-- Length of track in cell that describes route -->

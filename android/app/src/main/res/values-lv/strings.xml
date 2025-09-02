@@ -184,8 +184,6 @@
     <string name="done">Pabeigts</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">„OpenStreetMap“ dati: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Vai tiešām vēlaties izrakstīties no „OpenStreetMap“ konta?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Ceļi</string>
     <!-- Length of track in cell that describes route -->

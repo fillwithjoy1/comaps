@@ -179,8 +179,6 @@
     <string name="done">완료</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMap 데이터: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">OpenStreetMap 계정에서 로그아웃하시겠습니까?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">트랙</string>
     <!-- Length of track in cell that describes route -->

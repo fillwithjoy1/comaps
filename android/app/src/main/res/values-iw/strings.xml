@@ -184,8 +184,6 @@
     <string name="done">בוצע</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">נתוני OpenStreetMap: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">האם אתה בטוח שברצונך להתנתק מחשבון OpenStreetMap שלך?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">מסלולים</string>
     <!-- Length of track in cell that describes route -->

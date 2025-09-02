@@ -180,8 +180,6 @@
     <string name="done">Valmis</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMapi andmed: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Kas oled kindel, et soovid oma OpenStreetMapi kontost välja logida?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Rajad</string>
     <!-- Length of track in cell that describes route -->

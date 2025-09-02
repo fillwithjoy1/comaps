@@ -184,8 +184,6 @@
     <string name="done">Ολοκλήρωση</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">Δεδομένα OpenStreetMap: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε από το λογαριασμό σας στο OpenStreetMap;</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Διαδρομές</string>
     <!-- Length of track in cell that describes route -->

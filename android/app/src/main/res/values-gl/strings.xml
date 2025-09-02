@@ -200,7 +200,6 @@
     <string name="my_position_share_email">Ola: \n\nAgora estou aquí: %1$s. Fai clic nesta ligazón %2$s ou esta %3$s para velo no mapa. \n\nGrazas.</string>
     <string name="copied_to_clipboard">Copiado ao portarretallos: %s</string>
     <string name="data_version">Datos de OpenStreetMap: %s</string>
-    <string name="osm_log_out_confirmation">Quere saír da súa conta de OpenStreetMap?</string>
     <string name="share_my_location">Compartir a miña localización</string>
     <string name="prefs_group_general">Axustes xerais</string>
     <string name="pref_zoom_title">Botóns de zum</string>

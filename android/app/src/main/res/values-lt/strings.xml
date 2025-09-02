@@ -178,8 +178,6 @@
     <string name="done">Baigta</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">„OpenStreetMap“ duomenys: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Ar tikrai norite atsijungti nuo „OpenStreetMap“ paskyros?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Trasos</string>
     <!-- Length of track in cell that describes route -->

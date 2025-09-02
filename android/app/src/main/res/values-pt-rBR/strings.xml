@@ -180,8 +180,6 @@
     <string name="done">Feito</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">Dados do OpenStreetMap: %s</string>
-    <!-- Confirmation for OpenStreetMap log out. -->
-    <string name="osm_log_out_confirmation">Você tem certeza de que deseja sair da sua conta do OpenStreetMap?</string>
     <!-- Title for tracks category in bookmarks manager -->
     <string name="tracks_title">Trilhas</string>
     <!-- Length of track in cell that describes route -->
