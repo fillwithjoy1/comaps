@@ -12,6 +12,12 @@
 /* Settings/Downloader - info for country which started downloading */
 "downloading" = "Downloading…";
 
+/* Title of offline maps explanation */
+"offline_explanation_title" = "Offline Maps";
+
+/* Text of offline maps explanation */
+"offline_explanation_text" = "A map needs to be downloaded to view and navigate the area.\nDownload maps for areas you want to travel.";
+
 /* Choose measurement on first launch alert - choose metric system button */
 "kilometres" = "Kilometres";
 
