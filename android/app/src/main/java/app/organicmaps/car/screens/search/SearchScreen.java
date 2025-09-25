@@ -50,7 +50,7 @@ public class SearchScreen extends BaseMapScreen implements SearchTemplate.Search
 
   @NonNull
   @Override
-  public Template onGetTemplate()
+  protected Template onGetTemplateImpl()
   {
     final SearchTemplate.Builder builder = new SearchTemplate.Builder(this);
     builder.setHeaderAction(Action.BACK);
@@ -106,12 +106,14 @@ public class SearchScreen extends BaseMapScreen implements SearchTemplate.Search
   @Override
   public void onStart(@NonNull LifecycleOwner owner)
   {
+    super.onStart(owner);
     SearchEngine.INSTANCE.addListener(this);
   }
 
   @Override
   public void onStop(@NonNull LifecycleOwner owner)
   {
+    super.onStop(owner);
     SearchEngine.INSTANCE.removeListener(this);
     SearchEngine.INSTANCE.cancel();
   }
