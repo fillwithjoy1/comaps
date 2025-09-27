@@ -15,6 +15,7 @@ final class SettingsTemplateBuilder {
     return [createUnpavedButton(options: options),
             createTollButton(options: options),
             createFerryButton(options: options),
+            createPavedButton(options: options),
             createStepsButton(options: options),
             createSpeedcamButton()]
   }
@@ -40,7 +41,7 @@ final class SettingsTemplateBuilder {
   
   private class func createUnpavedButton(options: RoutingOptions) -> CPGridButton {
     var unpavedIconName = "options.unpaved"
-    if options.avoidDirty { unpavedIconName += ".slash" }
+    if options.avoidDirty && !options.avoidPaved { unpavedIconName += ".slash" }
     let configuration = UIImage.SymbolConfiguration(textStyle: .title1)
     var image = UIImage(named: unpavedIconName, in: nil, with: configuration)!
     if #unavailable(iOS 26) {
@@ -49,11 +50,37 @@ final class SettingsTemplateBuilder {
     }
     let unpavedButton = CPGridButton(titleVariants: [L("avoid_unpaved")], image: image) { _ in
                                       options.avoidDirty = !options.avoidDirty
+                                      if options.avoidDirty {
+                                        options.avoidPaved = false
+                                      }
                                       options.save()
                                       CarPlayService.shared.updateRouteAfterChangingSettings()
                                       CarPlayService.shared.popTemplate(animated: true)
     }
+    unpavedButton.isEnabled = !options.avoidPaved
     return unpavedButton
+  }
+    
+  private class func createPavedButton(options: RoutingOptions) -> CPGridButton {
+    var pavedIconName = "options.paved"
+    if options.avoidPaved && !options.avoidDirty { pavedIconName += ".slash" }
+    let configuration = UIImage.SymbolConfiguration(textStyle: .title1)
+    var image = UIImage(named: pavedIconName, in: nil, with: configuration)!
+    if #unavailable(iOS 26) {
+      image = image.withTintColor(.white, renderingMode: .alwaysTemplate)
+      image = UIImage(data: image.pngData()!)!.withRenderingMode(.alwaysTemplate)
+    }
+    let pavedButton = CPGridButton(titleVariants: [L("avoid_paved")], image: image) { _ in
+                                      options.avoidPaved = !options.avoidPaved
+                                      if options.avoidPaved {
+                                        options.avoidDirty = false
+                                      }
+                                      options.save()
+                                      CarPlayService.shared.updateRouteAfterChangingSettings()
+                                      CarPlayService.shared.popTemplate(animated: true)
+    }
+    pavedButton.isEnabled = !options.avoidDirty
+    return pavedButton
   }
   
   private class func createFerryButton(options: RoutingOptions) -> CPGridButton {

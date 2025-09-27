@@ -40,6 +40,10 @@ struct SettingsNavigationView: View {
     @State var shouldAvoidUnpavedRoadsWhileRouting: Bool = false
     
     
+    /// If paved roads should be avoided during routing
+    @State var shouldAvoidPavedRoadsWhileRouting: Bool = false
+    
+    
     /// If ferries should be avoided during routing
     @State var shouldAvoidFerriesWhileRouting: Bool = false
     
@@ -149,6 +153,7 @@ struct SettingsNavigationView: View {
                 
                 Toggle("avoid_unpaved", isOn: $shouldAvoidUnpavedRoadsWhileRouting)
                     .tint(.accent)
+                    .disabled(shouldAvoidPavedRoadsWhileRouting)
                 
                 Toggle("avoid_ferry", isOn: $shouldAvoidFerriesWhileRouting)
                     .tint(.accent)
@@ -158,6 +163,10 @@ struct SettingsNavigationView: View {
                 
                 Toggle("avoid_steps", isOn: $shouldAvoidStepsWhileRouting)
                     .tint(.accent)
+                
+                Toggle("avoid_paved", isOn: $shouldAvoidPavedRoadsWhileRouting)
+                    .tint(.accent)
+                    .disabled(shouldAvoidUnpavedRoadsWhileRouting)
             } header: {
                 Text("driving_options_title")
             }
@@ -174,6 +183,7 @@ struct SettingsNavigationView: View {
             selectedAnnouncingSpeedTrapsWhileVoiceRouting = Settings.announcingSpeedTrapsWhileVoiceRouting
             shouldAvoidTollRoadsWhileRouting = Settings.shouldAvoidTollRoadsWhileRouting
             shouldAvoidUnpavedRoadsWhileRouting = Settings.shouldAvoidUnpavedRoadsWhileRouting
+            shouldAvoidPavedRoadsWhileRouting = Settings.shouldAvoidPavedRoadsWhileRouting
             shouldAvoidFerriesWhileRouting = Settings.shouldAvoidFerriesWhileRouting
             shouldAvoidMotorwaysWhileRouting = Settings.shouldAvoidMotorwaysWhileRouting
             shouldAvoidStepsWhileRouting = Settings.shouldAvoidStepsWhileRouting
@@ -206,9 +216,15 @@ struct SettingsNavigationView: View {
         }
         .onChange(of: shouldAvoidUnpavedRoadsWhileRouting) { changedShouldAvoidUnpavedRoadsWhileRouting in
             Settings.shouldAvoidUnpavedRoadsWhileRouting = changedShouldAvoidUnpavedRoadsWhileRouting
+            if changedShouldAvoidUnpavedRoadsWhileRouting {
+                shouldAvoidPavedRoadsWhileRouting = false
+            }
         }
-        .onChange(of: shouldAvoidUnpavedRoadsWhileRouting) { changedShouldAvoidUnpavedRoadsWhileRouting in
-            Settings.shouldAvoidUnpavedRoadsWhileRouting = changedShouldAvoidUnpavedRoadsWhileRouting
+        .onChange(of: shouldAvoidPavedRoadsWhileRouting) { changedShouldAvoidPavedRoadsWhileRouting in
+            Settings.shouldAvoidPavedRoadsWhileRouting = changedShouldAvoidPavedRoadsWhileRouting
+            if changedShouldAvoidPavedRoadsWhileRouting {
+                shouldAvoidUnpavedRoadsWhileRouting = false
+            }
         }
         .onChange(of: shouldAvoidFerriesWhileRouting) { changedShouldAvoidFerriesWhileRouting in
             Settings.shouldAvoidFerriesWhileRouting = changedShouldAvoidFerriesWhileRouting
