@@ -610,7 +610,7 @@ unordered_map<string, vector<string>> const kSynonyms = {
     {"intr", {"intrarea"}},
     {"ip", {"itinerário principal", "idrottsplats"}},
     {"i", {"prima", "pierwszy", "pierwsza", "in", "island", "pierwsze", "primo", "im"}},
-    {"ir", {"ingenieur", "insinyur", "ingenieur"}},
+    {"ir", {"ingenieur", "insinyur"}},
     {"is", {"island"}},
     {"iv", {"quattro", "quarta", "quarto"}},
     {"ix", {"nona", "nono"}},
