@@ -47,7 +47,7 @@
 
     <item name="navNextTurnFrame">@drawable/bg_nav_next_turn</item>
     <item name="navNextNextTurnFrame">@drawable/bg_nav_next_next_turn</item>
-    <item name="navLanesBackgroundColor">@color/base_accent</item>
+    <item name="navLanesBackgroundColor">@color/bg_primary</item>
     <item name="navLaneArrowActiveColor">@color/nav_lane_arrow_active</item>
     <item name="navLaneArrowInactiveColor">@color/nav_lane_arrow_inactive</item>
 
