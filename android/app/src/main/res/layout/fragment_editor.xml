@@ -131,13 +131,12 @@
               android:textAppearance="@style/MwmTextAppearance.Body1"
               tools:text="Red str."
               app:drawableEndCompat="@drawable/ic_arrow_down" />
-          <View
+          <com.google.android.material.divider.MaterialDivider
               android:layout_width="match_parent"
-              android:layout_height="1dp"
+              android:layout_height="@dimen/divider_height"
               android:layout_alignStart="@id/street"
               android:layout_below="@id/street"
-              android:layout_marginTop="@dimen/margin_quarter_plus"
-              android:background="?dividerHorizontal"/>
+              android:layout_marginTop="@dimen/margin_quarter_plus" />
         </RelativeLayout>
         <include
             android:id="@+id/block_building"
@@ -196,13 +195,12 @@
               android:textAppearance="@style/MwmTextAppearance.Body1"
               tools:text="italian, russian, coffee_shop, sandwich, dessert, cake, regional, sausage, sandwich, breakfast, pizza"
               app:drawableEndCompat="@drawable/ic_arrow_down" />
-          <View
+          <com.google.android.material.divider.MaterialDivider
               android:layout_width="match_parent"
-              android:layout_height="1dp"
+              android:layout_height="@dimen/divider_height"
               android:layout_alignStart="@id/cuisine"
               android:layout_below="@id/cuisine"
-              android:layout_marginTop="@dimen/margin_quarter_plus"
-              android:background="?dividerHorizontal"/>
+              android:layout_marginTop="@dimen/margin_quarter_plus" />
         </RelativeLayout>
 
         <include
@@ -302,13 +300,12 @@
               android:textAppearance="@style/MwmTextAppearance.Body1"
               tools:text="Red str."
               app:drawableEndCompat="@drawable/ic_arrow_down" />
-          <View
+          <com.google.android.material.divider.MaterialDivider
               android:layout_width="match_parent"
-              android:layout_height="1dp"
+              android:layout_height="@dimen/divider_height"
               android:layout_alignStart="@id/self_service"
               android:layout_below="@id/self_service"
-              android:layout_marginTop="@dimen/margin_quarter_plus"
-              android:background="?dividerHorizontal"/>
+              android:layout_marginTop="@dimen/margin_quarter_plus" />
         </RelativeLayout>
 
         <RelativeLayout

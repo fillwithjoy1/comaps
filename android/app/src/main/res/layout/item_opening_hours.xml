@@ -37,11 +37,7 @@
       android:textSize="@dimen/text_size_body_1"
       android:visibility="visible"/>
 
-    <View
-      android:layout_width="match_parent"
-      android:layout_height="1dp"
-      android:layout_marginTop="@dimen/margin_half"
-      android:background="?dividerHorizontal"/>
+    <include layout="@layout/item_divider" />
 
   </LinearLayout>
 

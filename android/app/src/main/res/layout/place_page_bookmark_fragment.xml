@@ -19,5 +19,5 @@
     tools:text="Long, long text Long, long text Long, long text Long, long text Long, long text Long, long text "/>
 
   <include
-    layout="@layout/divider_horizontal"/>
+    layout="@layout/item_divider"/>
 </LinearLayout>
