@@ -7,16 +7,16 @@ SCRIPT_DIR: Path = Path(__file__).parent.resolve()
 MAPCSS_FILE: Path = SCRIPT_DIR / "../../data/styles/default/include/Icons.mapcss"
 TAGINFO_FILE: Path = SCRIPT_DIR / "../../data/taginfo.json"
 
-BASE_ICON_URL: str = "https://raw.githubusercontent.com/organicmaps/organicmaps/master/data/styles/default/light/symbols/"
+BASE_ICON_URL: str = "https://codeberg.org/comaps/comaps/raw/branch/main/data/styles/default/light/symbols/"
 
 PROJECT_INFO: dict[str, str] = {
-    "name": "Organic Maps",
-    "description": "Free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists",
-    "project_url": "https://organicmaps.app",
-    "doc_url": "https://github.com/organicmaps/organicmaps",
-    "icon_url": "https://organicmaps.app/logos/green-on-transparent.svg",
-    "contact_name": "Organic Maps",
-    "contact_email": "hello@organicmaps.app"
+    "name": "CoMaps",
+    "description": "CoMaps is a community-focused privacy navigation iOS & Android app for travelers - drivers, hikers, and cyclists.",
+    "project_url": "https://comaps.app",
+    "doc_url": "https://codeberg.org/comaps/comaps/",
+    "icon_url": "https://codeberg.org/comaps/comaps/media/branch/main/docs/badges/logo.svg",
+    "contact_name": "CoMaps",
+    "contact_email": "hello@comaps.app"
 }
 
 def parse_mapcss(text: str) -> list[dict[str, any]]:
@@ -92,7 +92,7 @@ def main() -> None:
 
     data: dict[str, any] = {
         "data_format": 1,
-        "data_url": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/data/taginfo.json",
+        "data_url": "https://codeberg.org/comaps/comaps/raw/branch/main/data/taginfo.json",
         "data_updated": datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"),
         "project": PROJECT_INFO,
         "tags": tags
