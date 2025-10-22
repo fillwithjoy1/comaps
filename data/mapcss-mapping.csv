@@ -1362,7 +1362,7 @@ historic|memorial|plaque;[historic=memorial][memorial=plaque],[historic=memorial
 historic|castle|defensive;[historic=castle][castle_type=defensive];;name;int_name;1234;
 historic|castle|stately;[historic=castle][castle_type=stately];;name;int_name;1235;
 attraction|animal;1236;
-deprecated:tourism|attraction|specified:03.2024;[tourism=attraction][attraction=specified];x;name;int_name;1237;tourism|attraction
+disusedbusiness;[disused:shop?],[disused:amenity=restaurant],[disused:amenity=fast_food],[disused:amenity=cafe],[disused:amenity=pub],[disused:amenity=bar];;;;1237;
 cuisine|regional;1238;
 cuisine|pizza;1239;
 cuisine|burger;1240;

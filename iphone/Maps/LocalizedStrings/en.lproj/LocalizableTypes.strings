@@ -1382,6 +1382,7 @@
 "type.shop.watches" = "Watch Store";
 "type.shop.wholesale" = "Wholesale Store";
 "type.shop.lighting" = "Lighting Shop";
+"type.disusedbusiness" = "Vacant Business";
 "type.sport" = "Sport";
 "type.sport.multi" = "Various Sports";
 "type.sport.9pin" = "Bowling";

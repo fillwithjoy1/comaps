@@ -51,6 +51,11 @@ node|z16-[shop],
 node|z18-[shop],
 {icon-image: shop-m.svg;}
 
+node|z20-[disused:shop],
+{icon-min-distance: 10;}
+node|z20-[disused:shop],
+{icon-image: disusedbusiness-m.svg;}
+
 /* 2. NATURAL */
 
 node|z13-[natural=volcano],
