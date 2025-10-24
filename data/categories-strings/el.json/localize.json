@@ -116,7 +116,7 @@
 "historic-wayside_cross": "Σταυρός στην άκρη του δρόμου",
 "historic-wayside_shrine": "Εικονοστάσιο στην άκρη του δρόμου",
 "leisure-garden": "Κήπος αναψυχής|αξιοθέατα",
-"amenity-bench": "Παγκάκι",
+"amenity-bench|amenity-bench-backless": "Παγκάκι",
 "amenity-bicycle_rental": "Ενοικιάσεις ποδηλάτων|δίκυκλο|ποδήλατο|ενοικιάσεις",
 "amenity-car_sharing": "Παραχώρηση αυτοκινήτου",
 "amenity-car_rental": "Ενοικίαση αυτοκινήτου|αυτοκίνητο|ενοικιάσεις|κοινή χρήση",

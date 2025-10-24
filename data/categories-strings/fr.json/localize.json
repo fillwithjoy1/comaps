@@ -121,7 +121,7 @@
 "historic-wayside_shrine": "Oratoire",
 "leisure-dog_park": "Parc canin|Espace sans laisse",
 "leisure-garden": "2Jardin",
-"amenity-bench": "Banc",
+"amenity-bench|amenity-bench-backless": "Banc",
 "amenity-bicycle_rental": "Location de vélos|vélo|bicyclette|3location",
 "amenity-bicycle_repair_station": "Réparation de vélos|vélo|bicyclette|réparation",
 "amenity-car_sharing": "Station d'autopartage|auto-partage",

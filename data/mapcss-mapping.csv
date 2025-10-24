@@ -134,7 +134,7 @@ waterway|ditch;60;
 amenity|restaurant;61;
 # TODO: deprecated, 250k, replace with natural=water + water=reservoir?
 landuse|reservoir;62;
-deprecated:highway|track|grade5:04.2024;[highway=track][tracktype=grade5];x;name;int_name;63;highway|track
+amenity|bench|backless;[amenity=bench][backrest=not],[amenity=bench][backrest=no];;name;int_name;63;
 amenity|bench;64;
 # Branch railway lines include ordinary railway=rail w/o any specific usage= or service=, ~500k usages.
 # Using service= together with usage=branch is a mismapping, but people do it, so exclude explicitly.

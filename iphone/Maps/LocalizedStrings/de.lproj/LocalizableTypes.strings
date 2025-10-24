@@ -24,6 +24,7 @@
 "type.amenity.bar" = "Bar";
 "type.amenity.bbq" = "Grillstelle";
 "type.amenity.bench" = "Sitzbank";
+"type.amenity.bench.backless" = "Sitzbank ohne Rückenlehne";
 "type.amenity.bicycle_parking" = "Fahrradständer";
 "type.amenity.bicycle_rental" = "Fahrradverleih";
 "type.amenity.bicycle_repair_station" = "Fahrrad-Reparaturstation";

@@ -2323,6 +2323,7 @@ building-address                                    # caption z16-
 === -9970
 
 amenity-bench                                       # icon z18- (also has caption(optional) z19-)
+amenity-bench-backless                              # icon z18- (also has caption(optional) z19-)
 amenity-waste_disposal                              # icon z18- (also has caption(optional) z18-)
 emergency-assembly_point                            # icon z18- (also has caption(optional) z18-)
 emergency-defibrillator                             # icon z18- (also has caption(optional) z18-)
@@ -2335,6 +2336,7 @@ power-substation                                    # icon z17- (also has captio
 === -9990
 
 # amenity-bench                                     # caption(optional) z19- (also has icon z18-)
+# amenity-bench-backless                            # caption(optional) z19- (also has icon z18-)
 amenity-loading_dock                                # icon z18- (also has caption(optional) z19-)
 # amenity-loading_dock                              # caption(optional) z19- (also has icon z18-)
 # amenity-parking_space-disabled                    # caption(optional) z19- (also has icon z18-)
