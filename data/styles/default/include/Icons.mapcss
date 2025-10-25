@@ -1574,6 +1574,8 @@ node|z18-[amenity=bench],
 {icon-image: bench.svg;}
 node|z18-[amenity=bench][backrest=not],
 {icon-image: bench_backless.svg;}
+node|z18-[amenity=lounger],
+{icon-image: lounger-m.svg;}
 node|z18-[amenity=waste_basket]
 {icon-image: waste-basket-s.svg;}
 node|z18-[amenity=waste_disposal],

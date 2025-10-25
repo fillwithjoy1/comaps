@@ -251,7 +251,7 @@ railway|tram;150;
 # ~430k usages.
 amenity|toilets;151;
 natural|water|basin;[natural=water][water=basin];;name;int_name;152;
-deprecated:highway|footway|permissive:12.2023;[highway=footway][access=permissive],[highway=footway][foot=permissive];x;name;int_name;153;highway|footway
+amenity|lounger;[amenity=lounger][!seasonal];;name;int_name;153;
 leisure|picnic_table;154;
 landuse|construction;155;
 tourism|viewpoint;156;

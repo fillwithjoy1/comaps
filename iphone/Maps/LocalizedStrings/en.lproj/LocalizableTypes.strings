@@ -93,6 +93,7 @@
 "type.amenity.kindergarten" = "Kindergarten";
 "type.amenity.library" = "Library";
 "type.amenity.loading_dock" = "Loading Dock";
+"type.amenity.lounger" = "Lounger";
 "type.amenity.luggage_locker" = "Luggage Locker";
 "type.amenity.marketplace" = "Marketplace";
 "type.amenity.motorcycle_parking" = "Motorcycle Parking";
