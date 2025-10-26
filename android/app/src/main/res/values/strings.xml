@@ -934,4 +934,5 @@
     <string name="error_invalid_number">Invalid number</string>
     <string name="offline_explanation_title">Offline Maps</string>
     <string name="offline_explanation_text">A map needs to be downloaded to view and navigate the area.\nDownload maps for areas you want to travel.</string>
+    <string name="list_description_empty">Edit the list to add a description</string>
 </resources>
