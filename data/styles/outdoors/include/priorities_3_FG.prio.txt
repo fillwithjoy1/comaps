@@ -402,7 +402,7 @@ building                                            # area z14- (also has captio
 building-garage                                     # area z14- (also has caption z17-)
 building-guardhouse                                 # area z14- (also has icon z16-, caption(optional) z18-)
 building-has_parts                                  # area z14- (also has caption z17-)
-building-train_station                              # area z14- (also has caption z17-)
+building-train_station                              # area z14- (also has icon z17-, caption(optional) z17-)
 === 130
 
 piste:type-connection                               # line z15-
