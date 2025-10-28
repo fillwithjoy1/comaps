@@ -691,10 +691,13 @@ node|z16[tourism=motel],
 {icon-image: hotel-m.svg;icon-min-distance: 24;}
 node|z16[tourism=hostel]
 {icon-image: hostel-m.svg;icon-min-distance: 24;}
+node|z16-[tourism=guest_house],
+{icon-image: guest_house-m.svg;}
+node|z16-[tourism=apartment],
+{icon-image: apartment-m.svg;}
 node|z16[tourism=guest_house],
-{icon-image: guest_house-m.svg;icon-min-distance: 24;text-halo-radius: 0;}
 node|z16[tourism=apartment],
-{icon-image: apartment-m.svg;icon-min-distance: 24;text-halo-radius: 0;}
+{icon-min-distance: 24;text-halo-radius: 0;}
 node|z13-14[tourism=alpine_hut],
 {icon-image: alpine_hut-s.svg;}
 node|z15-16[tourism=alpine_hut],
@@ -710,7 +713,7 @@ node|z17-[tourism=hostel]
 {icon-image: hostel-m.svg;icon-min-distance: 16;}
 node|z17[tourism=guest_house],
 node|z17[tourism=apartment],
-{icon-image: apartment-m.svg;text-halo-radius: 0;}
+{text-halo-radius: 0;}
 node|z17-[tourism=alpine_hut],
 node|z17-[tourism=wilderness_hut],
 node|z17-[tourism=chalet],
@@ -718,7 +721,7 @@ node|z17-[tourism=chalet],
 
 node|z18-[tourism=guest_house],
 node|z18-[tourism=apartment],
-{icon-image: apartment-m.svg;icon-min-distance: 16;}
+{icon-min-distance: 16;}
 
 node|z16-[tourism=camp_site],
 {icon-image: campsite-m.svg;}
