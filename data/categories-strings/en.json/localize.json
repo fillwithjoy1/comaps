@@ -129,6 +129,7 @@
 "leisure-garden": "3Garden",
 "leisure-firepit": "5Firepit",
 "amenity-bench|amenity-bench-backless": "Bench",
+"amenity-boat_rental": "4Boat Rental|boat|3rental",
 "amenity-bicycle_rental": "4Bicycle Rental|cycle|bike|3rental|U+1F6B2|U+1F6B4|U+1F6B5|bicycle hire|bike rental",
 "amenity-bicycle_repair_station": "4Bicycle Repair Station|cycle|bike|4repair of bicycles",
 "amenity-car_sharing": "Car Share|3carsharing|car|sharing|U+1F697|U+1F698|U+1F699|carpool|carsharing services|car sharing|4rideshare",

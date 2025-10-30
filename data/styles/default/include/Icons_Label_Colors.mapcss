@@ -1,6 +1,7 @@
 /* Setting the colors for all POI icons */
 /* Please add new items so that they fit in the existing alphabetical order */
 
+node[amenity=boat_rental],
 node[amenity=car_rental],
 node[amenity=car_sharing],
 node[amenity=internet_cafe],

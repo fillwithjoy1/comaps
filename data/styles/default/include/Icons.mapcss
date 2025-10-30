@@ -865,9 +865,11 @@ node|z17-[amenity=vending_machine][vending=parking_tickets],
 node|z17-[amenity=vending_machine][vending=public_transport_tickets],
 node|z17-[amenity=payment_terminal],
 node|z17-[amenity=shower],
+node|z17-[amenity=slipway],
 node|z17-[amenity=motorcycle_rental],
 node|z17-[amenity=bicycle_rental],
 node|z17-[amenity=bicycle_repair_station],
+node|z17-[amenity=boat_rental],
 node|z17-[amenity=post_office],
 node|z17-[amenity=library],
 node|z18-[post_office=post_partner],
@@ -1472,6 +1474,11 @@ node|z17-[amenity=motorcycle_rental],
 node|z18-[amenity=motorcycle_rental],
 {font-size: 11;}
 
+node|z17-[amenity=boat_rental],
+{icon-image: boat-rental.svg;}
+node|z18-[amenity=boat_rental],
+{font-size: 11;}
+
 node|z17-[amenity=bicycle_rental],
 {icon-image: bicycle-rental.svg;}
 node|z18-[amenity=bicycle_rental],
@@ -1539,6 +1546,9 @@ node|z15-[power=plant][plant:source=wind],
 {icon-image: power_plant_wind-m.svg;}
 node|z16-[power=plant][plant:source=wind],
 {text: name;text-color: @neutral_label;text-halo-radius: 1;text-halo-opacity: 0.9;text-halo-color: @label_halo_light; text-offset: 1; font-size: 10;}
+
+node|z17-[leisure=slipway],
+{icon-image: slipway-m.svg;}
 
 node|z17-[amenity=shower],
 {icon-image: shower-m.svg;}
