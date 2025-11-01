@@ -107,6 +107,10 @@ public class PlacePageView extends Fragment
   private static final String LINKS_FRAGMENT_TAG = "LINKS_FRAGMENT_TAG";
   private static final String TRACK_SHARE_MENU_ID = "TRACK_SHARE_MENU_ID";
 
+  private static final int SHORT_HORIZON_CLOSE_MIN = 60;
+
+  private static final int SHORT_HORIZON_OPEN_MIN = 15;
+
   private static final List<CoordinatesFormat> visibleCoordsFormat =
       Arrays.asList(CoordinatesFormat.LatLonDMS, CoordinatesFormat.LatLonDecimal, CoordinatesFormat.OLCFull,
                     CoordinatesFormat.UTM, CoordinatesFormat.MGRS, CoordinatesFormat.OSMLink);
@@ -837,14 +841,16 @@ public class PlacePageView extends Fragment
     String localizedTimeString = OpenStateTextFormatter.formatHoursMinutes(
       nextChangeLocal.getHour(), nextChangeLocal.getMinute(), DateUtils.is24HourFormat(context));
 
-    if (minsToNextState <= 60 && minsToNextState >= 0) // POI Opens/Closes in 60 mins • at 18:00
+    final boolean shortHorizonClosing = isOpen && minsToNextState >= 0 && minsToNextState <= SHORT_HORIZON_CLOSE_MIN;
+    final boolean shortHorizonOpening = !isOpen && minsToNextState >= 0 && minsToNextState <= SHORT_HORIZON_OPEN_MIN;
+
+    if (shortHorizonClosing || shortHorizonOpening) // POI Opens/Closes in 60 mins • at 18:00
     {
       final String minsToChangeStr = getResources().getQuantityString(
         R.plurals.minutes_short, Math.max(minsToNextState, 1), Math.max(minsToNextState, 1));
       final String nextChangeFormatted = getString(isOpen ? R.string.closes_in : R.string.opens_in, minsToChangeStr);
-      final ForegroundColorSpan nextChangeColor = isOpen ? colorYellow : colorRed;
 
-      openStateString.append(nextChangeFormatted, nextChangeColor, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+      openStateString.append(nextChangeFormatted, colorYellow, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         .append(" • ") // Add spacer
         .append(getString(R.string.at, localizedTimeString));
     }
@@ -857,15 +863,16 @@ public class PlacePageView extends Fragment
 
       final boolean isToday =
         OpenStateTextFormatter.isSameLocalDate(nextChangeLocal, ZonedDateTime.now(nextChangeLocal.getZone()));
-      final String dayShort =
-        nextChangeLocal.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.getDefault());
+      // Full weekday name per design feedback.
+      final String dayName =
+        nextChangeLocal.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault());
 
       if (isOpen) // > 60 minutes OR negative (safety). Show “Open now • Closes at 18:00”
       {
         openStateString.append(getString(R.string.open_now), colorGreen, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         final String atLabel =
-          OpenStateTextFormatter.buildAtLabel(false, isToday, dayShort, localizedTimeString,
+          OpenStateTextFormatter.buildAtLabel(false, isToday, dayName, localizedTimeString,
             opensAtStr, closesAtStr, opensDayAtStr, closesDayAtStr);
 
         if (!TextUtils.isEmpty(atLabel))
@@ -876,7 +883,7 @@ public class PlacePageView extends Fragment
         openStateString.append(getString(R.string.closed_now), colorRed, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         final String atLabel =
-          OpenStateTextFormatter.buildAtLabel(true, isToday, dayShort, localizedTimeString,
+          OpenStateTextFormatter.buildAtLabel(true, isToday, dayName, localizedTimeString,
             opensAtStr, closesAtStr, opensDayAtStr, closesDayAtStr);
 
         if (!TextUtils.isEmpty(atLabel))
