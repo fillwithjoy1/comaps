@@ -1441,4 +1441,12 @@
     <string name="type.leisure.indoor_play">Indoor-Spielplatz</string>
     <string name="type.amenity.car_pooling">Fahrgemeinschaften</string>
     <string name="type.shop.telecommunication">Telekommunikationsgeschäft</string>
+    <string name="type.man_made.telescope">Teleskop</string>
+    <string name="type.man_made.telescope.optical">Teleskop (Optisch)</string>
+    <string name="type.man_made.telescope.radio">Teleskop (Radio)</string>
+    <string name="type.man_made.telescope.gamma">Teleskop (Gamma)</string>
+    <string name="type.man_made.observatory">Observatorium</string>
+    <string name="type.amenity.payment_centre">Zahlungszentrum</string>
+    <string name="type.amenity.soup_kitchen">Suppenküche</string>
+    <string name="type.amenity.food_bank">Tafel</string>
 </resources>

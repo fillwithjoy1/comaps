@@ -1529,3 +1529,11 @@
 "type.amenity.car_pooling" = "Fahrgemeinschaften";
 "type.leisure.indoor_play" = "Indoor-Spielplatz";
 "type.shop.telecommunication" = "Telekommunikationsgeschäft";
+"type.man_made.observatory" = "Observatorium";
+"type.man_made.telescope.optical" = "Teleskop (Optisch)";
+"type.man_made.telescope.radio" = "Teleskop (Radio)";
+"type.man_made.telescope" = "Teleskop";
+"type.man_made.telescope.gamma" = "Teleskop (Gamma)";
+"type.amenity.payment_centre" = "Zahlungszentrum";
+"type.amenity.food_bank" = "Tafel";
+"type.amenity.soup_kitchen" = "Suppenküche";

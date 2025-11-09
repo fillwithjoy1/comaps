@@ -1438,4 +1438,5 @@
     <string name="type.amenity.payment_centre">Platební centrum</string>
     <string name="type.leisure.indoor_play">Vnitřní herní centrum</string>
     <string name="type.shop.telecommunication">Telekomunikační obchod</string>
+    <string name="type.amenity.car_pooling">Spolujízda</string>
 </resources>

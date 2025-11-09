@@ -889,4 +889,5 @@
     <string name="avoid_steps">Vyhnout se schodům</string>
     <string name="offline_explanation_title">Offline mapy</string>
     <string name="list_description_empty">Upravit seznam pro přidání popisu</string>
+    <string name="avoid_paved">Vyhnout se zpevněným cestám</string>
 </resources>

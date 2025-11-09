@@ -1532,3 +1532,13 @@
 "type.amenity.mobile_money_agent" = "Mobilní peněžní agent";
 "type.amenity.boat_rental" = "Půjčovna lodí";
 "type.leisure.indoor_play" = "Vnitřní herní centrum";
+"type.amenity.car_pooling" = "Spolujízda";
+"type.man_made.telescope" = "Teleskop";
+"type.man_made.observatory" = "Observatoř";
+"type.man_made.telescope.optical" = "Teleskop (optický)";
+"type.man_made.telescope.radio" = "Teleskop (rádio)";
+"type.amenity.food_sharing" = "Food sharing";
+"type.amenity.food_bank" = "Potravinová banka";
+"type.amenity.soup_kitchen" = "Vývařovna";
+"type.amenity.give_box" = "Give Box";
+"type.man_made.telescope.gamma" = "Teleskop (gamma)";
