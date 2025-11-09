@@ -33,7 +33,7 @@
     <string name="type.place.sea">Jūra</string>
     <string name="type.amenity.bar">Bārs</string>
     <string name="type.amenity.bicycle_parking">Divriteņu novietne</string>
-    <string name="type.amenity.bicycle_rental">Velosipēdu īre</string>
+    <string name="type.amenity.bicycle_rental">Velosipēdu noma</string>
     <string name="type.amenity.biergarten">Alus dārzs</string>
     <string name="type.amenity.bureau_de_change">Valūtas maiņa</string>
     <string name="type.amenity.bus_station">Autoosta</string>
@@ -136,4 +136,16 @@
     <string name="type.sport.climbing">Kāpšana</string>
     <string name="type.sport.scuba_diving">Niršana</string>
     <string name="type.sport.cricket">Krikets</string>
+    <string name="type.shop.telecommunication">Tālsaziņas preču veikals</string>
+    <string name="type.shop.ticket">Biļešu tirdzniecības vieta</string>
+    <string name="type.shop.toys">Rotaļlietu veikals</string>
+    <string name="type.shop.travel_agency">Ceļojumu aģentūra</string>
+    <string name="type.shop.tyres">Riepu veikals</string>
+    <string name="type.amenity.payment_centre">Maksājumu centrs</string>
+    <string name="type.amenity.pharmacy">Aptieka</string>
+    <string name="type.amenity.place_of_worship">Pielūgsmes vieta</string>
+    <string name="type.amenity.place_of_worship.buddhist">Budistu templis</string>
+    <string name="type.amenity.place_of_worship.christian">Baznīca</string>
+    <string name="type.amenity.boat_rental">Laivu noma</string>
+    <string name="type.amenity.bicycle_repair_station">Divriteņu darbnīca</string>
 </resources>
