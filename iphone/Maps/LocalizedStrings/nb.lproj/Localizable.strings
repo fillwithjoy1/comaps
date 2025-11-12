@@ -1099,3 +1099,4 @@
 "offline_explanation_title" = "Offline-kart";
 "avoid_steps" = "Unngå trapper";
 "editor_place_doesnt_exist_description" = "Beskriv hvordan stedet ser ut nå for å sende en feilmelding til OpenStreetMap-fellesskapet";
+"avoid_paved" = "Unngå asfalterte veier";

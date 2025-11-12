@@ -1525,3 +1525,12 @@
 "type.shop.lighting" = "Lampebutikk";
 "type.leisure.sports_centre.sport.swimming" = "Svømmesenter";
 "type.amenity.bench.backless" = "Benk uten rygg";
+"type.man_made.telescope.radio" = "Teleskop (Radio)";
+"type.amenity.food_bank" = "Matsentral";
+"type.amenity.soup_kitchen" = "Suppekjøkken";
+"type.man_made.telescope" = "Teleskop";
+"type.man_made.telescope.gamma" = "Teleskop (Gamma)";
+"type.amenity.car_pooling" = "Samkjøring";
+"type.man_made.observatory" = "Observatorium";
+"type.shop.telecommunication" = "Telekommunikasjonsbutikk";
+"type.amenity.boat_rental" = "Båtutleie";

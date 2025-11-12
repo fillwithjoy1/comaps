@@ -154,4 +154,10 @@
     <string name="type.amenity.charging_station.motorcar.small">Polnilno mesto za avtomobile</string>
     <string name="type.amenity.childcare">Vrtec</string>
     <string name="type.amenity.cinema">Kino</string>
+    <string name="type.amenity.boat_rental">Izposoja čolnov</string>
+    <string name="type.man_made.telescope">Teleskop</string>
+    <string name="type.man_made.telescope.optical">Teleskop (svetlobni)</string>
+    <string name="type.man_made.telescope.radio">Teleskop (radijski)</string>
+    <string name="type.man_made.telescope.gamma">Teleskop (gama žarki)</string>
+    <string name="type.man_made.observatory">Zvezdarna</string>
 </resources>

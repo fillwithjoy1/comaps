@@ -153,3 +153,9 @@
 "type.amenity.love_hotel" = "Hotel za zaljubljence";
 "type.amenity.charging_station.motorcar.small" = "Polnilno mesto za avtomobile";
 "type.amenity.cinema" = "Kino";
+"type.man_made.observatory" = "Zvezdarna";
+"type.man_made.telescope.optical" = "Teleskop (svetlobni)";
+"type.man_made.telescope.radio" = "Teleskop (radijski)";
+"type.man_made.telescope" = "Teleskop";
+"type.man_made.telescope.gamma" = "Teleskop (gama žarki)";
+"type.amenity.boat_rental" = "Izposoja čolnov";
