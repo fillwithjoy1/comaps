@@ -34,6 +34,7 @@ node[shop=wholesale],
 
 node[craft=photographer],
 node[craft=tailor],
+node[craft=winery],
 {text-color: @shop_label}
 
 node[amenity=bar],
