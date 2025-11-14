@@ -20,7 +20,7 @@ function BuildDrawingRules() {
     -p "$DATA_PATH/styles/$styleType/include/"
   # Output diff and store to a file
   if [ -f "$DATA_PATH/drules_proto$suffix.txt.prev" ]; then
-    diff -u "$DATA_PATH/drules_proto$suffix.txt.prev" "$DATA_PATH/drules_proto$suffix.txt" | tee "$DATA_PATH/drules_proto$suffix.txt.diff" || true
+    diff -u "$DATA_PATH/drules_proto$suffix.txt.prev" "$DATA_PATH/drules_proto$suffix.txt" > "$DATA_PATH/drules_proto$suffix.txt.diff" || true
   fi
 }
 
@@ -65,7 +65,7 @@ python3 "$OMIM_PATH/tools/python/stylesheet/drules_merge.py" \
 for item in ${outputs[*]}
 do
   if [ -f "$DATA_PATH/$item.prev" ] && [ -f "$DATA_PATH/$item" ]; then
-    diff -u "$DATA_PATH/$item.prev" "$DATA_PATH/$item" | tee "$DATA_PATH/$item.diff" || true
+    diff -u "$DATA_PATH/$item.prev" "$DATA_PATH/$item" > "$DATA_PATH/$item.diff" || true
   else
     echo "Skipping diff for $item (first run or file missing)"
   fi
