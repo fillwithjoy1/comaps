@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -e -u
 
-# Prevent python from generating compiled *.pyc files
-export PYTHONDONTWRITEBYTECODE=1
-
 OMIM_PATH="${OMIM_PATH:-$(dirname "$0")/../..}"
 DATA_PATH="${DATA_PATH:-$OMIM_PATH/data}"
 
