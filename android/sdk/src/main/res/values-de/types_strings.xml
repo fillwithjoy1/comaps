@@ -1451,4 +1451,5 @@
     <string name="type.amenity.payment_centre">Zahlungszentrum</string>
     <string name="type.social_facility.soup_kitchen">Suppenküche</string>
     <string name="type.social_facility.food_bank">Tafel</string>
+    <string name="type.xmas.tree">Weihnachtsbaum</string>
 </resources>

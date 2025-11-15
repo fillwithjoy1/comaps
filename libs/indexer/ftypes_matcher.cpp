@@ -746,6 +746,12 @@ IsTaxiChecker::IsTaxiChecker()
   m_types.push_back(c.GetTypeByPath({"amenity", "taxi"}));
 }
 
+IsChristmasChecker::IsChristmasChecker()
+{
+  Classificator const & c = classif();
+  m_types.push_back(c.GetTypeByPath({"xmas", "tree"}));
+}
+
 IsMotorwayJunctionChecker::IsMotorwayJunctionChecker()
 {
   m_types.push_back(classif().GetTypeByPath({"highway", "motorway_junction"}));

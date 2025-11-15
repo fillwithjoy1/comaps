@@ -1539,3 +1539,4 @@
 "type.amenity.payment_centre" = "Zahlungszentrum";
 "type.social_facility.food_bank" = "Tafel";
 "type.social_facility.soup_kitchen" = "Suppenküche";
+"type.xmas.tree" = "Weihnachtsbaum";

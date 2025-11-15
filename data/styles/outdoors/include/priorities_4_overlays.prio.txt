@@ -2264,6 +2264,9 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # shop                                              # caption(optional) z18- (also has icon z18-)
 # === -9530
 
+xmas-tree                                           # icon z18-
+=== -9540
+
 # amenity-bbq                                       # caption(optional) z17- (also has icon z16-)
 # amenity-luggage_locker                            # caption(optional) z19- (also has icon z17-)
 # amenity-public_bookcase                           # caption(optional) z18- (also has icon z18-)
