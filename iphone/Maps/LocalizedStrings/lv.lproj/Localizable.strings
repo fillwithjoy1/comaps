@@ -684,9 +684,9 @@
 "text_more_button" = "…vairāk";
 
 /* Phone number error message */
-"error_enter_correct_phone" = "Ierakstiet derīgu tālruņa numuru";
-"error_enter_correct_web" = "Ierakstiet derīgu tīmekļa vietnes adresi";
-"error_enter_correct_email" = "Ierakstiet e-pasta adresi";
+"error_enter_correct_phone" = "Jāievada derīgs tālruņa numurs";
+"error_enter_correct_web" = "Jāievada derīga tīmekļa adrese";
+"error_enter_correct_email" = "Jāievada derīga e-pasta adrese";
 "refresh" = "Atjaunināt";
 "placepage_add_place_button" = "Pievienot vietu „OpenStreetMap“";
 

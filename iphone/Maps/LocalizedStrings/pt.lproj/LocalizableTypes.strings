@@ -1545,3 +1545,6 @@
 "type.amenity.food_sharing" = "Partilha de Comida";
 "type.amenity.give_box" = "Caixa de Doações";
 "type.shop.beauty.day_spa" = "Spa Diurno";
+"type.amenity.sailing_school" = "Escola Náutica";
+"type.amenity.flight_school" = "Escola de Aviação";
+"type.amenity.prep_school" = "Centro de Explicações";

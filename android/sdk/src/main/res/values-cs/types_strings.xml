@@ -1439,4 +1439,19 @@
     <string name="type.leisure.indoor_play">Vnitřní herní centrum</string>
     <string name="type.shop.telecommunication">Telekomunikační obchod</string>
     <string name="type.amenity.car_pooling">Spolujízda</string>
+    <string name="type.man_made.telescope">Teleskop</string>
+    <string name="type.amenity.sailing_school">Jachtařská škola</string>
+    <string name="type.amenity.flight_school">Letecká škola</string>
+    <string name="type.amenity.prep_school">Přípravná škola</string>
+    <string name="type.emergency.access_point">Nouzový bod záchrany</string>
+    <string name="type.emergency.life_ring">Záchranný kruh</string>
+    <string name="type.shop.beauty.day_spa">Denní lázně</string>
+    <string name="type.social_facility.food_bank">Potravinová banka</string>
+    <string name="type.man_made.telescope.optical">Teleskop (optický)</string>
+    <string name="type.man_made.telescope.radio">Teleskop (rádio)</string>
+    <string name="type.man_made.telescope.gamma">Teleskop (gamma)</string>
+    <string name="type.man_made.observatory">Observatoř</string>
+    <string name="type.social_facility.soup_kitchen">Vývařovna</string>
+    <string name="type.amenity.food_sharing">Food sharing</string>
+    <string name="type.amenity.give_box">Give Box</string>
 </resources>

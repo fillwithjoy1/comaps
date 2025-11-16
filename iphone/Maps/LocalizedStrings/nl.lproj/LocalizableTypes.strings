@@ -1541,3 +1541,6 @@
 "type.amenity.lounger" = "Lounge";
 "type.amenity.payment_centre" = "Betaalkantoor";
 "type.leisure.indoor_play" = "Speelhal";
+"type.amenity.sailing_school" = "Zeilschool";
+"type.amenity.flight_school" = "Vliegschool";
+"type.amenity.prep_school" = "Bijscholing";

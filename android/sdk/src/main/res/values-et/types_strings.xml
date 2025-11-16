@@ -1454,4 +1454,7 @@
     <string name="type.emergency.access_point">Asukohatuvastuspunkt hädaolukorras</string>
     <string name="type.emergency.life_ring">Päästerõngas</string>
     <string name="type.shop.beauty.day_spa">Päevaspaa</string>
+    <string name="type.amenity.flight_school">Lennukool</string>
+    <string name="type.amenity.prep_school">Tugiõpe</string>
+    <string name="type.amenity.sailing_school">Purjetamiskool</string>
 </resources>

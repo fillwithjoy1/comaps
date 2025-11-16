@@ -1455,4 +1455,7 @@
     <string name="type.amenity.food_sharing">Partilha de Comida</string>
     <string name="type.amenity.give_box">Caixa de Doações</string>
     <string name="type.shop.beauty.day_spa">Spa Diurno</string>
+    <string name="type.amenity.sailing_school">Escola Náutica</string>
+    <string name="type.amenity.flight_school">Escola de Aviação</string>
+    <string name="type.amenity.prep_school">Centro de Explicações</string>
 </resources>

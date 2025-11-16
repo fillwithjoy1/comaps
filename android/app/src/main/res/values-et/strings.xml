@@ -898,4 +898,8 @@
         <item quantity="one">%d min</item>
         <item quantity="other">%d min</item>
     </plurals>
+    <string name="editor_business_vacant_button">Äripind on vaba</string>
+    <string name="editor_mark_business_vacant_title">Märgi äripind vabaks</string>
+    <string name="editor_mark_business_vacant_description">Kasuta seda valikut, kui senine rentnik/omanik on kolinud välja ja äripind on tühi ja uue ootel.</string>
+    <string name="editor_submit">Saada</string>
 </resources>

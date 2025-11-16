@@ -1542,3 +1542,9 @@
 "type.social_facility.soup_kitchen" = "Vývařovna";
 "type.amenity.give_box" = "Give Box";
 "type.man_made.telescope.gamma" = "Teleskop (gamma)";
+"type.amenity.sailing_school" = "Jachtařská škola";
+"type.amenity.flight_school" = "Letecká škola";
+"type.amenity.prep_school" = "Přípravná škola";
+"type.emergency.access_point" = "Nouzový bod záchrany";
+"type.emergency.life_ring" = "Záchranný kruh";
+"type.shop.beauty.day_spa" = "Denní lázně";

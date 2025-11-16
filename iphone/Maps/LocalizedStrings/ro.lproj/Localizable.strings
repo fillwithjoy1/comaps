@@ -506,10 +506,10 @@
 "editor_time_open" = "Deschis";
 "editor_time_close" = "Închis";
 "editor_time_add_closed" = "Adaugă ore de închidere";
-"editor_time_title" = "Ore de deschidere";
+"editor_time_title" = "Program";
 "editor_time_advanced" = "Mod Avansat";
 "editor_time_simple" = "Mod simplu";
-"editor_hours_closed" = "Ore de închidere";
+"editor_hours_closed" = "Pauză";
 "editor_example_values" = "Exemple";
 "editor_add_select_location" = "Selectați locația";
 "editor_done_dialog_1" = "Ai modificat harta lumii. Nu ascunde acest lucru! Spune-le prietenilor și modificați-o împreună.";
@@ -1093,3 +1093,7 @@
 "pref_maplanguage_local" = "Limbă Locală";
 "hours_confirmed_time_ago" = "Confirmed %@";
 "existence_confirmed_time_ago" = "Existence confirmed %@";
+"avoid_paved" = "Evită drumurile pavate";
+"editor_place_doesnt_exist_description" = "Descrie cum arată locul acum ca să trimiți o notiță comunității OpenStreetMap";
+"avoid_steps" = "Evită treptele";
+"offline_explanation_text" = "O hartă trebuie descărcată ca să vezi și si să nevighezi prin zonă.\nDescarcă hărți pentru zonele în care vrei să mergi.";

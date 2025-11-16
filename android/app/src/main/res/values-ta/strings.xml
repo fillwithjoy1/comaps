@@ -449,8 +449,8 @@
     <string name="opens_day_at">%1$s அன்று %2$sக்கு திறக்கப்படும்</string>
     <string name="closes_day_at">%1$s அன்று %2$s இல் மூடப்படும்</string>
     <plurals name="minutes_short">
-        <item quantity="one">%dmin</item>
-        <item quantity="other">%dmin</item>
+        <item quantity="one">%d நிமையம்</item>
+        <item quantity="other">%d நிமையங்கள்</item>
     </plurals>
     <string name="hours_confirmed_time_ago">%s உறுதிப்படுத்தப்பட்டது</string>
     <string name="existence_confirmed_time_ago">இருப்பு உறுதிப்படுத்தப்பட்டது %s</string>
@@ -626,4 +626,18 @@
     <string name="charge_socket_chademo">சேட்மோ</string>
     <string name="unknown_socket_type">தெரியாத சாக்கெட்</string>
     <string name="unknow_socket_type">தெரியாத சாக்கெட்</string>
+    <string name="edit_socket_info_tooltip">புதிய சாக்கெட்டுகளை உருவாக்கவும் அல்லது ஏற்கனவே உள்ளவற்றைத் திருத்தவும்.</string>
+    <string name="charging_station_available_sockets">கிடைக்கும் சாக்கெட்டுகள்</string>
+    <string name="charge_socket_unknown_other">மற்றவை அல்லது தெரியாதவை</string>
+    <string name="charge_socket_count">எண்ணுங்கள்</string>
+    <string name="charge_socket_power">ஆற்றல் (kW)</string>
+    <string name="editor_socket">சாக்கெட்டை திருத்து</string>
+    <string name="unknown_count">தெரியவில்லை</string>
+    <string name="error_value_must_be_positive">மதிப்பு நேர்மறையாக இருக்க வேண்டும்</string>
+    <string name="error_invalid_number">தவறான எண்</string>
+    <string name="list_description_empty">விளக்கத்தைச் சேர்க்க பட்டியலைத் திருத்தவும்</string>
+    <string name="editor_business_vacant_button">வணிகம் காலியாக உள்ளது</string>
+    <string name="editor_mark_business_vacant_title">வணிகம் காலியாக இருப்பதாகக் குறி</string>
+    <string name="editor_mark_business_vacant_description">வணிகம் வெளியேறி, இடம் காலியாக இருந்தால் மற்றும் புதிய குத்தகைதாரருக்கு தயாராக இருந்தால் இதைப் பயன்படுத்தவும்.</string>
+    <string name="editor_submit">சமர்ப்பி</string>
 </resources>

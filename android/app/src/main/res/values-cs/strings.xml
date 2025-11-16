@@ -890,4 +890,18 @@
     <string name="offline_explanation_title">Offline mapy</string>
     <string name="list_description_empty">Upravit seznam pro přidání popisu</string>
     <string name="avoid_paved">Vyhnout se zpevněným cestám</string>
+    <string name="opens_at">Otevírá v %s</string>
+    <string name="closes_at">Zavírá v %s</string>
+    <string name="opens_day_at">Otevírá %1$s v %2$s</string>
+    <string name="closes_day_at">Zavírá %1$s v %2$s</string>
+    <string name="editor_business_vacant_button">Podnik je volný</string>
+    <string name="editor_mark_business_vacant_title">Označit podnik jako volný</string>
+    <string name="editor_mark_business_vacant_description">Použijte, pokud se podnik přestěhoval a místo je volné a připravené pro nového zájemce.</string>
+    <string name="editor_submit">Odeslat</string>
+    <plurals name="minutes_short">
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
 </resources>

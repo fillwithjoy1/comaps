@@ -1451,4 +1451,10 @@
     <string name="type.social_facility.soup_kitchen">Soupe populaire</string>
     <string name="type.amenity.give_box">Boîte à don</string>
     <string name="type.man_made.telescope">Télescope</string>
+    <string name="type.amenity.sailing_school">École de voile</string>
+    <string name="type.amenity.flight_school">École de pilotage</string>
+    <string name="type.amenity.prep_school">École de soutien scolaire</string>
+    <string name="type.emergency.access_point">Point de secours d\'urgence</string>
+    <string name="type.emergency.life_ring">Bouée de sauvetage</string>
+    <string name="type.shop.beauty.day_spa">Spa de jour</string>
 </resources>

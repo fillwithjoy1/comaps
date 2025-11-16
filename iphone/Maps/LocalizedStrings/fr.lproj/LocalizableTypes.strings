@@ -1542,3 +1542,9 @@
 "type.amenity.give_box" = "Boîte à don";
 "type.man_made.telescope.gamma" = "Télescope (Gamma)";
 "type.amenity.car_pooling" = "Covoiturage";
+"type.amenity.sailing_school" = "École de voile";
+"type.amenity.flight_school" = "École de pilotage";
+"type.amenity.prep_school" = "École de soutien scolaire";
+"type.emergency.access_point" = "Point de secours d'urgence";
+"type.emergency.life_ring" = "Bouée de sauvetage";
+"type.shop.beauty.day_spa" = "Spa de jour";

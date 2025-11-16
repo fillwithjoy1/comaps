@@ -1450,4 +1450,7 @@
     <string name="type.amenity.lounger">Lounge</string>
     <string name="type.amenity.payment_centre">Betaalkantoor</string>
     <string name="type.leisure.indoor_play">Speelhal</string>
+    <string name="type.amenity.sailing_school">Zeilschool</string>
+    <string name="type.amenity.flight_school">Vliegschool</string>
+    <string name="type.amenity.prep_school">Bijscholing</string>
 </resources>

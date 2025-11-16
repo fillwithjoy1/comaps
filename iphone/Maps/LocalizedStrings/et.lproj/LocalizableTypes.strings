@@ -1545,3 +1545,6 @@
 "type.emergency.access_point" = "Asukohatuvastuspunkt hädaolukorras";
 "type.emergency.life_ring" = "Päästerõngas";
 "type.shop.beauty.day_spa" = "Päevaspaa";
+"type.amenity.sailing_school" = "Purjetamiskool";
+"type.amenity.flight_school" = "Lennukool";
+"type.amenity.prep_school" = "Tugiõpe";
