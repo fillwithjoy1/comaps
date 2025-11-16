@@ -578,8 +578,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Do you want to send it to all users?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Make sure you did not enter any private or personal data</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap editors will check the changes and contact you if they have any questions</string>
+    <string name="editor_share_to_all_dialog_message_1">Make sure you did not enter any private or personal data.</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap editors will check the changes and contact you if they have any questions.</string>
     <string name="navigation_stop_button">Stop</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Recording the track</string>
