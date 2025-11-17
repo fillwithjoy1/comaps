@@ -163,4 +163,23 @@
     <string name="type.emergency.assembly_point">Ārkārtas tikšanās punkts</string>
     <string name="type.shop.beauty.day_spa">Dienas spa</string>
     <string name="type.shop.massage">Masāžas salons</string>
+    <string name="type.natural.sand">Smiltis</string>
+    <string name="type.natural.geyser">Geizers</string>
+    <string name="type.natural.glacier">Ledājs</string>
+    <string name="type.natural.grassland">Pļava</string>
+    <string name="type.natural.heath">Tīrelis</string>
+    <string name="type.natural.hot_spring">Karstais avots</string>
+    <string name="type.natural.water.lake">Ezers</string>
+    <string name="type.natural.tree">Koks</string>
+    <string name="type.natural.tree_row">Koku rinda</string>
+    <string name="type.natural.vineyard">Vīnogu dārzs</string>
+    <string name="type.natural.volcano">Vulkāns</string>
+    <string name="type.natural.water">Ūdens</string>
+    <string name="type.natural.wetland">Mitrājs</string>
+    <string name="type.natural.wetland.bog">Muklājs</string>
+    <string name="type.natural.wetland.marsh">Dumbrājs</string>
+    <string name="type.natural.wetland.saltmarsh">Sāļūdens dumbrājs</string>
+    <string name="type.xmas.tree">Ziemassvētku egle</string>
+    <string name="type.entrance.emergency">Ārkārtas izeja</string>
+    <string name="type.lateral.port">Osta</string>
 </resources>

@@ -909,4 +909,8 @@
         <item quantity="other">%d min</item>
     </plurals>
     <string name="list_description_empty">Modificar la lista para añadir una descripción</string>
+    <string name="editor_business_vacant_button">Negocio vacante</string>
+    <string name="editor_mark_business_vacant_title">Marcar negocio como vacante</string>
+    <string name="editor_mark_business_vacant_description">Usa esto si el negocio ya no existe y el local ha quedado vacío para un nuevo inquilino.</string>
+    <string name="editor_submit">Enviar</string>
 </resources>
