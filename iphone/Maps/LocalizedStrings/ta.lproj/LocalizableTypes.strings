@@ -23,3 +23,5 @@
 "type.man_made.telescope.radio" = "தொலைநோக்கி (ரேடியோ)";
 "type.amenity.gambling" = "சூதாட்டம்";
 "type.amenity.charging_station" = "சார்ஜிங் நிலையம்";
+"type.amenity.charging_station.bicycle" = "மிதிவண்டி சார்ஜிங் நிலையம்";
+"type.amenity.charging_station.motorcar" = "கார் சார்ஜிங் நிலையம்";
