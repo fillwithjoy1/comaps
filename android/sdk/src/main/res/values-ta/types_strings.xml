@@ -34,4 +34,6 @@
     <string name="type.man_made.telescope.radio">தொலைநோக்கி (ரேடியோ)</string>
     <string name="type.amenity.gambling">சூதாட்டம்</string>
     <string name="type.amenity.charging_station">சார்ஜிங் நிலையம்</string>
+    <string name="type.amenity.charging_station.bicycle">மிதிவண்டி சார்ஜிங் நிலையம்</string>
+    <string name="type.amenity.charging_station.motorcar">கார் சார்ஜிங் நிலையம்</string>
 </resources>
