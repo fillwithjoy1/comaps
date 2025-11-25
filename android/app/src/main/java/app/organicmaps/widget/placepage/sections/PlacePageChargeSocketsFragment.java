@@ -1,5 +1,7 @@
 package app.organicmaps.widget.placepage.sections;
 
+import static android.view.View.INVISIBLE;
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -89,7 +91,7 @@ public class PlacePageChargeSocketsFragment extends Fragment implements Observer
 
       // load SVG icon converted into VectorDrawable in res/drawable
       @SuppressLint("DiscouragedApi")
-      int resIconId = getResources().getIdentifier("ic_charge_socket_" + socket.type(), "drawable",
+      int resIconId = getResources().getIdentifier("ic_charge_socket_" + socket.visualType(), "drawable",
                                                    requireContext().getPackageName());
       if (resIconId != 0)
       {
@@ -98,7 +100,7 @@ public class PlacePageChargeSocketsFragment extends Fragment implements Observer
 
       @SuppressLint("DiscouragedApi")
       int resTypeId =
-          getResources().getIdentifier("charge_socket_" + socket.type(), "string", requireContext().getPackageName());
+          getResources().getIdentifier("charge_socket_" + socket.visualType(), "string", requireContext().getPackageName());
       if (resTypeId != 0)
       {
         type.setText(resTypeId);
@@ -108,6 +110,9 @@ public class PlacePageChargeSocketsFragment extends Fragment implements Observer
       {
         DecimalFormat df = new DecimalFormat("#.##");
         power.setText(getString(R.string.kw_label, df.format(socket.power())));
+      }
+      else if (socket.ignorePower()) {
+        power.setVisibility(INVISIBLE);
       }
 
       if (socket.count() != 0)

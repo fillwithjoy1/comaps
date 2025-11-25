@@ -887,6 +887,7 @@
     <string name="charge_socket_power">Potencia (kW)</string>
     <string name="unknown_count">desconocido</string>
     <string name="avoid_steps">Evitar escaleras</string>
+    <string name="charge_socket_schuko">Doméstico UE</string>
     <string name="unknown_socket_type">enchufe desconocido</string>
     <string name="edit_socket_info_tooltip">Crear nuevo enchufe o editar existentes.</string>
     <string name="charging_station_available_sockets">Enchufes disponibles</string>

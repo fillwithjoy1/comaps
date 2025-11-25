@@ -1,5 +1,7 @@
 package app.organicmaps.editor;
 
+import static android.view.View.INVISIBLE;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
@@ -396,16 +398,18 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     typeBtns.removeAllViews();
 
     List<String> SOCKET_TYPES = Arrays.stream(getResources().getStringArray(R.array.charge_socket_types)).toList();
-    for (String socket : SOCKET_TYPES)
+    for (String socketType : SOCKET_TYPES)
     {
+      ChargeSocketDescriptor socket = new ChargeSocketDescriptor(socketType,0,0);
+
       MaterialButton btn = (MaterialButton) inflater.inflate(R.layout.button_socket_type, typeBtns, false);
 
-      btn.setTag(R.id.socket_type, socket);
+      btn.setTag(R.id.socket_type, socket.type());
 
       // load SVG icon converted into VectorDrawable in res/drawable
       @SuppressLint("DiscouragedApi")
       int resIconId =
-          getResources().getIdentifier("ic_charge_socket_" + socket, "drawable", requireContext().getPackageName());
+          getResources().getIdentifier("ic_charge_socket_" + socket.visualType(), "drawable", requireContext().getPackageName());
       if (resIconId != 0)
       {
         btn.setIcon(getResources().getDrawable(resIconId));
@@ -413,7 +417,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
 
       @SuppressLint("DiscouragedApi")
       int resTypeId =
-          getResources().getIdentifier("charge_socket_" + socket, "string", requireContext().getPackageName());
+          getResources().getIdentifier("charge_socket_" + socket.visualType(), "string", requireContext().getPackageName());
       if (resTypeId != 0)
       {
         btn.setText(getResources().getString(resTypeId));
@@ -601,8 +605,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     GridLayout socketsGrid = mChargeSockets.findViewById(R.id.socket_grid_editor);
     socketsGrid.removeAllViews();
 
-    for (int i = 0; i < sockets.length; i++)
-    {
+    for (int i = 0; i < sockets.length; i++) {
       final int currentIndex = i;
       ChargeSocketDescriptor socket = sockets[i];
 
@@ -613,27 +616,28 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
       MaterialTextView power = itemView.findViewById(R.id.socket_power);
       MaterialTextView count = itemView.findViewById(R.id.socket_count);
 
+
       // load SVG icon converted into VectorDrawable in res/drawable
       @SuppressLint("DiscouragedApi")
-      int resIconId = getResources().getIdentifier("ic_charge_socket_" + socket.type(), "drawable",
-                                                   requireContext().getPackageName());
-      if (resIconId != 0)
-      {
+      int resIconId = getResources().getIdentifier("ic_charge_socket_" + socket.visualType(), "drawable",
+              requireContext().getPackageName());
+      if (resIconId != 0) {
         icon.setImageResource(resIconId);
       }
 
       @SuppressLint("DiscouragedApi")
       int resTypeId =
-          getResources().getIdentifier("charge_socket_" + socket.type(), "string", requireContext().getPackageName());
-      if (resTypeId != 0)
-      {
+              getResources().getIdentifier("charge_socket_" + socket.visualType(), "string", requireContext().getPackageName());
+      if (resTypeId != 0) {
         type.setText(resTypeId);
       }
 
-      if (socket.power() != 0)
-      {
+      if (socket.power() != 0) {
         DecimalFormat df = new DecimalFormat("#.##");
         power.setText(getString(R.string.kw_label, df.format(socket.power())));
+      }
+      else if (socket.ignorePower()) {
+        power.setVisibility(INVISIBLE);
       }
 
       if (socket.count() != 0)
