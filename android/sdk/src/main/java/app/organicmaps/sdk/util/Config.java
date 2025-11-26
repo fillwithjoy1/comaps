@@ -33,7 +33,6 @@ public final class Config
 
   private static final String KEY_DOWNLOADER_AUTO = "AutoDownloadEnabled";
   private static final String KEY_PREF_ZOOM_BUTTONS = "ZoomButtonsEnabled";
-  static final String KEY_PREF_STATISTICS = "StatisticsEnabled";
   private static final String KEY_PREF_USE_GS = "UseGoogleServices";
 
   private static final String KEY_MISC_DISCLAIMER_ACCEPTED = "IsDisclaimerApproved";
@@ -191,11 +190,6 @@ public final class Config
   public static void setShowZoomButtons(boolean show)
   {
     setBool(KEY_PREF_ZOOM_BUTTONS, show);
-  }
-
-  public static void setStatisticsEnabled(boolean enabled)
-  {
-    setBool(KEY_PREF_STATISTICS, enabled);
   }
 
   public static boolean isKeepScreenOnEnabled()
