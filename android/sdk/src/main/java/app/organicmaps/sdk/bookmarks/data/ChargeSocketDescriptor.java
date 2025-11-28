@@ -1,7 +1,5 @@
 package app.organicmaps.sdk.bookmarks.data;
 
-import java.text.DecimalFormat;
-
 /**
  * represents the details of the socket available on a particular charging station
  *

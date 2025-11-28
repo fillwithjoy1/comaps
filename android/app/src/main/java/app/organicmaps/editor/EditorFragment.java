@@ -547,7 +547,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
 
                   updateChargeSockets(socketIndex, socket);
                 })
-        .setNegativeButton(R.string.cancel, (dialog, which) -> { dialog.dismiss(); });
+        .setNegativeButton(R.string.cancel, (dialog, which) -> dialog.dismiss());
   }
 
   // Helper method for validation logic
@@ -643,17 +643,13 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
         count.setText(getString(R.string.count_label, socket.count()));
       }
 
-      itemView.setOnClickListener(v -> {
-        buildChargeSocketDialog(currentIndex, socket.type(), socket.count(), socket.power()).show();
-      });
+      itemView.setOnClickListener(v -> buildChargeSocketDialog(currentIndex, socket.type(), socket.count(), socket.power()).show());
       socketsGrid.addView(itemView);
     }
 
     // add a 'new item' button at the end, to create new sockets
     View btnNewItemView = inflater.inflate(R.layout.button_new_item, socketsGrid, false);
-    btnNewItemView.setOnClickListener(v -> {
-      buildChargeSocketDialog(-1, "unknown", -1, -1).show();
-    });
+    btnNewItemView.setOnClickListener(v -> buildChargeSocketDialog(-1, "unknown", -1, -1).show());
     socketsGrid.addView(btnNewItemView);
   }
 
