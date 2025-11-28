@@ -286,7 +286,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Aktiver venligst placeringstjenester</string>
     <string name="save">Gem</string>
-    <string name="create">opret</string>
+    <string name="create">Opret</string>
     <!-- red color -->
     <string name="red">Rød</string>
     <!-- yellow color -->
@@ -892,4 +892,5 @@
     <string name="editor_mark_business_vacant_title">Markér forretning som tom</string>
     <string name="editor_mark_business_vacant_description">Brug dette, hvis forretningen er flyttet ud, og lokalet står tomt og er klar til en ny lejer.</string>
     <string name="editor_submit">Indsend</string>
+    <string name="power_management">Strømstyring</string>
 </resources>

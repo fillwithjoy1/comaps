@@ -289,7 +289,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Молим вас укључите Локацијске сервисе</string>
     <string name="save">Сачувај</string>
-    <string name="create">креирај</string>
+    <string name="create">Креирај</string>
     <!-- red color -->
     <string name="red">Црвена</string>
     <!-- yellow color -->

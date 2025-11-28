@@ -295,7 +295,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Locatiediensten inschakelen</string>
     <string name="save">Opslaan</string>
-    <string name="create">aanmaken</string>
+    <string name="create">Aanmaken</string>
     <!-- red color -->
     <string name="red">Rood</string>
     <!-- yellow color -->
@@ -905,4 +905,6 @@
     <string name="editor_business_vacant_button">Bedrijfsruimte is leeg</string>
     <string name="editor_mark_business_vacant_title">Bedrijfsruimte leeg markeren</string>
     <string name="editor_mark_business_vacant_description">Gebruik dit als het bedrijf is verhuisd en de ruimte leeg is en klaar is voor een nieuwe huurder.</string>
+    <string name="power_management">Energiebeheer</string>
+    <string name="charge_socket_schuko">Binnenlandse EU</string>
 </resources>

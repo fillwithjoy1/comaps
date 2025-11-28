@@ -295,7 +295,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Ieslēdziet ierīces atrašanās vietas noteikšanas pakalpojumus</string>
     <string name="save">Saglabāt</string>
-    <string name="create">izveidot</string>
+    <string name="create">Izveidot</string>
     <!-- red color -->
     <string name="red">Sarkana</string>
     <!-- yellow color -->

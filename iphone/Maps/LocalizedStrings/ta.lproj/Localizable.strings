@@ -1,5 +1,5 @@
 "cancel_download" = "பதிவிறக்கத்தை நீக்கறல்";
-"leave_a_review" = "ஒரு மதிப்பாய்வை விடுங்கள்";
+"leave_a_review" = "ஒரு மதிப்பாய்வை விடு";
 "kilometres" = "கிலோமீட்டர்கள்";
 "downloading" = "பதிவிறக்குகிறது…";
 "offline_explanation_text" = "அந்தப் பகுதியைப் பார்க்கவும் வழிசெலுத்தவும் ஒரு வரைபடம் பதிவிறக்கம் செய்யப்பட வேண்டும். \nநீங்கள் பயணிக்க விரும்பும் பகுதிகளுக்கான வரைபடங்களைப் பதிவிறக்கவும்.";
@@ -23,7 +23,7 @@
 "download" = "பதிவிறக்கு";
 "address" = "முகவரி";
 "use_cellular_data" = "ஆம்";
-"country_status_download_without_size" = "வரைபடத்தைப் பதிவிறக்கவும்";
+"country_status_download_without_size" = "வரைபடத்தைப் பதிவிறக்கு";
 "settings" = "அமைப்புகள்";
 "continue_button" = "தொடர்";
 "bookmark_set_name" = "புத்தகக்குறி பட்டியல் பெயர்";
@@ -226,7 +226,7 @@
 "p2p_your_location" = "உங்கள் இருப்பிடம்";
 "text_more_button" = "…மேலும்";
 "downloader_of" = "%1$d / %2$d";
-"mobile_data_option_ask" = "எப்போதும் கேள்";
+"mobile_data_option_ask" = "எப்பொழுதும் கேள்";
 "download_over_mobile_message" = "சில திட்டங்கள் அல்லது ரோமிங்கில் இது கணிசமாக விலை உயர்ந்ததாக இருக்கலாம்.";
 "email_error_title" = "மின்னஞ்சல் அனுப்புவதில் பிழை";
 "add_language" = "ஒரு மொழியைச் சேர்க்கவும்";

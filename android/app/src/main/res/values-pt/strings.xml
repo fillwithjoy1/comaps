@@ -291,7 +291,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Por favor ative os serviços de localização</string>
     <string name="save">Guardar</string>
-    <string name="create">criar</string>
+    <string name="create">Criar</string>
     <!-- red color -->
     <string name="red">Vermelho</string>
     <!-- yellow color -->
@@ -899,4 +899,6 @@
     <string name="editor_mark_business_vacant_description">Use isto se o negócio moveu de local e o espaço está vazio e preparado para um novo inquilino.</string>
     <string name="editor_submit">Submeter</string>
     <string name="list_description_empty">Edite a lista para adicionar uma descrição</string>
+    <string name="power_management">Gestão de Energia</string>
+    <string name="charge_socket_schuko">Doméstica UE</string>
 </resources>

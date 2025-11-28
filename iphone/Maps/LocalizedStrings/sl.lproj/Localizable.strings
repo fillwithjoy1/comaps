@@ -444,3 +444,17 @@
 "editor_add_select_category" = "Izberite kategorijo";
 "editor_add_select_category_popular_subtitle" = "Priljubljeno";
 "editor_add_select_category_all_subtitle" = "Vsi razredi";
+"vk" = "VK";
+"line" = "Line";
+"bluesky" = "Bluesky";
+"panoramax" = "Panoramax";
+"email_error_body" = "Odjemalec el. pošte ni bil nastavljen. Nastavite ga ali pa stopite v stik z nami na %@";
+"dialog_routing_download_and_update_all" = "Prenesite ali posodobite vse zemljevide vzdolž približne poti za izračun točne poti.";
+"dialog_routing_select_closer_end" = "Prosimo, izberite ciljni položaj bližje ceste.";
+"dialog_routing_change_intermediate" = "Ni bilo mogoče določiti položaja vmesne točke.";
+"dialog_routing_intermediate_not_determined" = "Prosimo, prilagodite svojo vmesno točko.";
+"routing_planning_error" = "Načrtovanje poti je spodletelo";
+"dialog_routing_application_error" = "Zaradi napake v orodju ni bilo mogoče načrtovati poti.";
+"routing_arrive" = "Prihod ob %@";
+"search_history_text" = "Oglejte si vaša nedavna iskanja.";
+"osm_mapdata" = "Podatki zemljevida z OpenStreetMap";

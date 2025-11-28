@@ -3,4 +3,6 @@
     <string name="mb">MB</string>
     <string name="gb">GB</string>
     <string name="core_my_position">Mia Pozicio</string>
+    <string name="core_my_places">Miaj Lokoj</string>
+    <string name="maps_storage_internal">Interna privata stokejo</string>
 </resources>

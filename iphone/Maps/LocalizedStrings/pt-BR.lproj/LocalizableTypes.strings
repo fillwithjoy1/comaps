@@ -1528,9 +1528,9 @@
 "type.disusedbusiness" = "Estabelecimento vazio";
 "type.amenity.lounger" = "Espreguiçadeira";
 "type.man_made.observatory" = "Observatório";
-"type.man_made.telescope.optical" = "Telescópio (óptico)";
+"type.man_made.telescope.optical" = "Telescópio (ótico)";
 "type.man_made.telescope.radio" = "Telescópio (rádio)";
-"type.amenity.food_sharing" = "Compartilhamento de alimentos";
+"type.amenity.food_sharing" = "Alimentos compartilhados";
 "type.social_facility.food_bank" = "Banco de alimentos";
 "type.social_facility.soup_kitchen" = "Restaurante popular";
 "type.man_made.telescope" = "Telescópio";
@@ -1542,7 +1542,7 @@
 "type.amenity.payment_centre" = "Centro de pagamentos";
 "type.leisure.indoor_play" = "Centro de recreação interno";
 "type.shop.telecommunication" = "Loja de Telecomunicação";
-"type.emergency.access_point" = "Ponto de Resgate de Emergência";
+"type.emergency.access_point" = "Ponto de resgate de emergência";
 "type.emergency.life_ring" = "Boia salva-vidas";
 "type.amenity.sailing_school" = "Escola de vela";
 "type.amenity.flight_school" = "Escola de aviação";
@@ -1589,3 +1589,5 @@
 "type.buoy.cardinal.west" = "Boia cardeal";
 "type.buoy.isolated_danger" = "Boia de perigo isolado";
 "type.buoy.lateral.port" = "Boia lateral";
+"type.man_made.mast.communication" = "Mastro de comunicações";
+"type.shop.beauty.nails" = "Manicure";

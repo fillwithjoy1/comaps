@@ -1427,7 +1427,7 @@
     <string name="type.amenity.lounger">Espreguiçadeira</string>
     <string name="type.amenity.boat_rental">Aluguel de barco</string>
     <string name="type.man_made.telescope">Telescópio</string>
-    <string name="type.man_made.telescope.optical">Telescópio (óptico)</string>
+    <string name="type.man_made.telescope.optical">Telescópio (ótico)</string>
     <string name="type.man_made.telescope.radio">Telescópio (rádio)</string>
     <string name="type.man_made.telescope.gamma">Telescópio (gama)</string>
     <string name="type.man_made.observatory">Observatório</string>
@@ -1438,9 +1438,9 @@
     <string name="type.shop.telecommunication">Loja de Telecomunicação</string>
     <string name="type.social_facility.soup_kitchen">Restaurante popular</string>
     <string name="type.social_facility.food_bank">Banco de alimentos</string>
-    <string name="type.amenity.food_sharing">Compartilhamento de alimentos</string>
+    <string name="type.amenity.food_sharing">Alimentos compartilhados</string>
     <string name="type.amenity.give_box">Caixa de doação</string>
-    <string name="type.emergency.access_point">Ponto de Resgate de Emergência</string>
+    <string name="type.emergency.access_point">Ponto de resgate de emergência</string>
     <string name="type.emergency.life_ring">Boia salva-vidas</string>
     <string name="type.amenity.sailing_school">Escola de vela</string>
     <string name="type.amenity.flight_school">Escola de aviação</string>
@@ -1487,4 +1487,6 @@
     <string name="type.buoy.cardinal.west">Boia cardeal</string>
     <string name="type.buoy.isolated_danger">Boia de perigo isolado</string>
     <string name="type.buoy.lateral.port">Boia lateral</string>
+    <string name="type.man_made.mast.communication">Mastro de comunicações</string>
+    <string name="type.shop.beauty.nails">Manicure</string>
 </resources>

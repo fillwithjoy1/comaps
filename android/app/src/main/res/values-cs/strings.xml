@@ -903,4 +903,6 @@
         <item quantity="many">%d min</item>
         <item quantity="other">%d min</item>
     </plurals>
+    <string name="power_management">Správa výkonu</string>
+    <string name="charge_socket_schuko">Domovní EU</string>
 </resources>

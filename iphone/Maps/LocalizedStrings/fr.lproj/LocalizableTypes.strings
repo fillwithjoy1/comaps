@@ -357,7 +357,7 @@
 "type.emergency" = "Urgence";
 "type.emergency.assembly_point" = "Point de rassemblement d’urgence";
 "type.emergency.defibrillator" = "Défibrillateur";
-"type.emergency.fire_hydrant" = "Bouche d’incendie";
+"type.emergency.fire_hydrant" = "Point d’eau incendie";
 "type.emergency.phone" = "Téléphone d’urgence";
 
 /* A place where a lifeguard is on duty. */
@@ -1530,7 +1530,7 @@
 "type.shop.telecommunication" = "Boutique télécom";
 "type.amenity.payment_centre" = "Centre de paiement";
 "type.amenity.mobile_money_agent" = "Agent d'argent liquide";
-"type.amenity.boat_rental" = "Vente de bateau";
+"type.amenity.boat_rental" = "Location de bateaux";
 "type.leisure.indoor_play" = "Complexe de jeux intérieurs";
 "type.man_made.observatory" = "Observatoire";
 "type.man_made.telescope.optical" = "Télescope (optique)";

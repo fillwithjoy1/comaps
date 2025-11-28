@@ -911,4 +911,5 @@
     <string name="editor_mark_business_vacant_title">Marquer l\'établissement comme vacant</string>
     <string name="editor_mark_business_vacant_description">Utilisez cette option si l\'entreprise a déménagé et que l\'espace est vide et prêt à accueillir un nouveau locataire.</string>
     <string name="editor_submit">Soumettre</string>
+    <string name="power_management">Gestion de l\'énergie</string>
 </resources>

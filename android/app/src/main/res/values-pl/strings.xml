@@ -297,7 +297,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Proszę włączyć usługi lokalizacji</string>
     <string name="save">Zapisz</string>
-    <string name="create">utwórz</string>
+    <string name="create">Utwórz</string>
     <!-- red color -->
     <string name="red">Czerwony</string>
     <!-- yellow color -->
@@ -898,4 +898,14 @@
     <string name="unknown_count">nieznana</string>
     <string name="error_value_must_be_positive">Wartość musi być dodatnia</string>
     <string name="error_invalid_number">Nieprawidłowa liczba</string>
+    <string name="opens_at">Otwarcie o %s</string>
+    <string name="closes_at">Zamknięcie o %s</string>
+    <plurals name="minutes_short">
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <string name="avoid_paved">Unikaj dróg utwardzonych</string>
+    <string name="charge_socket_schuko">Schuko</string>
 </resources>
