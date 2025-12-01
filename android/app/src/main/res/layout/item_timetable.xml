@@ -52,8 +52,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
@@ -70,8 +68,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
@@ -88,8 +84,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
@@ -106,8 +100,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
@@ -124,8 +116,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
@@ -146,8 +136,6 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
       </LinearLayout>
