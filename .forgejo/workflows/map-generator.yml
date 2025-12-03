@@ -17,6 +17,11 @@ on:
           - tiger
           - maps
           - upload
+      map-generator-test:
+        description: 'Test (non-prod) generation?'
+        required: false
+        default: false
+        type: boolean
       map-generator-continue:
         description: 'Continue previous map generation?'
         required: false
@@ -43,6 +48,7 @@ env:
   WIKIMEDIA_PASSWORD: ${{ secrets.WIKIMEDIA_PASSWORD }}
   ZULIP_BOT_EMAIL: ${{ secrets.ZULIP_BOT_EMAIL }}
   ZULIP_API_KEY: ${{ secrets.ZULIP_API_KEY }}
+  MWMTEST: ${{ inputs.map-generator-test }}
   MWMCONTINUE: ${{ inputs.map-generator-continue }}
   MWMCOUNTRIES: ${{ inputs.map-generator-countries }}
   DEBIAN_FRONTEND: noninteractive
