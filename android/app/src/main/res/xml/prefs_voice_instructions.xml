@@ -57,4 +57,11 @@
       android:entryValues="@array/speed_cameras_values"
       android:defaultValue="@string/auto_enum_value"
       app:iconSpaceReserved="false" />
+  <Preference
+      android:enabled="true"
+      android:key="@string/pref_tts_info_link"
+      android:persistent="false"
+      android:selectable="false"
+      android:summary="@string/prefs_speed_cameras_information"
+      app:iconSpaceReserved="false" />
 </androidx.preference.PreferenceScreen>

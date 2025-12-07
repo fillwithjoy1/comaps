@@ -609,6 +609,7 @@
 \nOpen your device\'s settings → Language and input → Speech → Text to speech output.
 \nHere you can manage settings for speech synthesis (for example, download language pack for offline use) and select another text-to-speech engine.</string>
     <string name="prefs_languages_information_off_link">For more information please check this guide</string>
+    <string name="prefs_speed_cameras_information">Speed camera warnings are disabled in countries where alerts are prohibited by local law.</string>
     <string name="transliteration_title">Transliterate into Latin alphabet</string>
     <string name="learn_more">Learn more</string>
     <!-- User selected the destination by pressing Route To, but the current position is unknown. User needs to select a starting point of a route using search or by tapping on the map and then pressing "Route From". -->
