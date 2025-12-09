@@ -333,4 +333,23 @@
     <string name="type.barrier.city_wall">Mestno obzidje</string>
     <string name="type.barrier.swing_gate">Nihajna vrata</string>
     <string name="type.craft.brewery">Obrtna pivovarna</string>
+    <string name="type.craft.grinding_mill">Mlin</string>
+    <string name="type.craft.handicraft">Rokodelstvo</string>
+    <string name="type.craft.locksmith">Ključavničar</string>
+    <string name="type.craft.metal_construction">Kovinar</string>
+    <string name="type.craft.painter">Pleskar</string>
+    <string name="type.craft.carpenter">Tesar</string>
+    <string name="type.craft.confectionery">Slaščičar</string>
+    <string name="type.craft.electrician">Električar</string>
+    <string name="type.craft.photographer">Fotograf</string>
+    <string name="type.craft.sawmill">Žaga</string>
+    <string name="type.craft.shoemaker">Popravilo čevljev</string>
+    <string name="type.craft.winery">Vinarstvo</string>
+    <string name="type.craft.tailor">Krojač</string>
+    <string name="type.cuisine.african">Afriška kuhinja</string>
+    <string name="type.cuisine.american">Ameriška kuhinja</string>
+    <string name="type.cuisine.arab">Arabska kuhinja</string>
+    <string name="type.cuisine.argentinian">Argentinska kuhinja</string>
+    <string name="type.cuisine.asian">Azijska kuhinja</string>
+    <string name="type.cuisine.austrian">Avstrijska kuhinja</string>
 </resources>

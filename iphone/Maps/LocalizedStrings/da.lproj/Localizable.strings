@@ -817,7 +817,7 @@
 "avoid_tolls" = "Undgå betalingsveje";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
-"avoid_unpaved" = "Undgå ikke-asfalterede veje";
+"avoid_unpaved" = "Undgå veje uden fast belægning";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
 "avoid_ferry" = "Undgå færger";
@@ -1012,7 +1012,7 @@
 "bugreport_alert_message" = "Vil du gerne sende en fejlrapport til udviklerne?\nVi er afhængige af vores brugere, da CoMaps ikke indsamler nogen fejloplysninger automatisk. Tak på forhånd for at støtte CoMaps!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "iCloud-synkronisering (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktivér iCloud-synkronisering";
@@ -1024,7 +1024,7 @@
 "icloud_disabled_title" = "iCloud er deaktiveret";
 
 /* Message for the "iCloud is Disabled" alert. */
-"icloud_disabled_message" = "Aktivér iCloud i din enheds indstillinger for at bruge denne funktion.";
+"icloud_disabled_message" = "Aktivér iCloud for CoMaps i indstillingerne for din Apple-konto for at bruge denne funktion.";
 
 /* Title for the "Enable iCloud Syncronization" alert's "Enable" action button. */
 "enable" = "Aktivér";

@@ -907,4 +907,6 @@
     <string name="editor_mark_business_vacant_description">Gebruik dit als het bedrijf is verhuisd en de ruimte leeg is en klaar is voor een nieuwe huurder.</string>
     <string name="power_management">Energiebeheer</string>
     <string name="charge_socket_schuko">Binnenlandse EU</string>
+    <string name="navigation_start_tts_message">"Navigatie starten, taal voor steminstructie: "</string>
+    <string name="prefs_speed_cameras_information">Waarschuwingen voor flitsers zijn uitgeschakeld in landen waar deze wettelijk zijn verboden.</string>
 </resources>

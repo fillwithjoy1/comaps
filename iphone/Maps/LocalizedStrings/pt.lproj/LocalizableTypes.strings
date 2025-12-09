@@ -599,7 +599,7 @@
 "type.area_highway.trunk" = "Via rápida";
 "type.area_highway.unclassified" = "Estrada sem classificação";
 "type.historic" = "Objeto histórico";
-"type.historic.aircraft" = "Aeronaves Históricas";
+"type.historic.aircraft" = "Aeronave histórica";
 "type.historic.anchor" = "Âncora Histórica";
 "type.historic.archaeological_site" = "Sítio arqueológico";
 "type.historic.battlefield" = "Campo de batalha";
@@ -1265,7 +1265,7 @@
 "type.shop.seafood" = "Peixaria";
 "type.shop.second_hand" = "Loja de segunda mão";
 "type.shop.shoes" = "Sapataria";
-"type.shop.sports" = "Loga de artigos desportivos";
+"type.shop.sports" = "Loja de artigos esportivos";
 "type.shop.stationery" = "Papelaria";
 "type.shop.supermarket" = "Supermercado";
 "type.shop.tattoo" = "Estúdio de tatuagens";

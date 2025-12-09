@@ -905,4 +905,6 @@
     </plurals>
     <string name="power_management">Správa výkonu</string>
     <string name="charge_socket_schuko">Domovní EU</string>
+    <string name="prefs_speed_cameras_information">Upozornění na radary jsou vypnuty v zemích, kde je tato funkcionalita zakázána místními zákony.</string>
+    <string name="navigation_start_tts_message">"Spouštím navigaci, jazyk hlasových instrukcí: "</string>
 </resources>

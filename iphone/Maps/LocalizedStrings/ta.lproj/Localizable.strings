@@ -316,7 +316,7 @@
 "mobile_data_option_today" = "இன்று மட்டும்";
 "editor_done_dialog_1" = "உலக வரைபடத்தை மாற்றிவிட்டீர்கள்! அதை நீங்களே வைத்துக் கொள்ளாதீர்கள்; உங்கள் நண்பர்களிடம் சொல்லி அதை ஒன்றாக திருத்தவும்.";
 "button_convert" = "மாற்றவும்";
-"voice_explanation_before_version26" = "*அணுகல்தன்மை*, *பேசப்பட்ட உள்ளடக்கம்*, *குரல்* ஆகியவற்றின் கீழ் சிச்டம் அமைப்புகளில் சிறந்த குரலைத் தேர்வுசெய்ய முடியும்.";
+"voice_explanation_before_version26" = "*அணுகல்தன்மை*, *பேசப்பட்ட உள்ளடக்கம்*, *குரல்* ஆகியவற்றின் கீழ் கட்டமைப்பு அமைப்புகளில் சிறந்த குரலைத் தேர்வுசெய்ய முடியும்.";
 "red" = "சிவப்பு";
 "hide" = "மறை";
 "editor_detailed_description_hint" = "விரிவான கருத்து";
@@ -428,7 +428,7 @@
 "osm_profile_remove" = "OpenStreetMap கணக்கை அகற்று";
 "big_font" = "வரைபட லேபிள்களுக்கான அளவை அதிகரிக்கவும்";
 "search_not_found_query" = "நீங்கள் தேடும் பகுதியைப் பதிவிறக்கவும் அல்லது அருகிலுள்ள நகரம்/கிராமத்தின் பெயரைச் சேர்க்க முயற்சிக்கவும்.";
-"voice_explanation" = "*அணுகல்தன்மை*, *படிக்க & பேசு*, *குரல்* ஆகியவற்றின் கீழ் சிச்டம் அமைப்புகளில் சிறந்த குரலைத் தேர்வுசெய்ய முடியும்.";
+"voice_explanation" = "*அணுகல்தன்மை*, *படிக்க & பேசு*, *குரல்* ஆகியவற்றின் கீழ் கட்டமைப்பு அமைப்புகளில் சிறந்த குரலைத் தேர்வுசெய்ய முடியும்.";
 "button_plan" = "திட்டம்";
 "purple" = "ஊதா";
 "bookmarks_error_message_share_general" = "பயன்பாட்டுப் பிழை காரணமாகப் பகிர முடியவில்லை";
@@ -454,7 +454,7 @@
 "osm_profile_reauthorize" = "OpenStreetMap உடன் மீண்டும் இணைக்கவும்";
 "trip_start" = "போகலாம்";
 "trip_finished" = "நீங்கள் வந்துவிட்டீர்கள்!";
-"icloud_disabled_message" = "இந்த அம்சத்தைப் பயன்படுத்த, உங்கள் சாதனத்தின் அமைப்புகளில் iCloud ஐ இயக்கவும்.";
+"icloud_disabled_message" = "இந்தப் பண்பைப் பயன்படுத்த, உங்கள் கருவியின் அமைப்புகளில் ஐமுகிலை இயக்கு.";
 "track_recording_alert_title" = "புக்மார்க்குகள் மற்றும் தடங்களில் சேமிக்கவா?";
 "downloader_loading_ios" = "பதிவிறக்குகிறது";
 "speedcams_alert_title_carplay_1" = "விரைவு";
@@ -519,7 +519,7 @@
 "ok" = "சரி";
 "bookmarks_export" = "அனைத்து புக்மார்க்குகளையும் தடங்களையும் ஏற்றுமதி செய்யவும்";
 "icloud_synchronization_error_cloud_is_unavailable" = "பிழை: iCloud கிடைக்கவில்லை";
-"enable_icloud_synchronization_title" = "iCloud ஒத்திசைவை இயக்கவும்";
+"enable_icloud_synchronization_title" = "ஐமுகில் ஒத்திசைவை இயக்கு";
 "placepage_track_name_hint" = "ட்ராக் பெயர்";
 "speedcams_alert_title_carplay_2" = "வேக எச்சரிக்கைகள்";
 "isolines_toast_zooms_1_10" = "ஐசோலைன்களை ஆராய பெரிதாக்கவும்";
@@ -542,7 +542,7 @@
 "dialog_routing_rebuild_from_current_location_carplay" = "உங்கள் தற்போதைய இடத்திலிருந்து பாதை மீண்டும் கட்டமைக்கப்படும்";
 "elevation_profile_max_elevation" = "அதிகபட்சம். உயரம்";
 "icloud_synchronization_error_quota_exceeded" = "பிழை: iCloud ஒதுக்கீட்டை மீறியதால் ஒத்திசைக்க முடியவில்லை";
-"icloud_sync" = "iCloud ஒத்திசைவு (பீட்டா)";
+"icloud_sync" = "ஐமுகில் ஒத்திசைவு (ஆவண்ணா)";
 "dialog_routing_rebuild_for_vehicle_carplay" = "பாதை ஆட்டோமொபைலாக மாற்றப்படும்";
 "week_ago_sorttype" = "ஒரு வாரம் முன்பு";
 "driving_options_title" = "ரூட்டிங் விருப்பங்கள்";

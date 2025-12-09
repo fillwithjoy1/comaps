@@ -607,7 +607,7 @@
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
     <string name="avoid_tolls">Undgå betalingsveje</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
-    <string name="avoid_unpaved">Undgå ikke-asfalterede veje</string>
+    <string name="avoid_unpaved">Undgå veje uden fast belægning</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
     <string name="avoid_ferry">Undgå færger</string>
     <string name="avoid_motorways">Undgå motorveje</string>
@@ -894,4 +894,6 @@
     <string name="editor_submit">Indsend</string>
     <string name="power_management">Strømstyring</string>
     <string name="charge_socket_schuko">Europæisk</string>
+    <string name="prefs_speed_cameras_information">Advarsler om hastighedskameraer er deaktiveret i lande, hvor advarsler er forbudt i henhold til lokal lovgivning.</string>
+    <string name="navigation_start_tts_message">"Starter navigation, sprog for stemmeinstruktioner: "</string>
 </resources>

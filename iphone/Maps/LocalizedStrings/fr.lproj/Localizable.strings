@@ -1015,7 +1015,7 @@
 "bugreport_alert_message" = "Voulez-vous envoyer un rapport de bogue aux développeurs ?\nNous comptons sur nos utilisateurs, car CoMaps ne recueille pas automatiquement d’informations sur les erreurs. Merci d’avance de soutenir CoMaps !";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "Synchronisation iCloud (bêta)";
+"icloud_sync" = "Synchronisation iCloud (Bêta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Activer la synchronisation iCloud";
@@ -1027,7 +1027,7 @@
 "icloud_disabled_title" = "iCloud est désactivé";
 
 /* Message for the "iCloud is Disabled" alert. */
-"icloud_disabled_message" = "Activez iCloud dans les paramètres de votre appareil pour utiliser cette fonctionnalité.";
+"icloud_disabled_message" = "Veuillez activer iCloud pour CoMaps dans les réglages de votre compte Apple pour utiliser cette fonctionnalité.";
 
 /* Title for the "Enable iCloud Syncronization" alert's "Enable" action button. */
 "enable" = "Activer";
@@ -1103,6 +1103,6 @@
 "editor_place_doesnt_exist_description" = "Décrivez le lieu afin de signaler l'erreur à la communauté OpenStreetMap";
 "voice" = "Voix";
 "unknown" = "Inconnu";
-"voice_explanation_before_version26" = "Il est possible de choisir une meilleure voix dans les paramètres système sous *Accessibilité*, *Contenu parlé*, *Voix*.";
-"voice_explanation" = "Il est possible de choisir une meilleure voix dans les paramètres système sous *Accessibilité*, *Lire et parler*, *Voix*.";
+"voice_explanation_before_version26" = "Il est possible de choisir une meilleure voix dans les paramètres système, sous *Accessibilité*, *Contenu vocal*, *Voix*.";
+"voice_explanation" = "Il est possible de choisir une meilleure voix dans les paramètres système, sous *Accessibilité*, *Lecture et prononciation*, *Voix*.";
 "avoid_paved" = "Éviter les routes goudronnées";

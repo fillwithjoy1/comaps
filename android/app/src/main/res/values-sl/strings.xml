@@ -631,4 +631,12 @@
     <string name="bicycle">Kolo</string>
     <string name="unknown_power_output">neznano</string>
     <string name="ruler">Ravnilo</string>
+    <string name="opens_at">Odpre se ob %s</string>
+    <string name="closes_at">Zapre se ob %s</string>
+    <plurals name="minutes_short">
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
 </resources>

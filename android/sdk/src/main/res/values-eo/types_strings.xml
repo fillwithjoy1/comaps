@@ -4,4 +4,5 @@
     <string name="type.addr_interpolation.even">Adreso/Kvartalo</string>
     <string name="type.aerialway">Aerovojo</string>
     <string name="type.aerialway.cable_car">Funicularo</string>
+    <string name="type.aeroway.gate">Pordego</string>
 </resources>

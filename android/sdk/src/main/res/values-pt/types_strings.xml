@@ -523,7 +523,7 @@
     <string name="type.area_highway.unclassified">Estrada sem classificação</string>
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Objeto histórico</string>
-    <string name="type.historic.aircraft">Aeronaves Históricas</string>
+    <string name="type.historic.aircraft">Aeronave histórica</string>
     <string name="type.historic.anchor">Âncora Histórica</string>
     <string name="type.historic.archaeological_site">Sítio arqueológico</string>
     <string name="type.historic.battlefield">Campo de batalha</string>
@@ -1153,7 +1153,7 @@
     <string name="type.shop.seafood">Peixaria</string>
     <string name="type.shop.second_hand">Loja de segunda mão</string>
     <string name="type.shop.shoes">Sapataria</string>
-    <string name="type.shop.sports">Loga de artigos desportivos</string>
+    <string name="type.shop.sports">Loja de artigos esportivos</string>
     <string name="type.shop.stationery">Papelaria</string>
     <string name="type.shop.supermarket">Supermercado</string>
     <string name="type.shop.tattoo">Estúdio de tatuagens</string>

@@ -2,3 +2,4 @@
 "type.addr_interpolation.even" = "Adreso/Kvartalo";
 "type.aerialway" = "Aerovojo";
 "type.aerialway.cable_car" = "Funicularo";
+"type.aeroway.gate" = "Pordego";
