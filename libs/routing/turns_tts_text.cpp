@@ -133,7 +133,7 @@ std::string GetTtsText::GetTurnNotification(Notification const & notification) c
   if (notification.m_distanceUnits > 0)
     distStr = GetTextByIdTrimmed(GetDistanceTextId(notification));
 
-  // Get a string like [245] > CA 123/Highway 99/San Francisco
+  // Get a string like 245; CA 123; Highway 99; San Francisco
   // In the future we could use the full RoadNameInfo struct to do some nice formatting.
   std::string streetOut;
   RouteSegment::RoadNameInfo nsi = notification.m_nextStreetInfo;  // extract non-const
@@ -342,10 +342,6 @@ std::string GetYouArriveTextId(Notification const & notification)
   if (notification.m_distanceUnits != 0 || notification.m_useThenInsteadOfDistance)
     return "destination";
   return "you_have_reached_the_destination";
-}
-
-std::string GetContinueTextId(Notification const & notification){
-    return "continue"
 }
 
 std::string GetDirectionTextId(Notification const & notification)
