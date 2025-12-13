@@ -126,6 +126,7 @@ copy_resources(
   patterns.txt
   transit_colors.txt
   types.txt
+  mapcss-mapping.csv
   World.mwm
   WorldCoasts.mwm
 )

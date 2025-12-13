@@ -5,7 +5,7 @@
 #   highway|bus_stop;[highway=bus_stop];;name;int_name;22;
 # It contains:
 # - type name: "highway|bus_stop" ("|" is converted to "-" internally)
-# - mapcss selectors for tags: "[highway=bus_stop]", multiple selectors are separated with commas
+# - mapcss selectors for tags: "[highway=bus_stop]", multiple selectors are separated with commas, best practice tagging for OSM editor is listed first
 # - "x" for a deprecated type or an empty cell otherwise
 # - primary title tag (usually "name")
 # - secondary title tag (usually "int_name")
@@ -626,7 +626,7 @@ highway|trunk_link|tunnel;[highway=trunk_link][tunnel?];;name;int_name;503;
 drinking_water|yes;[drinking_water=yes],[drinking_water=treated],[drinking_water:refill=yes];;;;504;
 drinking_water|no;505;
 amenity|sailing_school;[amenity=sailing_school],[education=sailing_school];;name;int_name;506;
-amenity|flight_school;[amenity=sailing_school],[education=flight_school];;name;int_name;507;
+amenity|flight_school;[amenity=flight_school],[education=flight_school];;name;int_name;507;
 amenity|prep_school;[amenity=prep_school],[education=prep_school];;name;int_name;508;
 amenity|car_pooling;509;
 social_facility|soup_kitchen;510;
