@@ -692,6 +692,7 @@ public class PlacePageView extends Fragment
     {
       UiUtils.showIf(Editor.nativeShouldShowEditPlace(), mEditPlace);
       UiUtils.showIf(Editor.nativeShouldShowAddPlace(), mAddPlace);
+      UiUtils.hide(mMapTooOld);
       MaterialButton mTvEditPlace = mEditPlace.findViewById(R.id.mb__place_editor);
       MaterialButton mTvAddPlace = mAddPlace.findViewById(R.id.mb__place_add);
 
@@ -711,27 +712,32 @@ public class PlacePageView extends Fragment
           Utils.showSnackbar(v.getContext(), v.getRootView(), R.string.place_page_too_old_to_edit);
         });
 
-        CountryItem map = CountryItem.fill(MapManager.nativeGetSelectedCountry());
+        String countryId = MapManager.nativeGetSelectedCountry();
 
-        if (map.status == CountryItem.STATUS_UPDATABLE || map.status == CountryItem.STATUS_DONE
-            || map.status == CountryItem.STATUS_FAILED)
+        if (countryId != null)
         {
-          mMapTooOld.setVisibility(VISIBLE);
-          MaterialButton mTvUpdateTooOldMap = mMapTooOld.findViewById(R.id.mb__update_too_old_map);
-          boolean canUpdateMap = map.status != CountryItem.STATUS_DONE;
+          CountryItem map = CountryItem.fill(countryId);
 
-          if (canUpdateMap)
+          if (map.status == CountryItem.STATUS_UPDATABLE || map.status == CountryItem.STATUS_DONE
+              || map.status == CountryItem.STATUS_FAILED)
           {
-            mTvUpdateTooOldMap.setOnClickListener((v) -> {
-              MapManagerHelper.warn3gAndDownload(requireActivity(), map.id, null);
-              mMapTooOld.setVisibility(GONE);
-            });
-          }
-          else
-          {
-            mTvUpdateTooOldMap.setVisibility(GONE);
+            UiUtils.show(mMapTooOld);
+
+            boolean canUpdateMap = map.status != CountryItem.STATUS_DONE;
+            MaterialButton mTvUpdateTooOldMap = mMapTooOld.findViewById(R.id.mb__update_too_old_map);
+            UiUtils.showIf(canUpdateMap, mTvUpdateTooOldMap);
+
             MaterialTextView mapTooOldDescription = mMapTooOld.findViewById(R.id.tv__map_too_old_description);
-            mapTooOldDescription.setText(R.string.place_page_app_too_old_description);
+            if (canUpdateMap)
+            {
+              mapTooOldDescription.setText(R.string.place_page_map_too_old_description);
+              mTvUpdateTooOldMap.setOnClickListener((v) -> {
+                MapManagerHelper.warn3gAndDownload(requireActivity(), map.id, null);
+                UiUtils.hide(mMapTooOld);
+              });
+            }
+            else
+              mapTooOldDescription.setText(R.string.place_page_app_too_old_description);
           }
         }
       }
