@@ -40,6 +40,7 @@
 		27AF18562E1DB63000CD41E2 /* PowerSavingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF18552E1DB62F00CD41E2 /* PowerSavingMode.swift */; };
 		27AF18582E1DB63A00CD41E2 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF18572E1DB63900CD41E2 /* Appearance.swift */; };
 		27AF185A2E1DB64500CD41E2 /* AnnouncingSpeedTrapsWhileVoiceRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF18592E1DB64400CD41E2 /* AnnouncingSpeedTrapsWhileVoiceRouting.swift */; };
+		27FDBF212EEEFC830045621D /* mapcss-mapping.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27FDBF202EEEFC830045621D /* mapcss-mapping.csv */; };
 		3304306D21D4EAFB00317CA3 /* SearchCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3304306C21D4EAFB00317CA3 /* SearchCategoryCell.swift */; };
 		33046832219C57180041F3A8 /* CategorySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33046831219C57180041F3A8 /* CategorySettingsViewController.swift */; };
 		337F98A621D37B7400C8AC27 /* SearchTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337F98A521D37B7400C8AC27 /* SearchTabViewController.swift */; };
@@ -789,6 +790,7 @@
 		27AF18552E1DB62F00CD41E2 /* PowerSavingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSavingMode.swift; sourceTree = "<group>"; };
 		27AF18572E1DB63900CD41E2 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		27AF18592E1DB64400CD41E2 /* AnnouncingSpeedTrapsWhileVoiceRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncingSpeedTrapsWhileVoiceRouting.swift; sourceTree = "<group>"; };
+		27FDBF202EEEFC830045621D /* mapcss-mapping.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = "mapcss-mapping.csv"; path = "/Users/yannikbloscheck/Apps/CoMaps/Code/data/mapcss-mapping.csv"; sourceTree = "<absolute>"; };
 		28A0AB4B0D9B1048005BE974 /* Maps_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Maps_Prefix.pch; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; indentWidth = 2; path = main.mm; sourceTree = "<group>"; tabWidth = 2; };
 		30034C5C2B3F0B74005D961A /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -3948,6 +3950,7 @@
 				6B9978341C89A316003B8AA0 /* editor.config */,
 				978D4A30199A11E600D72CA7 /* faq.html */,
 				BB7626B41E8559980031D71C /* icudt75l.dat */,
+				27FDBF202EEEFC830045621D /* mapcss-mapping.csv */,
 				F623DA6A1C9C2731006A3436 /* opening_hours_how_to_edit.html */,
 				FA85F632145DDDC20090E1A0 /* packed_polygons.bin */,
 				451950391B7A3E070085DA05 /* patterns.txt */,
@@ -4201,6 +4204,7 @@
 				34F73F9F1E082FF800AC1FD6 /* Localizable.strings in Resources */,
 				340E1EF21E2F614400CE49BF /* Main.storyboard in Resources */,
 				F6E2FE521E097BA00083EBEC /* MWMActionBarButton.xib in Resources */,
+				27FDBF212EEEFC830045621D /* mapcss-mapping.csv in Resources */,
 				EDBD68072B625724005DD151 /* LocationServicesDisabledAlert.xib in Resources */,
 				993DF0CA23F6BD0600AC231A /* ElevationDetailsViewController.xib in Resources */,
 				F623DA6F1C9C2E62006A3436 /* MWMAddPlaceNavigationBar.xib in Resources */,
