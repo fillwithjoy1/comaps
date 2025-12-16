@@ -351,6 +351,7 @@
     <string name="type.emergency.assembly_point">Punto de reunión de emergencia</string>
     <string name="type.emergency.defibrillator">Desfibrilador</string>
     <string name="type.emergency.fire_hydrant">Boca de incendio</string>
+    <string name="type.amenity.hydrant">Boca de riego</string>
     <string name="type.emergency.phone">Teléfono de emergencias</string>
     <!-- A place where a lifeguard is on duty. -->
     <string name="type.emergency.lifeguard">Socorrista</string>
