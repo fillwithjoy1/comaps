@@ -65,6 +65,7 @@ static std::pair<UniString, UniString> const kPreprocessReplacements[] = {
     {MakeUniString("ff. cc."), MakeUniString("ferrocarrís")},
     {MakeUniString("f.ta"), MakeUniString("fondamenta")},
     {MakeUniString("g.n.r."), MakeUniString("guarda nacional republicana")},
+    {MakeUniString("g-ral"), MakeUniString("general")}
     {MakeUniString("g. v."), MakeUniString("gran vía")},
     {MakeUniString("i.d."), MakeUniString("in der")},
     {MakeUniString("k/s"), MakeUniString("khách sạn")},
