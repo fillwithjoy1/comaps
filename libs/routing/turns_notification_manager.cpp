@@ -244,12 +244,12 @@ void NotificationManager::SetLengthUnits(measurement_utils::Units units)
   switch (units)
   {
   case measurement_utils::Units::Metric:
-    m_settings.SetState(30 /* notificationTimeSeconds */, 400 /* minNotificationDistanceUnits */,
+    m_settings.SetState(30 /* notificationTimeSeconds */, 200 /* minNotificationDistanceUnits */,
                         2000 /* maxNotificationDistanceUnits */, GetSoundedDistMeters() /* soundedDistancesUnits */,
                         measurement_utils::Units::Metric /* lengthUnits */);
     return;
   case measurement_utils::Units::Imperial:
-    m_settings.SetState(30 /* notificationTimeSeconds */, 1000 /* minNotificationDistanceUnits */,
+    m_settings.SetState(30 /* notificationTimeSeconds */, 500 /* minNotificationDistanceUnits */,
                         5000 /* maxNotificationDistanceUnits */, GetSoundedDistFeet() /* soundedDistancesUnits */,
                         measurement_utils::Units::Imperial /* lengthUnits */);
     return;
