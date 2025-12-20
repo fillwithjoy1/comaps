@@ -189,7 +189,7 @@
 "type.amenity.shelter.basic_hut" = "Bivouac Hut";
 
 /* A traditional 3-walled shelter (one side open), suitable for overnight camping. */
-"type.amenity.shelter.lean_to" = "Lean-to Shelter";
+"type.amenity.shelter.lean_to" = "Lean-to Sleep Shelter";
 "type.amenity.public_bath" = "Public Bath";
 "type.amenity.shower" = "Shower";
 "type.amenity.stripclub" = "Stripclub";
@@ -208,7 +208,7 @@
 "type.amenity.vending_machine.food" = "Food Dispenser";
 "type.amenity.vending_machine.newspapers" = "Newspaper Dispenser";
 "type.amenity.vending_machine.parking_tickets" = "Parking Meter";
-"type.amenity.vending_machine.public_transport_tickets" = "Ticket Machine";
+"type.amenity.vending_machine.public_transport_tickets" = "Public Transport Ticket Machine";
 "type.amenity.vending_machine.sweets" = "Sweets Dispenser";
 "type.amenity.vending_machine.excrement_bags" = "Excrement Bags Dispenser";
 "type.amenity.parcel_locker" = "Parcel Locker";
