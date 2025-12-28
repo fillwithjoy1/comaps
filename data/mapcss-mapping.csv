@@ -1299,7 +1299,7 @@ amenity|water_point;1170;
 emergency|defibrillator;1171;
 emergency|fire_hydrant;1172;
 highway|services;1173;
-leisure|fitness_station;1174;
+leisure|fitness_station;[leisure=fitness_station][sport=fitness],[leisure=fitness_station];;;;1174;
 leisure|ice_rink;1175;
 leisure|marina;1176;
 shop|medical_supply;1177;
