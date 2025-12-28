@@ -148,11 +148,6 @@
     <item name="buttonGravity">center_vertical</item>
   </style>
 
-  <style name="MwmWidget.ToolbarStyle.Light">
-    <item name="android:titleTextAppearance">@style/MwmTextAppearance.Toolbar.Title.Light</item>
-    <item name="titleTextAppearance">@style/MwmTextAppearance.Toolbar.Title.Light</item>
-  </style>
-
   <style name="MwmWidget.ToolbarStyle.NoElevation">
     <item name="android:elevation">0dp</item>
   </style>
@@ -162,29 +157,6 @@
     <item name="colorAccent">@android:color/white</item>
     <item name="colorSecondary">@android:color/white</item>
     <item name="iconTint">@color/white_primary</item>
-  </style>
-
-  <style name="MwmWidget.ToolbarTheme.Light" parent="MwmWidget.ToolbarTheme">
-    <item name="android:gravity">center_vertical</item>
-    <item name="colorAccent">@android:color/white</item>
-    <item name="colorSecondary">#FF32363A</item>
-  </style>
-
-  <style name="MwmWidget.ToolbarTheme.Transparent" parent="ThemeOverlay.Material3.Dark.ActionBar">
-    <item name="android:gravity">center_vertical</item>
-    <item name="colorAccent">@android:color/white</item>
-    <item name="colorSecondary">@android:color/white</item>
-    <item name="android:windowActionBarOverlay">true</item>
-    <item name="windowActionBarOverlay">true</item>
-  </style>
-
-  <style
-    name="MwmWidget.ToolbarTheme.DownButton"
-    parent="ThemeOverlay.Material3.Dark.ActionBar">
-    <item name="android:gravity">center_vertical</item>
-    <item name="colorAccent">@android:color/white</item>
-    <item name="colorSecondary">@android:color/white</item>
-    <item name="android:homeAsUpIndicator">@drawable/ic_expand_more</item>
   </style>
 
   <style name="MwmWidget.ListView" parent="android:Widget.Material.ListView">

@@ -196,7 +196,7 @@ public final class UiUtils
   public static void showHomeUpButton(MaterialToolbar toolbar)
   {
     toolbar.setNavigationIcon(
-        ThemeUtils.getResource(toolbar.getContext(), androidx.appcompat.R.attr.homeAsUpIndicator));
+        UiUtils.getStyledResourceId(toolbar.getContext(), androidx.appcompat.R.attr.homeAsUpIndicator));
   }
 
   // this method returns the total height of the display (in pixels) including notch and other touchable areas
