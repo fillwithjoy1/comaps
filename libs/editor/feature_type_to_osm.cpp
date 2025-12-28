@@ -35,24 +35,31 @@ void TypeToOSMTranslator::LoadFromStream(std::istream & s)
     getline(s, line);
     strings::Trim(line);
 
-    // skip empty lines, comments, deprecated and moved types
-    if (line.empty() || line.front() == '#' || line.starts_with("deprecated") || line.starts_with("moved") ||
-        line.back() != ';')
+    // skip empty lines and comments
+    if (line.empty() || line.front() == '#')
       continue;
 
-    std::vector<std::string_view> const rowTokens = strings::Tokenize(line, ";");
-    if (rowTokens.size() < 2)
+    std::vector<std::string> rowTokens;
+    strings::ParseCSVRow(line, ';', rowTokens);
+
+    // make sure entry is in full or short format
+    if (rowTokens.size() != 3 && rowTokens.size() != 7)
     {
       ASSERT(false, ("Invalid feature type definition:", line));
       continue;
     }
 
+    // skip deprecated and moved types
+    if ((rowTokens.size() == 3 && !rowTokens[2].empty()) || (rowTokens.size() == 7 && rowTokens[2] == "x"))
+      continue;
+
     // Get internal feature type
+    ASSERT(!rowTokens[0].empty(), ("No feature type found:", line));
     std::vector<std::string_view> const featureTypeTokens = strings::Tokenize(rowTokens[0], "|");
     uint32_t const type = classif().GetTypeByPathSafe(featureTypeTokens);
     ASSERT(type != IndexAndTypeMapping::INVALID_TYPE, ("Feature with invalid type:", line));
 
-    if (rowTokens.size() == 2)
+    if (rowTokens.size() == 3)
     {
       // Derive OSM tags from type name
       ASSERT(featureTypeTokens.size() <= 2, ("OSM tags can not be inferred from name:", line));
@@ -77,6 +84,11 @@ void TypeToOSMTranslator::LoadFromStream(std::istream & s)
     else
     {
       // OSM tags are listed in the feature type entry
+      if (rowTokens[1].empty())
+      {
+        ASSERT(false, ("No OSM tags found:", line));
+        continue;
+      }
       std::vector<std::string_view> const osmTagTokens = strings::Tokenize(rowTokens[1], ",");
 
       // First entry is the best practice way to tag a feature
