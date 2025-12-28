@@ -1362,7 +1362,7 @@ historic|memorial|plaque;[historic=memorial][memorial=plaque],[historic=memorial
 historic|castle|defensive;[historic=castle][castle_type=defensive];;name;int_name;1234;
 historic|castle|stately;[historic=castle][castle_type=stately];;name;int_name;1235;
 attraction|animal;1236;
-disusedbusiness;[disused:shop?],[disused:amenity=restaurant],[disused:amenity=fast_food],[disused:amenity=cafe],[disused:amenity=pub],[disused:amenity=bar];;;;1237;
+disusedbusiness;[disused:shop?],[disused:amenity=restaurant],[disused:amenity=fast_food],[disused:amenity=cafe],[disused:amenity=pub],[disused:amenity=bar],[disused:amenity=ice_cream],[disused:amenity=pharmacy],[disused:amenity=post_office],[disused:amenity=bank],[disused:amenity=bureau_de_change],[disused:amenity=car_rental],[disused:amenity=motorcycle_rental],[disused:amenity=casino],[disused:amenity=gambling],[disused:amenity=internet_cafe],[disused:craft=confectionery],[disused:craft=electronics_repair],[disused:craft=shoemaker],[disused:craft=tailor],[disused:craft=key_cutter],[disused:craft=locksmith],[disused:office=estate_agent],[disused:office=insurance];;;;1237;
 cuisine|regional;1238;
 cuisine|pizza;1239;
 cuisine|burger;1240;
