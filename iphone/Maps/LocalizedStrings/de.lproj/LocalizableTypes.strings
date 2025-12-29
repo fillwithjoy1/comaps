@@ -181,7 +181,7 @@
 "type.amenity.vending_machine.food" = "Essensautomat";
 "type.amenity.vending_machine.newspapers" = "Zeitungsautomat";
 "type.amenity.vending_machine.parking_tickets" = "Parkautomat";
-"type.amenity.vending_machine.public_transport_tickets" = "Fahrkartenautomat";
+"type.amenity.vending_machine.public_transport_tickets" = "5Fahrkartenautomat|4Ticketautomat|U+1F3AB|U+1F39F|U+1F9FE";
 "type.amenity.vending_machine.sweets" = "Süßigkeitenautomat";
 "type.amenity.vending_machine.excrement_bags" = "Hundekotbeutelspender";
 "type.amenity.parcel_locker" = "Paketstation";
@@ -400,7 +400,7 @@
 "type.cardinal.east" = "Ost";
 "type.cardinal.north" = "Nord";
 "type.cardinal.south" = "Süd";
-"type.cardinal.west" = "West";
+"type.cardinal.west" = "Westen";
 
 /* A mountain rescue base for search and rescue activities. */
 "type.emergency.mountain_rescue" = "Bergrettungsstation";
@@ -1591,3 +1591,4 @@
 "type.natural.sand" = "Sand";
 "type.amenity.mobile_money_agent" = "Mobile Money Vertretung";
 "type.amenity.food_sharing" = "Food Sharing";
+"type.amenity.hydrant" = "Beregnungshydrant";

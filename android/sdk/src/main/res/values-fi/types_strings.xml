@@ -1450,4 +1450,13 @@
     <string name="type.natural.tree">Puu</string>
     <string name="type.shop.beauty.nails">Kynsistudio</string>
     <string name="type.xmas.tree">Joulukuusi</string>
+    <string name="type.social_facility.food_bank">Ruokapankki</string>
+    <string name="type.social_facility.soup_kitchen">Keittokeittiö</string>
+    <string name="type.disusedbusiness">Tyhjä liiketila</string>
+    <string name="type.shop.lighting">Valaistusliike</string>
+    <string name="type.shop.telecommunication">Puhelinliike</string>
+    <string name="type.shop.beauty.day_spa">Kylpylä</string>
+    <string name="type.man_made.mast.communication">Tietoliikennemasto</string>
+    <string name="type.leisure.bandstand">Esiintymislava</string>
+    <string name="type.leisure.indoor_play">Sisäleikkipuisto</string>
 </resources>

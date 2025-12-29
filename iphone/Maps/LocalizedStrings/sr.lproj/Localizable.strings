@@ -680,7 +680,7 @@
 "editor_edits_sent_message" = "Ваша напомена ће бити послана на OpenStreetMap";
 "editor_comment_hint" = "Коментар…";
 "editor_reset_edits_message" = "Брисање свих измена које нису послате?";
-"editor_reset_edits_button" = "Обриши";
+"editor_reset_edits_button" = "Одбаци промене";
 "editor_remove_place_message" = "Брисање додатог места?";
 "editor_remove_place_button" = "Обриши";
 "editor_place_doesnt_exist" = "Место не постоји";

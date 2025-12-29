@@ -173,7 +173,7 @@
     <string name="type.amenity.vending_machine.food">Toiduautomaat</string>
     <string name="type.amenity.vending_machine.newspapers">Ajalehtede automaat</string>
     <string name="type.amenity.vending_machine.parking_tickets">Parkimispiletite automaat</string>
-    <string name="type.amenity.vending_machine.public_transport_tickets">Piletiautomaat</string>
+    <string name="type.amenity.vending_machine.public_transport_tickets">Ühistranspordi piletiautomaat</string>
     <string name="type.amenity.vending_machine.sweets">Maiustuste automaat</string>
     <string name="type.amenity.vending_machine.excrement_bags">Väljaheitekottide automaat</string>
     <string name="type.amenity.parcel_locker">Pakiautomaat</string>

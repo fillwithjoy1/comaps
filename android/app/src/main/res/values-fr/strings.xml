@@ -506,7 +506,7 @@
     <string name="placepage_edit_bookmark_button">Modifier le signet</string>
     <string name="placepage_personal_notes_hint">Notes personnelles (texte ou html)</string>
     <string name="editor_reset_edits_message">Abandonner toutes les modifications locales ?</string>
-    <string name="editor_reset_edits_button">Ignorer</string>
+    <string name="editor_reset_edits_button">Annuler les modifications</string>
     <string name="editor_remove_place_message">Supprimer le lieu ajouté ?</string>
     <string name="editor_remove_place_button">Supprimer</string>
     <string name="editor_place_doesnt_exist">Ce lieu n’existe pas</string>
@@ -921,4 +921,10 @@
     <string name="prefs_speed_cameras_information">Les avertissements relatifs aux radars de vitesse sont désactivés dans les pays où les alertes sont interdites par la législation locale.</string>
     <string name="navigation_start_tts_message">"Navigation de démarrage, langue des instructions vocales : "</string>
     <string name="navigation_start_tts_disabled_message">Instructions vocales désactivées : moteur de synthèse vocale non disponible</string>
+    <string name="advanced">Avancé</string>
+    <string name="download_resources_custom_url_summary_none">Non défini</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_title">Serveur de cartes personnalisé</string>
+    <string name="download_resources_custom_url_error_scheme">Veuillez saisir une URL complète débutant par https:// et se terminant par /</string>
+    <string name="download_resources_custom_url_message">Serveur pour télécharger les cartes. Laissez vide pour utiliser le serveur par défaut CoMaps.</string>
 </resources>

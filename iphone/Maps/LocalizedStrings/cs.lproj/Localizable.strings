@@ -683,7 +683,7 @@
 "editor_edits_sent_message" = "Vaše poznámka bude odeslána do OpenStreetMap";
 "editor_comment_hint" = "Poznámka…";
 "editor_reset_edits_message" = "Vymazat všechny místní změny?";
-"editor_reset_edits_button" = "Zahodit";
+"editor_reset_edits_button" = "Zahodit změny";
 "editor_remove_place_message" = "Odstranit přidané místo?";
 "editor_remove_place_button" = "Odstranit";
 "editor_place_doesnt_exist" = "Místo neexistuje";

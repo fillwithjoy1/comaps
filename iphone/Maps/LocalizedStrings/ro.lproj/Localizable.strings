@@ -537,7 +537,7 @@
 
 /* OpenStreetMap */
 "osm_mapdata" = "Datele hărții de la OpenStreetMap";
-"osm_mapdata_explanation %@" = "Date cartografice create de comunitate la data de *%@*. Aflați mai multe despre cum să editați și să actualizați harta la [OpenStreetMap.org](https://openstreetmap.org).";
+"osm_mapdata_explanation %@" = "Date cartografice create de comunitate din data de *%@*. Aflați mai multe despre cum să editați și să actualizați harta la [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Mai multe despre OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -677,7 +677,7 @@
 "editor_edits_sent_message" = "Nota dvs. va fi trimisă către OpenStreetMap";
 "editor_comment_hint" = "Comentariu…";
 "editor_reset_edits_message" = "Ștergi toate modificările locale?";
-"editor_reset_edits_button" = "Renunță";
+"editor_reset_edits_button" = "Renunță la modificări";
 "editor_remove_place_message" = "Elimini locul adăugat?";
 "editor_remove_place_button" = "Elimină";
 "editor_place_doesnt_exist" = "Locul nu există";

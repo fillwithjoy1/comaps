@@ -50,7 +50,7 @@
     <string name="type.amenity.cinema">Cine</string>
     <string name="type.leisure.bowling_alley">Bolera</string>
     <string name="type.amenity.clinic">Clínica</string>
-    <string name="type.amenity.college">Facultad</string>
+    <string name="type.amenity.college">Colegio universitario</string>
     <string name="type.amenity.community_centre">Centro comunitario</string>
     <string name="type.amenity.compressed_air">Aire comprimido</string>
     <string name="type.amenity.conference_centre">Centro de conferencias</string>
@@ -213,11 +213,11 @@
     <string name="type.boundary">Frontera</string>
     <string name="type.boundary.administrative">Frontera administrativa</string>
     <!-- Borders between countries. -->
-    <string name="type.boundary.administrative.2">Frontera de país</string>
+    <string name="type.boundary.administrative.2">Frontera nacional</string>
     <!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
-    <string name="type.boundary.administrative.3">Frontera de región</string>
+    <string name="type.boundary.administrative.3">Frontera regional</string>
     <!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
-    <string name="type.boundary.administrative.4">Frontera de región</string>
+    <string name="type.boundary.administrative.4">Frontera regional</string>
     <string name="type.boundary.national_park">Parque nacional</string>
     <string name="type.boundary.aboriginal_lands">Tierras indígenas</string>
     <string name="type.boundary.protected_area">Área protegida</string>
@@ -299,7 +299,7 @@
     <string name="type.cuisine.german">Alemana</string>
     <string name="type.cuisine.greek">Griega</string>
     <string name="type.cuisine.grill">Parrilla</string>
-    <string name="type.cuisine.heuriger">Heuriger (especialidad austríaca)</string>
+    <string name="type.cuisine.heuriger">Heuriger</string>
     <string name="type.cuisine.hotdog">Perritos calientes</string>
     <string name="type.cuisine.hungarian">Húngara</string>
     <string name="type.cuisine.ice_cream">Helados</string>
@@ -568,7 +568,7 @@
     <string name="type.historic.memorial.plaque">Placa conmemorativa</string>
     <string name="type.historic.memorial.sculpture">Escultura</string>
     <string name="type.historic.memorial.statue">Estatua</string>
-    <string name="type.historic.memorial.stolperstein">Stolperstein (memoriales de las víctimas del nazismo)</string>
+    <string name="type.historic.memorial.stolperstein">Stolperstein (memorial de las víctimas del nazismo)</string>
     <string name="type.historic.stone">Piedra histórica</string>
     <string name="type.historic.memorial.war_memorial">Memorial de guerra</string>
     <string name="type.historic.mine">Mina histórica</string>
@@ -663,7 +663,7 @@
     <string name="type.man_made">Artificial</string>
     <string name="type.man_made.breakwater">Rompeolas</string>
     <string name="type.man_made.cairn">Mojón</string>
-    <string name="type.man_made.chimney">Chimenea de fábrica</string>
+    <string name="type.man_made.chimney">Chimenea</string>
     <string name="type.man_made.cutline">Línea de corte forestal</string>
     <string name="type.man_made.survey_point">Punto geodésico</string>
     <string name="type.man_made.flagpole">Asta de bandera</string>
@@ -851,7 +851,7 @@
     <string name="type.railway.station.light_rail">Estación de tren</string>
     <string name="type.railway.station.light_rail.berlin">Estación de tren (S-Bahn)</string>
     <string name="type.railway.station.light_rail.london">Estación de tren</string>
-    <string name="type.railway.station.light_rail.porto">Estación de metro</string>
+    <string name="type.railway.station.light_rail.porto">Metro de Porto</string>
     <string name="type.railway.station.monorail">Estación de monoriel</string>
     <string name="type.railway.station.subway">Estación de metro</string>
     <string name="type.railway.station.subway.adana">Estación de metro</string>
@@ -1101,27 +1101,27 @@
     <string name="type.shop.books">Librería</string>
     <string name="type.shop.butcher">Carnicería</string>
     <string name="type.shop.cannabis">Tienda de cánnabis</string>
-    <string name="type.shop.car">Concesionario de coches</string>
+    <string name="type.shop.car">Concesionario de automóviles</string>
     <string name="type.shop.car_parts">Piezas de automóvil</string>
-    <string name="type.shop.car_repair">Taller</string>
+    <string name="type.shop.car_repair">Taller de automóviles</string>
     <string name="type.shop.car_repair.tyres">Reparación de neumáticos</string>
     <string name="type.shop.caravan">Concesionario de caravanas</string>
-    <string name="type.shop.carpet">Alfombras</string>
+    <string name="type.shop.carpet">Tienda de alfombras</string>
     <string name="type.shop.chemist">Droguería</string>
     <string name="type.shop.chocolate">Chocolatería</string>
     <string name="type.shop.clothes">Tienda de ropa</string>
     <string name="type.shop.coffee">Tienda de café</string>
     <string name="type.shop.computer">Tienda de informática</string>
-    <string name="type.shop.confectionery">Confitería</string>
+    <string name="type.shop.confectionery">Tienda de dulces</string>
     <string name="type.shop.convenience">Tienda de barrio</string>
-    <string name="type.shop.copyshop">Centro de copiado</string>
+    <string name="type.shop.copyshop">Copistería</string>
     <string name="type.shop.cosmetics">Tienda de cosméticos</string>
-    <string name="type.shop.curtain">Cortinas</string>
+    <string name="type.shop.curtain">Tienda de cortinas</string>
     <string name="type.shop.deli">Tienda de delicatessen</string>
     <string name="type.shop.department_store">Grandes almacenes</string>
     <string name="type.shop.doityourself">Tienda de bricolaje</string>
     <string name="type.shop.dry_cleaning">Tintorería</string>
-    <string name="type.shop.electronics">Electrónica</string>
+    <string name="type.shop.electronics">Tienda de electrónica</string>
     <string name="type.shop.erotic">Tienda erótica</string>
     <string name="type.shop.fabric">Tienda de telas</string>
     <string name="type.shop.farm">Tienda de alimentos de granja</string>
@@ -1130,7 +1130,7 @@
     <string name="type.shop.funeral_directors">Funeraria</string>
     <string name="type.shop.furniture">Tienda de muebles</string>
     <string name="type.shop.garden_centre">Vivero</string>
-    <string name="type.shop.gas">Tienda de gasolina</string>
+    <string name="type.shop.gas">Tienda de gas</string>
     <string name="type.shop.gift">Tienda de regalos</string>
     <string name="type.shop.greengrocer">Frutería</string>
     <string name="type.shop.grocery">Tienda de comestibles</string>
@@ -1147,12 +1147,12 @@
     <string name="type.shop.laundry">Lavandería</string>
     <string name="type.shop.mall">Centro comercial</string>
     <string name="type.shop.massage">Salón de masajes</string>
-    <string name="type.shop.mobile_phone">Tienda de Móviles</string>
+    <string name="type.shop.mobile_phone">Tienda de móviles</string>
     <string name="type.shop.money_lender">Prestamista</string>
     <string name="type.shop.motorcycle">Tienda de motos</string>
     <string name="type.shop.motorcycle_repair">Taller de motos</string>
     <string name="type.shop.music">Tienda de discos</string>
-    <string name="type.shop.musical_instrument">Instrumentos musicales</string>
+    <string name="type.shop.musical_instrument">Tienda de instrumentos musicales</string>
     <string name="type.shop.newsagent">Puesto de venta de periódicos</string>
     <string name="type.shop.optician">Óptica</string>
     <string name="type.shop.outdoor">Equipamiento de ocio al aire libre</string>
@@ -1204,9 +1204,9 @@
     <string name="type.shop.perfumery">Perfumería</string>
     <string name="type.shop.sewing">Materiales de costura</string>
     <string name="type.shop.storage_rental">Alquiler de almacenamiento</string>
-    <string name="type.shop.tobacco">Tabaco</string>
+    <string name="type.shop.tobacco">Tabaquería</string>
     <string name="type.shop.trade">Suministros comerciales</string>
-    <string name="type.shop.watches">Relojes</string>
+    <string name="type.shop.watches">Relojería</string>
     <string name="type.shop.wholesale">Tienda al por mayor</string>
     <string name="type.sport">Deporte</string>
     <string name="type.sport.american_football">Fútbol americano</string>
@@ -1341,11 +1341,11 @@
     <string name="type.piste_type.hike">Ruta de senderismo en la nieve</string>
     <string name="type.piste_type.connection">Conexión de pistas</string>
     <string name="type.piste_type.skitour">Sendero Skitour</string>
-    <string name="type.amenity.events_venue">Lugar para eventos</string>
+    <string name="type.amenity.events_venue">Recinto para eventos</string>
     <string name="type.shop.auction">Subasta</string>
     <string name="type.shop.collector">Coleccionables</string>
     <string name="type.self_service.yes">Autoservicio disponible</string>
-    <string name="type.self_service.only">Solo autoservicio</string>
+    <string name="type.self_service.only">Sólo autoservicio</string>
     <string name="type.self_service.partially">Autoservicio parcial</string>
     <string name="type.self_service.no">Sin autoservicio</string>
     <!-- https://wiki.openstreetmap.org/wiki/Key:social_facility -->
@@ -1373,7 +1373,7 @@
     <string name="type.railway.narrow_gauge.tunnel">Túnel de vía férrea estrecha</string>
     <string name="type.railway.light_rail.bridge">Puente de tren ligero</string>
     <string name="type.highway.ladder">Escalera</string>
-    <string name="type.amenity.studio">Estudio</string>
+    <string name="type.amenity.studio">Estudio multimedia</string>
     <string name="type.landuse.plant_nursery">Vivero de plantas</string>
     <string name="type.barrier.guard_rail">Guardarraíl</string>
     <string name="type.sport.diving">Salto de trampolín</string>

@@ -680,7 +680,7 @@
 "editor_edits_sent_message" = "Jūsų pastaba bus nusiųsta į „OpenStreetMap“";
 "editor_comment_hint" = "Komentaras…";
 "editor_reset_edits_message" = "Anuliuoti visus vietinius pakeitimus?";
-"editor_reset_edits_button" = "Anuliuoti";
+"editor_reset_edits_button" = "Atsisakyti pakeitimų";
 "editor_remove_place_message" = "Šalinti pridėtą vietą?";
 "editor_remove_place_button" = "Šalinti";
 "editor_place_doesnt_exist" = "Ši vieta neegzistuoja";
@@ -753,7 +753,7 @@
 "start_from_my_position" = "Pradėti iš";
 
 /* Title for button when a route was saved. */
-"saved" = "Išsaugota";
+"saved" = "Įrašyta";
 "core_entrance" = "Įėjimas";
 "error_enter_correct_name" = "Įveskite teisingą pavadinimą";
 "bookmark_lists" = "Sąrašai";

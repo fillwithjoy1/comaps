@@ -902,4 +902,9 @@
     <string name="place_page_update_too_old_map">Opdater kortregion</string>
     <string name="place_page_too_old_to_edit">Redigering af OpenStreetMap er deaktiveret, fordi kortdataene er for gamle.</string>
     <string name="navigation_start_tts_disabled_message">Stemmeinstruktioner deaktiveret: TTS-motor ikke tilgængelig</string>
+    <string name="advanced">Avanceret</string>
+    <string name="download_resources_custom_url_title">Brugerdefineret kortserver</string>
+    <string name="download_resources_custom_url_message">Tilsidesæt den som standard anvendte server til download af kort. Lad feltet være tomt for at bruge CoMaps\' standardserver.</string>
+    <string name="download_resources_custom_url_summary_none">Ikke indstillet</string>
+    <string name="download_resources_custom_url_error_scheme">Indtast en fuld URL, der starter med https:// og ender med /</string>
 </resources>

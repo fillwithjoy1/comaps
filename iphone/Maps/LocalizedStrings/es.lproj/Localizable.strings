@@ -509,7 +509,7 @@
 
 /* Text for allday switch. */
 "editor_time_allday" = "Todo el día (24 horas)";
-"editor_time_open" = "Abierto";
+"editor_time_open" = "Apertura";
 "editor_time_close" = "Cierre";
 "editor_time_add_closed" = "Añadir horas de pausa";
 "editor_time_title" = "Horario de apertura";
@@ -683,7 +683,7 @@
 "editor_edits_sent_message" = "Su nota se enviará a OpenStreetMap";
 "editor_comment_hint" = "Comentario…";
 "editor_reset_edits_message" = "¿Restablecer todos los cambios locales?";
-"editor_reset_edits_button" = "Restablecer";
+"editor_reset_edits_button" = "Descartar cambios";
 "editor_remove_place_message" = "¿Eliminar el lugar añadido?";
 "editor_remove_place_button" = "Eliminar";
 "editor_place_doesnt_exist" = "El lugar no existe";

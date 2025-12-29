@@ -501,7 +501,7 @@
     <string name="placepage_edit_bookmark_button">Bladwijzer bewerken</string>
     <string name="placepage_personal_notes_hint">Persoonlijke aantekeningen (tekst of html)</string>
     <string name="editor_reset_edits_message">Alle lokale wijzigingen weggooien?</string>
-    <string name="editor_reset_edits_button">Gooi weg</string>
+    <string name="editor_reset_edits_button">Wijzigingen weggooien</string>
     <string name="editor_remove_place_message">Toegevoegde locatie verwijderen?</string>
     <string name="editor_remove_place_button">Verwijder</string>
     <string name="editor_place_doesnt_exist">Locatie bestaat niet</string>
@@ -915,4 +915,10 @@
     <string name="place_page_app_too_old_description">Uw huidige kaartgegevens zijn erg oud. Update de CoMaps-app.</string>
     <string name="place_page_update_too_old_map">Kaart regio bijwerken</string>
     <string name="place_page_too_old_to_edit">Het bewerken van OpenStreetMap is uitgeschakeld omdat de kaartgegevens te oud zijn.</string>
+    <string name="advanced">Geavanceerd</string>
+    <string name="download_resources_custom_url_title">Aangepaste server voor kaarten</string>
+    <string name="download_resources_custom_url_message">Overschrijf de standaard kaartdownloadserver die wordt gebruikt voor kaartdownloads. Laat leeg om de standaardserver van CoMaps te gebruiken.</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_summary_none">Niet ingesteld</string>
+    <string name="download_resources_custom_url_error_scheme">Voer een volledige URL in, beginnend met https:// en eindigend met /</string>
 </resources>

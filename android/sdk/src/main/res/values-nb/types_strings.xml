@@ -134,7 +134,7 @@
     <!-- Weather shelter (including sun shelters and natural rock shelters). -->
     <string name="type.amenity.shelter">Ly</string>
     <!-- A weather shelter by the public transport stop. -->
-    <string name="type.amenity.shelter.public_transport">Ly</string>
+    <string name="type.amenity.shelter.public_transport">Leskur</string>
     <!-- Compared to wilderness_hut its smaller and simpler, without a fireplace. -->
     <string name="type.amenity.shelter.basic_hut">Bivuakkhytte</string>
     <string name="type.amenity.public_bath">Offentlig bad</string>
@@ -150,7 +150,7 @@
     <string name="type.amenity.vending_machine.cigarettes">Sigarettautomat</string>
     <string name="type.amenity.vending_machine.drinks">Drikkeautomat</string>
     <string name="type.amenity.vending_machine.parking_tickets">Parkeringsautomat</string>
-    <string name="type.amenity.vending_machine.public_transport_tickets">Billettmaskin for offentlig transport</string>
+    <string name="type.amenity.vending_machine.public_transport_tickets">Billettautomat for offentlig transport</string>
     <string name="type.amenity.vehicle_inspection">Inspeksjon av kjøretøy</string>
     <string name="type.amenity.veterinary">Veterinær</string>
     <string name="type.amenity.waste_basket">Søppelbøtte</string>
@@ -1144,7 +1144,7 @@
     <string name="type.tourism.hotel">Hotell</string>
     <string name="type.tourism.information">Turistinformasjon</string>
     <string name="type.tourism.information.board">Informasjonstavle</string>
-    <string name="type.tourism.information.guidepost">Guidepost</string>
+    <string name="type.tourism.information.guidepost">Turskilt</string>
     <string name="type.tourism.information.map">Turistkart</string>
     <string name="type.tourism.information.office">Turistkontor</string>
     <string name="type.tourism.information.visitor_centre">Besøkssenter</string>

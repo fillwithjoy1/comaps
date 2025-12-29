@@ -1437,4 +1437,5 @@
     <string name="type.leisure.sports_centre.sport.tennis">Centro sportivo</string>
     <string name="type.leisure.sports_centre.sport.volleyball">Centro sportivo</string>
     <string name="type.leisure.sports_centre.sport.yoga">Centro sportivo</string>
+    <string name="type.amenity.hydrant">Idrante per irrigazione</string>
 </resources>

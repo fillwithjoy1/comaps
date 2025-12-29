@@ -392,7 +392,7 @@
     <string name="editor_time_delete">Eliminar horario</string>
     <!-- Text for allday switch. -->
     <string name="editor_time_allday">Todo el día (24 horas)</string>
-    <string name="editor_time_open">Abierto</string>
+    <string name="editor_time_open">Apertura</string>
     <string name="editor_time_close">Cierre</string>
     <string name="editor_time_add_closed">Añadir horas de pausa</string>
     <string name="editor_time_title">Horario de apertura</string>
@@ -505,7 +505,7 @@
     <string name="placepage_edit_bookmark_button">Editar marcador</string>
     <string name="placepage_personal_notes_hint">Notas personales (texto o html)</string>
     <string name="editor_reset_edits_message">¿Restablecer todos los cambios locales?</string>
-    <string name="editor_reset_edits_button">Restablecer</string>
+    <string name="editor_reset_edits_button">Descartar cambios</string>
     <string name="editor_remove_place_message">¿Eliminar el lugar añadido?</string>
     <string name="editor_remove_place_button">Eliminar</string>
     <string name="editor_place_doesnt_exist">El lugar no existe</string>
@@ -922,4 +922,10 @@
     <string name="prefs_speed_cameras_information">Las advertencias de radares de velocidad están deshabilitadas en países donde las alertas están prohibidas por ley.</string>
     <string name="navigation_start_tts_message">"Iniciando Navegación, idioma de las instrucciones por voz: "</string>
     <string name="navigation_start_tts_disabled_message">Instrucciones por voz deshabilitadas: Motor de TTS no disponible</string>
+    <string name="advanced">Avanzado</string>
+    <string name="download_resources_custom_url_title">Servidor de mapas personalizado</string>
+    <string name="download_resources_custom_url_message">Sobreescribe el servidor de mapas por defecto. Deja en blanco para usar el servidor de CoMaps por defecto.</string>
+    <string name="download_resources_custom_url_summary_none">No establecido</string>
+    <string name="download_resources_custom_url_error_scheme">Por favor introduce un URL completo empezando con https:// y terminando con /</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
 </resources>

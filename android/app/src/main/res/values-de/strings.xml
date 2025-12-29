@@ -915,4 +915,10 @@
     <string name="prefs_speed_cameras_information">Blitzerwarnungen sind in Ländern deaktiviert, in denen Warnungen durch lokale Gesetze verboten sind.</string>
     <string name="navigation_start_tts_message">"Navigation wird gestartet, Sprache der Sprachansagen: "</string>
     <string name="navigation_start_tts_disabled_message">Sprachansagen deaktiviert: TTS-Engine nicht verfügbar</string>
+    <string name="download_resources_custom_url_title">Benutzerdefinierter Kartenserver</string>
+    <string name="advanced">Fortgeschritten</string>
+    <string name="download_resources_custom_url_summary_none">Nicht konfiguriert</string>
+    <string name="download_resources_custom_url_message">Standardserver für Kartendownloads überschreiben. Leer lassen, um den CoMaps-Standardserver zu nutzen.</string>
+    <string name="download_resources_custom_url_error_scheme">Bitte eine vollständige URL eingeben, die mit https:// beginnt und mit / endet</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
 </resources>

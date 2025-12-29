@@ -337,7 +337,7 @@
     <string name="type.emergency.assembly_point">Point de rassemblement d’urgence</string>
     <string name="type.emergency.defibrillator">Défibrillateur</string>
     <string name="type.emergency.fire_hydrant">Point d’eau incendie</string>
-    <string name="type.amenity.hydrant">Borne d’puisage</string>
+    <string name="type.amenity.hydrant">Borne de puisage</string>
     <string name="type.emergency.phone">Téléphone d’urgence</string>
     <!-- A place where a lifeguard is on duty. -->
     <string name="type.emergency.lifeguard">Sauveteur</string>
@@ -1326,7 +1326,7 @@
     <string name="type.railway.narrow_gauge.bridge">Pont ferroviaire à voie étroite</string>
     <string name="type.leisure.recreation_ground">Aire de jeux</string>
     <string name="type.amenity.place_of_worship.hindu">Temple hindou</string>
-    <string name="type.amenity.shelter.lean_to">Abri en appentis</string>
+    <string name="type.amenity.shelter.lean_to">Abri-lit en appentis</string>
     <string name="type.tourism.attraction.specified">Attraction</string>
     <string name="type.traffic_calming">Ralentisseur de vitesse</string>
     <string name="type.amenity.place_of_worship.buddhist">Temple bouddhiste</string>

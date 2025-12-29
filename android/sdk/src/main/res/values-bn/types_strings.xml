@@ -34,4 +34,20 @@
     <string name="type.amenity.parking.street_side.private">ব্যক্তিগত সড়ক-পার্শ্ববর্তী পার্কিং</string>
     <string name="type.amenity.parking.lane">লেন পার্কিং</string>
     <string name="type.amenity.parking.underground.private">ব্যক্তিগত আন্ডারগ্রাউন্ড পার্কিং</string>
+    <string name="type.aeroway.aerodrome">বিমানবন্দর</string>
+    <string name="type.aeroway.aerodrome.international">আন্তর্জাতিক বিমানবন্দর</string>
+    <string name="type.amenity.drinking_water">পানীয় জল</string>
+    <string name="type.office.diplomatic">দূতাবাস</string>
+    <string name="type.natural.water.river">নদী</string>
+    <string name="type.natural.tree">গাছ</string>
+    <string name="type.natural.water.pond">পুকুর</string>
+    <string name="type.natural.volcano">আগ্নেয়গিরি</string>
+    <string name="type.natural.desert">মরুভূমি</string>
+    <string name="type.natural.coastline">উপকূলরেখা</string>
+    <string name="type.amenity.college">কলেজ</string>
+    <string name="type.amenity.music_school">গানের স্কুল</string>
+    <string name="type.amenity.place_of_worship.muslim">মসজিদ</string>
+    <string name="type.amenity.place_of_worship.hindu">হিন্দু মন্দির</string>
+    <string name="type.amenity.prison">কারাগার</string>
+    <string name="type.barrier.fence">বেড়া</string>
 </resources>

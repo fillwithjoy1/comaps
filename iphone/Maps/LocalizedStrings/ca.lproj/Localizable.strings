@@ -677,7 +677,7 @@
 "editor_edits_sent_message" = "La vostra nota s'enviarà a OpenStreetMap";
 "editor_comment_hint" = "Comentari…";
 "editor_reset_edits_message" = "Voleu descartar tots els canvis locals?";
-"editor_reset_edits_button" = "Descarta";
+"editor_reset_edits_button" = "Descartar canvis";
 "editor_remove_place_message" = "Voleu suprimir el lloc afegit?";
 "editor_remove_place_button" = "Suprimeix";
 "editor_place_doesnt_exist" = "El lloc no existeix";

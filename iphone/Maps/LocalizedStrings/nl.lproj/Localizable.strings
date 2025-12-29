@@ -683,7 +683,7 @@
 "editor_edits_sent_message" = "Je opmerking wordt verzonden naar OpenStreetMap";
 "editor_comment_hint" = "Reactie…";
 "editor_reset_edits_message" = "Alle lokale wijzigingen weggooien?";
-"editor_reset_edits_button" = "Gooi weg";
+"editor_reset_edits_button" = "Wijzigingen weggooien";
 "editor_remove_place_message" = "Toegevoegde locatie verwijderen?";
 "editor_remove_place_button" = "Verwijder";
 "editor_place_doesnt_exist" = "Locatie bestaat niet";

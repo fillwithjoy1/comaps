@@ -502,7 +502,7 @@
     <string name="placepage_edit_bookmark_button">Edita el marcador</string>
     <string name="placepage_personal_notes_hint">Notes personals (text o html)</string>
     <string name="editor_reset_edits_message">Voleu descartar tots els canvis locals?</string>
-    <string name="editor_reset_edits_button">Descarta</string>
+    <string name="editor_reset_edits_button">Descartar canvis</string>
     <string name="editor_remove_place_message">Voleu suprimir el lloc afegit?</string>
     <string name="editor_remove_place_button">Suprimeix</string>
     <string name="editor_place_doesnt_exist">El lloc no existeix</string>
@@ -920,4 +920,10 @@
     <string name="prefs_speed_cameras_information">Les advertències de càmeres radar estan deshabilitades als països on estan prohibides per llei.</string>
     <string name="navigation_start_tts_message">"Iniciant Navegació, idioma d\'instruccions de veu: "</string>
     <string name="navigation_start_tts_disabled_message">Instruccions de veu desactivades: motor TTS no disponible</string>
+    <string name="advanced">Avançat</string>
+    <string name="download_resources_custom_url_title">Servidor de Mapes Personalitzat</string>
+    <string name="download_resources_custom_url_message">Sobreescriu el servidor de descàrrega de mapes per defecte. Deixa en blanc per a emprar el servidor per defecte de CoMaps.</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_summary_none">No establert</string>
+    <string name="download_resources_custom_url_error_scheme">Per favor introdueix una URL completa que comence amb https:// i acabe amb /</string>
 </resources>

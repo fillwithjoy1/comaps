@@ -680,7 +680,7 @@
 "editor_edits_sent_message" = "A sua nota será enviada ao OpenStreetMap";
 "editor_comment_hint" = "Comentário…";
 "editor_reset_edits_message" = "Eliminar todas as alterações locais?";
-"editor_reset_edits_button" = "Eliminar";
+"editor_reset_edits_button" = "Descartar alterações";
 "editor_remove_place_message" = "Eliminar o local adicionado?";
 "editor_remove_place_button" = "Eliminar";
 "editor_place_doesnt_exist" = "O local não existe";

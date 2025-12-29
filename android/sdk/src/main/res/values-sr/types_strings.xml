@@ -155,7 +155,7 @@
     <!-- Compared to wilderness_hut its smaller and simpler, without a fireplace. -->
     <string name="type.amenity.shelter.basic_hut">Колиба за ноћење</string>
     <!-- A traditional 3-walled shelter (one side open), suitable for overnight camping. -->
-    <string name="type.amenity.shelter.lean_to">Склониште типа шупе</string>
+    <string name="type.amenity.shelter.lean_to">Отворена шупа</string>
     <string name="type.amenity.public_bath">Јавно купатило</string>
     <string name="type.amenity.shower">Туш</string>
     <string name="type.amenity.stripclub">Стриптиз клуб</string>
@@ -1500,4 +1500,5 @@
     <string name="type.xmas.tree">Божићна јелка</string>
     <string name="type.shop.beauty.nails">Салон за нокте</string>
     <string name="type.man_made.mast.communication">Антенски стуб</string>
+    <string name="type.amenity.hydrant">Хидрант за наводњавање</string>
 </resources>

@@ -493,7 +493,7 @@
     <string name="placepage_edit_bookmark_button">Upravit záložku</string>
     <string name="placepage_personal_notes_hint">Vlastní poznámka (text nebo HTML)</string>
     <string name="editor_reset_edits_message">Vymazat všechny místní změny?</string>
-    <string name="editor_reset_edits_button">Zahodit</string>
+    <string name="editor_reset_edits_button">Zahodit změny</string>
     <string name="editor_remove_place_message">Odstranit přidané místo?</string>
     <string name="editor_remove_place_button">Odstranit</string>
     <string name="editor_place_doesnt_exist">Místo neexistuje</string>
@@ -913,4 +913,10 @@
     <string name="place_page_update_too_old_map">Aktualizovat oblast mapy</string>
     <string name="place_page_too_old_to_edit">Úprava OpenStreetMap je zakázaná, protože mapová data jsou příliš stará.</string>
     <string name="navigation_start_tts_disabled_message">Hlasové pokyny vypnuty: služba TTS není dostupná</string>
+    <string name="download_resources_custom_url_title">Vlastní mapový server</string>
+    <string name="download_resources_custom_url_message">Přepsat výchozí server používaný ke stahování map. Nechte pole prázdné, pokud chcete použít výchozí server CoMaps.</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_error_scheme">Zadejte prosím celou adresu URL začínající na https:// a končící s /</string>
+    <string name="advanced">Pokročilé</string>
+    <string name="download_resources_custom_url_summary_none">Není nastaveno</string>
 </resources>

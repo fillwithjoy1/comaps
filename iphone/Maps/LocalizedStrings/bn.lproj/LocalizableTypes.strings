@@ -19,10 +19,10 @@
 "type.amenity.charging_station.bicycle" = "Bicycle Charging Station";
 "type.amenity.courthouse" = "Courthouse";
 "type.amenity.language_school" = "Language School";
-"type.office.diplomatic" = "Embassy";
+"type.office.diplomatic" = "দূতাবাস";
 "type.amenity.money_transfer" = "Money Transfer";
 "type.drinking_water.yes" = "Drinking Water";
-"type.amenity.music_school" = "Music School";
+"type.amenity.music_school" = "গানের স্কুল";
 "type.amenity.exhibition_centre" = "Exhibition Center";
 "type.amenity.doctors" = "Doctor";
 "type.amenity.grave_yard.christian" = "খ্রিস্টান কবরস্থান";
@@ -39,9 +39,9 @@
 "type.amenity.place_of_worship.taoist" = "Taoist Temple";
 "type.amenity.police" = "Police";
 "type.amenity.post_box" = "Mailbox";
-"type.amenity.place_of_worship.hindu" = "Hindu Temple";
+"type.amenity.place_of_worship.hindu" = "হিন্দু মন্দির";
 "type.amenity.place_of_worship.shinto" = "Shinto Shrine";
-"type.amenity.place_of_worship.muslim" = "Mosque";
+"type.amenity.place_of_worship.muslim" = "মসজিদ";
 "type.amenity.place_of_worship.jewish" = "Synagogue";
 "type.amenity.recycling.centre" = "Recycling Center";
 "type.amenity.recycling" = "Recycling Container";
@@ -96,7 +96,7 @@
 "type.man_made.silo" = "Silo";
 "type.natural.strait" = "Strait";
 "type.natural.spring.drinking_water_no" = "Natural Spring";
-"type.natural.volcano" = "Volcano";
+"type.natural.volcano" = "আগ্নেয়গিরি";
 "type.natural.wetland" = "Wetland";
 "type.natural.wetland.bog" = "Bog";
 "type.organic.only" = "Organic";
@@ -266,7 +266,7 @@
 "type.highway.residential.area" = "Residential Street";
 "type.wheelchair.yes" = "Full Wheelchair Access";
 "type.boundary.protected_area.2" = "Protected Area";
-"type.amenity.drinking_water" = "Drinking Water";
+"type.amenity.drinking_water" = "পানীয় জল";
 "type.healthcare.podiatrist" = "Podiatrist";
 "type.railway.station.subway.yokohama" = "Subway Station";
 "type.area_highway.primary" = "Primary Road";
@@ -301,7 +301,7 @@
 "type.railway.station.subway.kyoto" = "Subway Station";
 "type.craft.tailor" = "Tailor";
 "type.amenity.place_of_worship" = "Place of Worship";
-"type.amenity.prison" = "Prison";
+"type.amenity.prison" = "কারাগার";
 "type.historic.city_gate" = "City Gate";
 "type.wheelchair.no" = "No Wheelchair Access";
 "type.shop.grocery" = "Grocery Store";
@@ -334,7 +334,7 @@
 "type.landuse.reservoir" = "Reservoir";
 "type.sport.soccer" = "Soccer";
 "type.amenity.shelter.basic_hut" = "Bivouac Hut";
-"type.natural.desert" = "Desert";
+"type.natural.desert" = "মরুভূমি";
 "type.natural.wetland.mangrove" = "Mangrove";
 "type.man_made.water_tap.drinking_water_no" = "Water Tap";
 "type.railway.subway_entrance.wuhan" = "Subway Entrance";
@@ -398,7 +398,7 @@
 "type.tourism.artwork.painting" = "Painting";
 "type.amenity.pharmacy" = "Pharmacy";
 "type.landuse.military" = "Military Area";
-"type.amenity.college" = "College";
+"type.amenity.college" = "কলেজ";
 "type.railway.station.light_rail" = "Light Rail Station";
 "type.railway.subway_entrance.bucharest" = "Subway Entrance";
 "type.cuisine.ethiopian" = "Ethiopian";
@@ -445,7 +445,7 @@
 "type.natural.earth_bank" = "Earth Bank";
 "type.railway.subway_entrance.manila" = "Subway Entrance";
 "type.railway.monorail.tunnel" = "Monorail Tunnel";
-"type.barrier.fence" = "Fence";
+"type.barrier.fence" = "বেড়া";
 "type.natural.cliff" = "Cliff";
 "type.tourism.zoo" = "Zoo";
 "type.shop.paint" = "Paint Shop";
@@ -620,7 +620,7 @@
 "type.historic.battlefield" = "Historic Battlefield";
 "type.amenity.public_bookcase" = "Book Exchange";
 "type.railway.subway_entrance.kobe" = "Subway Entrance";
-"type.aeroway.aerodrome.international" = "International Airport";
+"type.aeroway.aerodrome.international" = "আন্তর্জাতিক বিমানবন্দর";
 "type.highway.road" = "Road";
 "type.natural" = "Nature";
 "type.natural.saddle" = "Mountain Saddle";
@@ -670,7 +670,7 @@
 "type.healthcare.optometrist" = "Optometrist";
 "type.cuisine.oriental" = "East Asian";
 "type.railway.station.subway.santo_domingo" = "Subway Station";
-"type.aeroway.aerodrome" = "Airport";
+"type.aeroway.aerodrome" = "বিমানবন্দর";
 "type.natural.orchard" = "Orchard";
 "type.man_made.embankment" = "Embankment";
 "type.highway.steps.bridge" = "Bridge";
@@ -941,7 +941,7 @@
 "type.railway.subway_entrance.glasgow" = "Subway Entrance";
 "type.shop.clothes" = "Clothes Shop";
 "type.railway.station.subway.chengdu" = "Subway Station";
-"type.natural.water.river" = "River";
+"type.natural.water.river" = "নদী";
 "type.organic.yes" = "Organic";
 "type.cuisine.seafood" = "Seafood";
 "type.area_highway.trunk" = "Trunk Road";
@@ -1164,7 +1164,7 @@
 "type.craft.winery" = "Winery";
 "type.man_made.flare" = "Gas Flare";
 "type.cuisine.peruvian" = "Peruvian";
-"type.natural.water.pond" = "Pond";
+"type.natural.water.pond" = "পুকুর";
 "type.waterway.dam" = "Dam";
 "type.amenity.parking.park_and_ride" = "Park And Ride Parking";
 "type.amenity.fountain" = "ফাউন্টেন";
@@ -1188,7 +1188,7 @@
 "type.natural.cave_entrance" = "Cave Entrance";
 "type.amenity.parking" = "পার্কিং";
 "type.railway.subway_entrance.chongqing" = "Subway Entrance";
-"type.natural.coastline" = "Coastline";
+"type.natural.coastline" = "উপকূলরেখা";
 "type.highway.road.bridge" = "Bridge";
 "type.recycling.green_waste" = "Green/Organic Waste";
 "type.railway.station.subway.valencia" = "Subway Station";
@@ -1302,3 +1302,4 @@
 "type.office.security" = "সিকিউরিটি গার্ড অফিস";
 "type.power.portal" = "পাওয়ার পোর্টাল";
 "type.building.guardhouse" = "সিকিউরিটি বুথ";
+"type.natural.tree" = "গাছ";

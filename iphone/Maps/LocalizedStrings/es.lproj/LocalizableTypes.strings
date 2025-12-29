@@ -47,7 +47,7 @@
 "type.amenity.cinema" = "Cine";
 "type.leisure.bowling_alley" = "Bolera";
 "type.amenity.clinic" = "Clínica";
-"type.amenity.college" = "Facultad";
+"type.amenity.college" = "Colegio universitario";
 "type.amenity.community_centre" = "Centro comunitario";
 "type.amenity.compressed_air" = "Aire comprimido";
 "type.amenity.conference_centre" = "Centro de conferencias";
@@ -216,13 +216,13 @@
 "type.boundary.administrative" = "Frontera administrativa";
 
 /* Borders between countries. */
-"type.boundary.administrative.2" = "Frontera de país";
+"type.boundary.administrative.2" = "Frontera nacional";
 
 /* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
-"type.boundary.administrative.3" = "Frontera de región";
+"type.boundary.administrative.3" = "Frontera regional";
 
 /* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
-"type.boundary.administrative.4" = "Frontera de región";
+"type.boundary.administrative.4" = "Frontera regional";
 "type.boundary.national_park" = "Parque nacional";
 "type.boundary.aboriginal_lands" = "Tierras indígenas";
 "type.boundary.protected_area" = "Área protegida";
@@ -306,7 +306,7 @@
 "type.cuisine.german" = "Alemana";
 "type.cuisine.greek" = "Griega";
 "type.cuisine.grill" = "Parrilla";
-"type.cuisine.heuriger" = "Heuriger (especialidad austríaca)";
+"type.cuisine.heuriger" = "Heuriger";
 "type.cuisine.hotdog" = "Perritos calientes";
 "type.cuisine.hungarian" = "Húngara";
 "type.cuisine.ice_cream" = "Helados";
@@ -627,7 +627,7 @@
 "type.historic.memorial.plaque" = "Placa conmemorativa";
 "type.historic.memorial.sculpture" = "Escultura";
 "type.historic.memorial.statue" = "Estatua";
-"type.historic.memorial.stolperstein" = "Stolperstein (memoriales de las víctimas del nazismo)";
+"type.historic.memorial.stolperstein" = "Stolperstein (memorial de las víctimas del nazismo)";
 "type.historic.stone" = "Piedra histórica";
 "type.historic.memorial.war_memorial" = "Memorial de guerra";
 "type.historic.mine" = "Mina histórica";
@@ -728,7 +728,7 @@
 "type.man_made" = "Artificial";
 "type.man_made.breakwater" = "Rompeolas";
 "type.man_made.cairn" = "Mojón";
-"type.man_made.chimney" = "Chimenea de fábrica";
+"type.man_made.chimney" = "Chimenea";
 "type.man_made.cutline" = "Línea de corte forestal";
 "type.man_made.survey_point" = "Punto geodésico";
 "type.man_made.flagpole" = "Asta de bandera";
@@ -949,7 +949,7 @@
 "type.railway.station.light_rail" = "Estación de tren";
 "type.railway.station.light_rail.berlin" = "Estación de tren (S-Bahn)";
 "type.railway.station.light_rail.london" = "Estación de tren";
-"type.railway.station.light_rail.porto" = "Estación de metro";
+"type.railway.station.light_rail.porto" = "Metro de Porto";
 "type.railway.station.monorail" = "Estación de monoriel";
 "type.railway.station.subway" = "Estación de metro";
 "type.railway.station.subway.adana" = "Estación de metro";
@@ -1199,27 +1199,27 @@
 "type.shop.books" = "Librería";
 "type.shop.butcher" = "Carnicería";
 "type.shop.cannabis" = "Tienda de cánnabis";
-"type.shop.car" = "Concesionario de coches";
+"type.shop.car" = "Concesionario de automóviles";
 "type.shop.car_parts" = "Piezas de automóvil";
-"type.shop.car_repair" = "Taller";
+"type.shop.car_repair" = "Taller de automóviles";
 "type.shop.car_repair.tyres" = "Reparación de neumáticos";
 "type.shop.caravan" = "Concesionario de caravanas";
-"type.shop.carpet" = "Alfombras";
+"type.shop.carpet" = "Tienda de alfombras";
 "type.shop.chemist" = "Droguería";
 "type.shop.chocolate" = "Chocolatería";
 "type.shop.clothes" = "Tienda de ropa";
 "type.shop.coffee" = "Tienda de café";
 "type.shop.computer" = "Tienda de informática";
-"type.shop.confectionery" = "Confitería";
+"type.shop.confectionery" = "Tienda de dulces";
 "type.shop.convenience" = "Tienda de barrio";
-"type.shop.copyshop" = "Centro de copiado";
+"type.shop.copyshop" = "Copistería";
 "type.shop.cosmetics" = "Tienda de cosméticos";
-"type.shop.curtain" = "Cortinas";
+"type.shop.curtain" = "Tienda de cortinas";
 "type.shop.deli" = "Tienda de delicatessen";
 "type.shop.department_store" = "Grandes almacenes";
 "type.shop.doityourself" = "Tienda de bricolaje";
 "type.shop.dry_cleaning" = "Tintorería";
-"type.shop.electronics" = "Electrónica";
+"type.shop.electronics" = "Tienda de electrónica";
 "type.shop.erotic" = "Tienda erótica";
 "type.shop.fabric" = "Tienda de telas";
 "type.shop.farm" = "Tienda de alimentos de granja";
@@ -1228,7 +1228,7 @@
 "type.shop.funeral_directors" = "Funeraria";
 "type.shop.furniture" = "Tienda de muebles";
 "type.shop.garden_centre" = "Vivero";
-"type.shop.gas" = "Tienda de gasolina";
+"type.shop.gas" = "Tienda de gas";
 "type.shop.gift" = "Tienda de regalos";
 "type.shop.greengrocer" = "Frutería";
 "type.shop.grocery" = "Tienda de comestibles";
@@ -1245,12 +1245,12 @@
 "type.shop.laundry" = "Lavandería";
 "type.shop.mall" = "Centro comercial";
 "type.shop.massage" = "Salón de masajes";
-"type.shop.mobile_phone" = "Tienda de Móviles";
+"type.shop.mobile_phone" = "Tienda de móviles";
 "type.shop.money_lender" = "Prestamista";
 "type.shop.motorcycle" = "Tienda de motos";
 "type.shop.motorcycle_repair" = "Taller de motos";
 "type.shop.music" = "Tienda de discos";
-"type.shop.musical_instrument" = "Instrumentos musicales";
+"type.shop.musical_instrument" = "Tienda de instrumentos musicales";
 "type.shop.newsagent" = "Puesto de venta de periódicos";
 "type.shop.optician" = "Óptica";
 "type.shop.outdoor" = "Equipamiento de ocio al aire libre";
@@ -1303,9 +1303,9 @@
 "type.shop.perfumery" = "Perfumería";
 "type.shop.sewing" = "Materiales de costura";
 "type.shop.storage_rental" = "Alquiler de almacenamiento";
-"type.shop.tobacco" = "Tabaco";
+"type.shop.tobacco" = "Tabaquería";
 "type.shop.trade" = "Suministros comerciales";
-"type.shop.watches" = "Relojes";
+"type.shop.watches" = "Relojería";
 "type.shop.wholesale" = "Tienda al por mayor";
 "type.sport" = "Deporte";
 "type.sport.american_football" = "Fútbol americano";
@@ -1444,11 +1444,11 @@
 "type.piste_type.hike" = "Ruta de senderismo en la nieve";
 "type.piste_type.connection" = "Conexión de pistas";
 "type.piste_type.skitour" = "Sendero Skitour";
-"type.amenity.events_venue" = "Lugar para eventos";
+"type.amenity.events_venue" = "Recinto para eventos";
 "type.shop.auction" = "Subasta";
 "type.shop.collector" = "Coleccionables";
 "type.self_service.yes" = "Autoservicio disponible";
-"type.self_service.only" = "Solo autoservicio";
+"type.self_service.only" = "Sólo autoservicio";
 "type.self_service.partially" = "Autoservicio parcial";
 "type.self_service.no" = "Sin autoservicio";
 
@@ -1463,7 +1463,7 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Pabellón deportivo";
-"type.amenity.studio" = "Estudio";
+"type.amenity.studio" = "Estudio multimedia";
 "type.leisure.firepit" = "Fogón";
 "type.amenity.love_hotel" = "Hotel del amor";
 "type.barrier.guard_rail" = "Guardarraíl";

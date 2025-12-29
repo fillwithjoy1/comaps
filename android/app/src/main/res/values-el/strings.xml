@@ -450,7 +450,7 @@
     <string name="common_check_internet_connection_dialog">Βεβαιωθείτε ότι η συσκευή σας είναι συνδεδεμένη στο Internet.</string>
     <string name="downloader_no_space_title">Δεν υπάρχει αρκετός χώρος</string>
     <string name="downloader_no_space_message">Διαγράψτε μη απαραίτητα δεδομένα</string>
-    <string name="editor_login_error_dialog">Σφάλμα σύνδεσης.</string>
+    <string name="editor_login_error_dialog">Σφάλμα σύνδεσης</string>
     <string name="editor_profile_changes">Επαληθευμένες αλλαγές</string>
     <string name="editor_focus_map_on_location">Σύρετε το χάρτη για να τοποθετήσετε το σταυρό στη θέση του τόπου ή της επιχείρησης.</string>
     <string name="editor_edit_place_title">Επεξεργασία</string>
@@ -466,9 +466,9 @@
     <string name="osm_presentation">Δεδομένα OpenStreetMap που δημιουργήθηκαν από την κοινότητα στις %s. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">Το OpenStreetMap.org (OSM) είναι ένα κοινοτικό έργο για τη δημιουργία ενός ελεύθερου και ανοικτού χάρτη. Είναι η κύρια πηγή δεδομένων χάρτη στους CoMaps και λειτουργεί παρόμοια με τη Wikipedia. Μπορείτε να προσθέσετε ή να επεξεργαστείτε τοποθεσίες και αυτές γίνονται διαθέσιμες σε εκατομμύρια χρήστες σε όλο τον κόσμο. \nΕνταχθείτε στην κοινότητα και βοηθήστε να φτιάξουμε έναν καλύτερο χάρτη για όλους!</string>
-    <string name="login_to_make_edits_visible">Δημιουργήστε έναν λογαριασμό OpenStreetMap ή συνδεθείτε για να δημοσιεύσετε τις επεξεργασίες του χάρτη σας στον κόσμο.</string>
+    <string name="login_to_make_edits_visible">Δημιουργήστε έναν λογαριασμό OpenStreetMap ή συνδεθείτε για να δημοσιεύσετε τις επεξεργασίες του χάρτη σας στον κόσμο</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
-    <string name="downloader_of">%1$d/%2$d</string>
+    <string name="downloader_of">%1$d από %2$d</string>
     <string name="download_over_mobile_header">Να γίνει λήψη μέσω δικτύου κινητής τηλεφωνίας;</string>
     <string name="download_over_mobile_message">Αυτό μπορεί να είναι πολύ ακριβό για μερικά πακέτα ή στην περίπτωση roaming.</string>
     <string name="error_enter_correct_house_number">Εισαγάγετε έναν έγκυρο αριθμό κτιρίου</string>
@@ -491,7 +491,7 @@
     <string name="editor_category_unsuitable_title">Δεν μπορείτε να βρείτε την κατάλληλη κατηγορία;</string>
     <string name="editor_category_unsuitable_text">Οι CoMaps επιτρέπουν την προσθήκη απλών κατηγοριών σημείων μόνο, δηλαδή όχι πόλεων, δρόμων, λιμνών, περιγραμμάτων κτιρίων κ.λπ. Παρακαλούμε προσθέστε τέτοιες κατηγορίες απευθείας στο <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Ελέγξτε τον <a href="https://www.comaps.app/support/advanced-map-editing/">οδηγό μας</a> για λεπτομερείς οδηγίες βήμα προς βήμα.</string>
     <string name="downloader_no_downloaded_maps_title">Δεν έχετε κατεβάσει χάρτες</string>
-    <string name="downloader_no_downloaded_maps_message">Κατεβάστε χάρτες για να αναζητήσετε μια τοποθεσία και να χρησιμοποιήσετε την πλοήγησης χωρίς σύνδεση.</string>
+    <string name="downloader_no_downloaded_maps_message">Κατεβάστε χάρτες για να κάνετε αναζήτηση και να πλοηγηθείτε χωρίς σύνδεση</string>
     <string name="current_location_unknown_error_title">Η τρέχουσα τοποθεσία είναι άγνωστη.</string>
     <!-- abbreviation for kilometers per hour -->
     <string name="kilometers_per_hour">χμ/ω</string>
@@ -499,7 +499,7 @@
     <string name="placepage_edit_bookmark_button">Επεξεργασία αγαπημένου</string>
     <string name="placepage_personal_notes_hint">Προσωπικές σημειώσεις (κείμενο ή html)</string>
     <string name="editor_reset_edits_message">Απόρριψη όλων των τοπικών αλλαγών;</string>
-    <string name="editor_reset_edits_button">Απόρριψη</string>
+    <string name="editor_reset_edits_button">Απόρριψη αλλαγών</string>
     <string name="editor_remove_place_message">Διαγραφή της τοποθεσίας που προστέθηκε;</string>
     <string name="editor_remove_place_button">Διαγραφή</string>
     <string name="editor_place_doesnt_exist">Η τοποθεσία δεν υπάρχει</string>
@@ -825,4 +825,15 @@
     <string name="panoramax">εικόνα Panoramax</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="saved">Αποθηκεύτηκε</string>
+    <string name="opens_at">Ανοίγει στις %s</string>
+    <string name="closes_at">Κλείνει στις %s</string>
+    <string name="opens_day_at">Ανοίγει στις %1$s στις %2$s</string>
+    <string name="closes_day_at">Κλείνει στις %1$s στις %2$s</string>
+    <plurals name="minutes_short">
+        <item quantity="one">%d λεπ</item>
+        <item quantity="other">%d λεπ</item>
+    </plurals>
+    <string name="hours_confirmed_time_ago">Επιβεβαιώθηκε %s</string>
+    <string name="existence_confirmed_time_ago">Ύπαρξη επιβεβαιώθηκε %s</string>
+    <string name="editor_building_levels">Όροφοι (με το ισόγειο, χωρίς την ταράτσα)</string>
 </resources>

@@ -677,7 +677,7 @@
 "editor_edits_sent_message" = "Jūsu piezīmi nosūtīsim uz „OpenStreetMap“";
 "editor_comment_hint" = "Komentārs…";
 "editor_reset_edits_message" = "Vai izmest visas lokāli saglabātās izmaiņas?";
-"editor_reset_edits_button" = "Noraidīt";
+"editor_reset_edits_button" = "Atmest izmaiņas";
 "editor_remove_place_message" = "Vai dzēst pievienoto vietu?";
 "editor_remove_place_button" = "Dzēst";
 "editor_place_doesnt_exist" = "Vieta nepastāv";
@@ -1009,37 +1009,37 @@
 "bugreport_alert_message" = "Vai vēlaties izstrādātājiem nosūtīt ziņojumu par kļūdu?\nMēs paļaujamies uz šiem ziņojumiem, jo „CoMaps“ automātiski nevāc nekādus datus par kļūdām. Jau iepriekš pateicamies par „CoMaps“ atbalstīšanu!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "iCloud sinhronizēšana (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_title" = "Ieslēgta „iCloud“ sinhronizācija";
+"enable_icloud_synchronization_title" = "Iespējot iCloud sinhronizēšanu";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "„iCloud“ sinhronizācija šobrīd ir eksperimentāla iespēja, ko joprojām veidojam. Pirms tās izmantošanas izveidojiet grāmatzīmju un ceļu dublējumkopijas.";
+"enable_icloud_synchronization_message" = "iCloud sinhronizēšana šobrīd ir izstrādē esoša izmēģinājuma iespēja. Jānodrošina visu savu grāmatzīmju un ceļu rezerves kopiju izveidošana.";
 
 /* Title for the "iCloud Is Disabled" alert. */
-"icloud_disabled_title" = "„iCloud“ ir izslēgts";
+"icloud_disabled_title" = "iCloud ir atspējots";
 
 /* Message for the "iCloud is Disabled" alert. */
-"icloud_disabled_message" = "Ja vēlaties izmantot šo funkciju, ierīces iestatījumos ieslēdziet „iCloud“.";
+"icloud_disabled_message" = "Lūgums iespējot iCloud Comaps sava Apple konta iestatījumos, lai izmantotu šo iespēju.";
 
 /* Title for the "Enable iCloud Syncronization" alert's "Enable" action button. */
-"enable" = "Ieslēgt";
+"enable" = "Iespējot";
 
 /* Title for the "Enable iCloud Syncronization" alert's "Backup" action button. */
-"backup" = "Dublējumkopija";
+"backup" = "Rezerves kopija";
 
 /* Title for the "iCloud synchronization failure" alert. */
-"icloud_synchronization_error_alert_title" = "„iCloud“ sinhronizācijas kļūda";
+"icloud_synchronization_error_alert_title" = "iCloud sinhronizēšanas kļūda";
 
 /* iCloud error message: Failed to synchronize due to connection error */
-"icloud_synchronization_error_connection_error" = "Kļūda: sinhronizācija neizdevās savienojuma kļūdas dēļ";
+"icloud_synchronization_error_connection_error" = "Kļūda: sinhronizēšanas neizdevās savienojuma kļūdas dēļ";
 
 /* iCloud error message: Failed to synchronize due to iCloud quota exceeded */
-"icloud_synchronization_error_quota_exceeded" = "Kļūda: sinhronizācija neizdevās pārsniegtas „iCloud“ kvotas dēļ";
+"icloud_synchronization_error_quota_exceeded" = "Kļūda: sinhronizēšana neizdevās pārsniegta iCloud ierobežojuma dēļ";
 
 /* iCloud error message: iCloud is not available */
-"icloud_synchronization_error_cloud_is_unavailable" = "Kļūda: „iCloud“ nav pieejams";
+"icloud_synchronization_error_cloud_is_unavailable" = "Kļūda: iCloud nav pieejams";
 
 /* Title for the "Open in Another App" button on the PlacePage. */
 "open_in_app" = "Atvērt citā lietotnē";

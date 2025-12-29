@@ -494,7 +494,7 @@
     <string name="placepage_more_button">Више</string>
     <string name="placepage_edit_bookmark_button">Измени маркер</string>
     <string name="editor_reset_edits_message">Брисање свих измена које нису послате?</string>
-    <string name="editor_reset_edits_button">Обриши</string>
+    <string name="editor_reset_edits_button">Одбаци промене</string>
     <string name="editor_remove_place_message">Брисање додатог места?</string>
     <string name="editor_remove_place_button">Обриши</string>
     <string name="editor_place_doesnt_exist">Место не постоји</string>
@@ -904,4 +904,20 @@
     <string name="editor_mark_business_vacant_title">Означи пословни простор као празан</string>
     <string name="editor_mark_business_vacant_description">Користите да бисте назначили да се фирма иселила и да је пословни простор празан и спреман да прими новог закупца.</string>
     <string name="editor_submit">Пошаљи</string>
+    <string name="place_page_map_too_old_title">Мапе су застареле</string>
+    <string name="place_page_map_too_old_description">Мапе су старе, преузмите нове.</string>
+    <string name="place_page_app_too_old_description">Мапе су веома старе, преузмите нову везију CoMaps апликације.</string>
+    <string name="place_page_update_too_old_map">Ажурирање регионалних мапа</string>
+    <string name="place_page_too_old_to_edit">Уређивање OpenStreetMap-а је онемогућено јер су подаци мапе сувише стари.</string>
+    <string name="prefs_speed_cameras_information">Упозорења о прекршајним камерама за брзину су онемогућена у земљама у којима су упозорења забрањена законом.</string>
+    <string name="power_management">Управљање напајањем</string>
+    <string name="navigation_start_tts_message">"Покретање навигације, језик гласовних инструкција: "</string>
+    <string name="navigation_start_tts_disabled_message">Гласовне инструкције онемогућене: ТТС мотор није доступан</string>
+    <string name="charge_socket_schuko">Шухо</string>
+    <string name="advanced">Напредно</string>
+    <string name="download_resources_custom_url_title">Сопствени сервер мапа</string>
+    <string name="download_resources_custom_url_message">Замени подразумевани сервер за преузимање мапа који се користи за преузимања мапа. Оставите празно да бисте користили CoMaps сервер.</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_summary_none">Није постављено</string>
+    <string name="download_resources_custom_url_error_scheme">Унесите пуну УРЛ адресу која почиње са https:// и која се завршава са /</string>
 </resources>

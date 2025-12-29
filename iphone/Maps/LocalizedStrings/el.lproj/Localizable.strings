@@ -608,7 +608,7 @@
 "editor_sharing_title" = "Βελτίωσα τους χάρτες CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
-"downloader_of" = "%1$d/%2$d";
+"downloader_of" = "%1$d από %2$d";
 "download_over_mobile_header" = "Να γίνει λήψη μέσω δικτύου κινητής τηλεφωνίας;";
 "download_over_mobile_message" = "Αυτό μπορεί να είναι πολύ ακριβό για μερικά πακέτα ή στην περίπτωση roaming.";
 "error_enter_correct_house_number" = "Εισαγάγετε έναν έγκυρο αριθμό κτιρίου";
@@ -634,7 +634,7 @@
 "editor_category_unsuitable_title" = "Δεν μπορείτε να βρείτε την κατάλληλη κατηγορία;";
 "editor_category_unsuitable_text" = "Οι CoMaps επιτρέπουν την προσθήκη απλών κατηγοριών σημείων μόνο, δηλαδή όχι πόλεων, δρόμων, λιμνών, περιγραμμάτων κτιρίων κ.λπ. Παρακαλούμε προσθέστε τέτοιες κατηγορίες απευθείας στο <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Ελέγξτε τον <a href=\"https://www.comaps.app/support/advanced-map-editing/\">οδηγό μας</a> για λεπτομερείς οδηγίες βήμα προς βήμα.";
 "downloader_no_downloaded_maps_title" = "Δεν έχετε κατεβάσει χάρτες";
-"downloader_no_downloaded_maps_message" = "Κατεβάστε χάρτες για να αναζητήσετε μια τοποθεσία και να χρησιμοποιήσετε την πλοήγησης χωρίς σύνδεση.";
+"downloader_no_downloaded_maps_message" = "Κατεβάστε χάρτες για να κάνετε αναζήτηση και να πλοηγηθείτε χωρίς σύνδεση.";
 "current_location_unknown_error_title" = "Η τρέχουσα τοποθεσία είναι άγνωστη.";
 "current_location_unknown_error_message" = "Παρουσιάστηκε σφάλμα κατά την αναζήτηση της τοποθεσίας σας. Ελέγξτε αν η συσκευή σας λειτουργεί κανονικά και δοκιμάστε ξανά αργότερα.";
 "location_services_disabled_header" = "Οι υπηρεσίες εντοπισμού τοποθεσίας είναι απενεργοποιημένες";
@@ -677,7 +677,7 @@
 "editor_edits_sent_message" = "Η σημείωσή σας θα σταλεί στο OpenStreetMap";
 "editor_comment_hint" = "Σχόλιο…";
 "editor_reset_edits_message" = "Απόρριψη όλων των τοπικών αλλαγών;";
-"editor_reset_edits_button" = "Απόρριψη";
+"editor_reset_edits_button" = "Απόρριψη αλλαγών";
 "editor_remove_place_message" = "Διαγραφή της τοποθεσίας που προστέθηκε;";
 "editor_remove_place_button" = "Διαγραφή";
 "editor_place_doesnt_exist" = "Η τοποθεσία δεν υπάρχει";

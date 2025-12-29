@@ -676,7 +676,7 @@
 "editor_edits_sent_message" = "La tua nota sarà inviata a OpenStreetMap";
 "editor_comment_hint" = "Commenta…";
 "editor_reset_edits_message" = "Cancellare tutte le modifiche locali?";
-"editor_reset_edits_button" = "Cancella";
+"editor_reset_edits_button" = "Scarta modifiche";
 "editor_remove_place_message" = "Eliminare il luogo aggiunto?";
 "editor_remove_place_button" = "Elimina";
 "editor_place_doesnt_exist" = "Il luogo non esiste";

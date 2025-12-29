@@ -1542,3 +1542,12 @@
 "type.natural.tree" = "Puu";
 "type.shop.beauty.nails" = "Kynsistudio";
 "type.xmas.tree" = "Joulukuusi";
+"type.social_facility.food_bank" = "Ruokapankki";
+"type.social_facility.soup_kitchen" = "Keittokeittiö";
+"type.disusedbusiness" = "Tyhjä liiketila";
+"type.shop.lighting" = "Valaistusliike";
+"type.shop.telecommunication" = "Puhelinliike";
+"type.shop.beauty.day_spa" = "Kylpylä";
+"type.man_made.mast.communication" = "Tietoliikennemasto";
+"type.leisure.bandstand" = "Esiintymislava";
+"type.leisure.indoor_play" = "Sisäleikkipuisto";

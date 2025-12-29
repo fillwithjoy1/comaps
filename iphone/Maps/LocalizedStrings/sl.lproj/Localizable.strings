@@ -199,7 +199,7 @@
 "editor_category_unsuitable_text" = "CoMaps dovoljuje dodajanje preprostih točkovnih kategorij, ne pa mest, cest, jezer, obrisov stavb itd. Tovrstne kategorije dodajte neposredno na <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Natančna navodila si preberite v <a href=\"https://www.comaps.app/support/advanced-map-editing/\">vodiču</a>.";
 "routing_add_start_point" = "Uporabite iskanje ali pritisnite točko na zemljevidu, da dodate izhodišče relacije";
 "export_file" = "Izvozi KMZ";
-"editor_reset_edits_button" = "Zavrzi";
+"editor_reset_edits_button" = "Zavrzi spremembe";
 "power_managment_setting_never" = "Nikoli";
 "pref_tts_speedcams_always" = "Vedno opozori";
 "placepage_personal_notes_hint" = "Osebne opombe (golo besedilo ali HTML)";

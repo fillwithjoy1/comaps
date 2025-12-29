@@ -858,7 +858,7 @@
     <string name="ruler">Cetvel</string>
     <string name="bookmark_color">Yer imi rengi</string>
     <string name="open_now">Şu an açık</string>
-    <string name="closed_now">Şimdi kapandı</string>
+    <string name="closed_now">Şu anda kapalı</string>
     <string name="at">%s\'da</string>
     <string name="pref_backup_title">Yer imleri ve izlerin yedeği</string>
     <string name="dialog_report_error_with_logs">Lütfen bize hata raporu yollayın:\n - Ayarlardan \"Günlüğe kaydetmeyi etkinleştir\" \n - hatayı tekrarlayın\n - \"Hakkında ve Yardım\" ekranında \"Hata Bildir\" düğmesine basın ve e-posta veya sohbet yoluyla gönderin\n - günlüğe kaydetmeyi devre dışı bırak</string>

@@ -491,7 +491,7 @@
     <string name="placepage_edit_bookmark_button">Taisyti žymę</string>
     <string name="placepage_personal_notes_hint">Asmeninės pastabos (tekstas arba HTML)</string>
     <string name="editor_reset_edits_message">Anuliuoti visus vietinius pakeitimus?</string>
-    <string name="editor_reset_edits_button">Anuliuoti</string>
+    <string name="editor_reset_edits_button">Atsisakyti pakeitimų</string>
     <string name="editor_remove_place_message">Šalinti pridėtą vietą?</string>
     <string name="editor_remove_place_button">Šalinti</string>
     <string name="editor_place_doesnt_exist">Ši vieta neegzistuoja</string>
@@ -804,7 +804,7 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Panoramax vaizdas</string>
-    <string name="saved">Išsaugota</string>
+    <string name="saved">Įrašyta</string>
     <string name="ruler">Liniuotė</string>
     <string name="pref_left_button_title">Kairiojo mygtuko funkcija</string>
     <string name="pref_backup_now_summary_empty_lists">Neturite jokių žymių ar trasų atsarginei kopijai sudaryti</string>
@@ -818,7 +818,7 @@
     <string name="error_enter_correct_level">Įveskite leistiną aukšto numerį</string>
     <string name="error_enter_correct_bluesky_page">Įveskite galiojantį „Bluesky“ paskyros vardą ar tinklalapio adresą</string>
     <string name="error_enter_correct_fediverse_page">Įveskite galiojantį „Mastodon“ paskyros vardą ar tinklalapio adresą</string>
-    <string name="pref_left_button_disable">Mygtukas nerodomas</string>
+    <string name="pref_left_button_disable">Mygtuko nerodyti</string>
     <string name="pref_backup_summary">Automatinis atsarginių kopijų rašymas į pasirinktą aplanką</string>
     <string name="pref_backup_now_title">Įrašyti dabar</string>
     <string name="pref_backup_now_summary_progress">Atsarginė kopija įrašoma…</string>
@@ -888,4 +888,18 @@
     <string name="power_management">Energijos naudojimas</string>
     <string name="charge_socket_schuko">Buitinis ES</string>
     <string name="list_description_empty">Paredaguokite sąrašą ir pridėkite aprašymą</string>
+    <string name="place_page_map_too_old_title">Žemėlapio duomenys pasenę</string>
+    <string name="place_page_map_too_old_description">Jūsų naudojami žemėlapio duomenys senstelėję, prašom atnaujinti žemėlapį.</string>
+    <string name="place_page_app_too_old_description">Jūsų naudojami žemėlapio duomenys stipriai pasenę, prašom atnaujinti „CoMaps“ programą.</string>
+    <string name="place_page_update_too_old_map">Atnaujinti regiono žemėlapį</string>
+    <string name="place_page_too_old_to_edit">„OpenStreetMap“ žemėlapio redagavimas negalimas, nes žemėlapio duomenys per seni.</string>
+    <string name="prefs_speed_cameras_information">Įspėjimai apie greičio matuoklius negalimi šalyse, kuriose tai draudžiama įstatymu.</string>
+    <string name="navigation_start_tts_message">"Pradedama navigacija, balso instrukcijų kalba: "</string>
+    <string name="navigation_start_tts_disabled_message">Balso instrukcijos išjungtos: šnekos sintezės sistema neprieinama</string>
+    <string name="advanced">Kita</string>
+    <string name="download_resources_custom_url_title">Pasirinktinis žemėlapių serveris</string>
+    <string name="download_resources_custom_url_message">Žemėlapiams parsisiųsti galite nurodyti kitą, nei numatytasis, serverį. Palikite lauką tuščią, jei norite naudoti numatytąjį „CoMaps“ serverį.</string>
+    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
+    <string name="download_resources_custom_url_summary_none">Nenurodytas</string>
+    <string name="download_resources_custom_url_error_scheme">Įveskite visą URL adresą, pradedant „https://“ ir baigiant „/“</string>
 </resources>
