@@ -31,7 +31,11 @@ if using Apache, try this:
 
 ### set up monitoring:
 apt install goaccess
-edit /etc/goaccess/goaccess.conf and uncomment time-format %H:%M:%S, date-format %Y-%m-%d, log-format COMBINED
+edit /etc/goaccess/goaccess.conf and uncomment:
+- time-format %H:%M:%S
+- date-format %d/%b/%Y
+- log-format COMBINED
+
 vim /etc/crontab
 
 `*/5 *   * * *   root    /usr/bin/goaccess /var/log/nginx/access.log -o /var/www/html/monitor.html`
