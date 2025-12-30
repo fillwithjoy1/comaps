@@ -1,0 +1,129 @@
+name: process_subways
+on:
+  workflow_dispatch: # Manual trigger
+
+env:
+  PLANET: /home/planet/planet/planet.o5m
+  TMPDIR: /tmp
+  HTML_DIR: "/mnt/4tbexternal/osm-planet/subway/validator"
+  DUMP: "$HTML_DIR"
+  SKIP_PLANET_UPDATE: "1"
+  DEBIAN_FRONTEND: nonnteractive
+  TZ: Etc/UTC
+
+# /var/www/html/subways is mapped as a volume on cdn-fi-1
+# as is /tmp/planet
+jobs:
+  clone-repos:
+    name: Clone Git Repos
+    runs-on: mapfilemaker
+    container:
+      image: codeberg.org/comaps/maps_generator:f6d53d54f794
+      volumes:
+        - /mnt/4tbexternal:/mnt/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-process-subways-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/cache@v4
+        with:
+          path: "~"
+          key: cache-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Checkout subways repo
+        shell: bash
+        run: |
+          cd ~
+          git clone --depth 1 --single-branch https://codeberg.org/comaps/subways.git
+
+  update-planet-o5m:
+    name: Update O5M Planet
+    runs-on: mapfilemaker
+    container:
+      image: codeberg.org/comaps/maps_generator:f6d53d54f794
+      volumes:
+        - /mnt/4tbexternal/:/mnt/4tbexternal/
+        - /mnt/4tbexternal/osm-planet:/home/planet
+    concurrency:
+      group: ${{ github.workflow }}-process-subways-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Check for O5M Planet File
+        shell: bash
+        run: |
+          if [ ! -f /home/planet/planet/planet.o5m ]; then
+          echo "WARN: No file at /home/planet/planet/planet.o5m"
+
+          if [ ! -f /home/planet/planet/planet-latest.osm.pbf ]; then
+          echo "ERROR: No file at /home/planet/planet/planet-latest.osm.pbf"
+          ls -al /home/planet/
+          ls -al /home/planet/planet/
+          exit 1
+          fi
+
+          echo "Converting planet-latest.osm.pbf to planet.o5m"
+          cd /home/planet/planet/
+          osmconvert -v --drop-author --drop-version --hash-memory=4000 planet-latest.osm.pbf -o=planet.o5m
+          echo "Conversion is done."
+          fi
+      - name: Update O5M planet
+        run: |
+          echo "Starting..."
+          cd /home/planet/planet/
+          rm -f planet-new.o5m
+          osmupdate -v --drop-author --drop-version --hash-memory=4000  --max-merge=32 --out-o5m planet.o5m planet-new.o5m
+          mv planet-new.o5m planet.o5m
+          echo "Done."
+      - name: Notify Zulip
+        run: |
+          curl -X POST https://comaps.zulipchat.com/api/v1/messages \
+            -u $ZULIP_BOT_EMAIL:$ZULIP_API_KEY \
+            --data-urlencode type=stream \
+            --data-urlencode 'to="DevOps"' \
+            --data-urlencode topic=codeberg-bot \
+            --data-urlencode 'content=O5M planet update is done!'
+
+  update-subways:
+    if: inputs.run-subways
+    name: Update Subways
+    runs-on: mapfilemaker
+    needs:
+      - clone-repos
+    container:
+      image: codeberg.org/comaps/maps_generator:f6d53d54f794
+      volumes:
+        - /mnt/4tbexternal/:/mnt/4tbexternal/
+        - /mnt/4tbexternal/osm-planet:/home/planet
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/cache@v4
+        with:
+          path: "~"
+          key: cache-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Update Subways
+        shell: bash
+        run: |
+          cd ~/comaps/
+          cp tools/unix/maps/settings.sh.prod tools/unix/maps/settings.sh
+          ./tools/unix/maps/generate_subways.sh
+      - name: Compare with VK validation
+        shell: bash
+        run: |
+          cd ~/subways
+          if [ -f "$HTML_DIR/index.html" ]; then
+            echo "Comparing local validation with VK's validation..."
+            python3 ./scripts/compare_html_validation.py "$HTML_DIR/index.html" \
+              --vk-url "https://maps.vk.com/osm/tools/subways/latest/index.html"
+          else
+            echo "Local index.html not found at $HTML_DIR/index.html"
+            exit 1
+          fi
+      - name: Notify Zulip
+        run: |
+          curl -X POST https://comaps.zulipchat.com/api/v1/messages \
+            -u $ZULIP_BOT_EMAIL:$ZULIP_API_KEY \
+            --data-urlencode type=stream \
+            --data-urlencode 'to="DevOps"' \
+            --data-urlencode topic=codeberg-bot \
+            --data-urlencode 'content=Subways are done!'
