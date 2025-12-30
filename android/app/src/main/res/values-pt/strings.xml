@@ -912,7 +912,6 @@
     <string name="advanced">Avançadas</string>
     <string name="download_resources_custom_url_title">Servidor de Mapa Personalizado</string>
     <string name="download_resources_custom_url_message">Substitui o servidor de download de mapas normal. Deixe em branco para usar o servidor do CoMaps padrão.</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
     <string name="download_resources_custom_url_summary_none">Indefinido</string>
     <string name="download_resources_custom_url_error_scheme">Por favor insira um URL inteiro começando com https:// e acabando com /</string>
 </resources>

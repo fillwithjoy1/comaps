@@ -853,7 +853,6 @@
     <string name="navigation_start_tts_disabled_message">Balss norādes atspējotas: nav pieejams teksta pārveidošanas runā dzinējs</string>
     <string name="prefs_speed_cameras_information">Brīdinājumi par ātruma noteikšanas kamerā ir atspējoti valstīs, kurās šādus brīdinājumus aizliedz vietējais likums.</string>
     <string name="navigation_start_tts_message">"Uzsāk navigāciju, balss norāžu valoda: "</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
     <string name="download_resources_custom_url_summary_none">Nav iestatīts</string>
     <string name="download_resources_custom_url_error_scheme">Lūgums ievadīt pilnu URL, kas sākas ar https:// un beidzas ar /</string>
     <string name="advanced">Iestatījumi: izvērsta kopa</string>

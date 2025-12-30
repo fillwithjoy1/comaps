@@ -908,7 +908,6 @@
     <string name="navigation_start_tts_message">"Inizio Navigazione, lingua per istruzioni vocali: "</string>
     <string name="download_resources_custom_url_error_scheme">Aggiungere un URL che inizia con https:// e finisce con /</string>
     <string name="download_resources_custom_url_summary_none">Non impostato</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
     <string name="download_resources_custom_url_message">Sovrascrivi il server da cui scaricare le mappe. Lascia vuoto per usare i server default di CoMaps.</string>
     <string name="download_resources_custom_url_title">Server mappe personalizzato</string>
     <string name="advanced">Avanzate</string>

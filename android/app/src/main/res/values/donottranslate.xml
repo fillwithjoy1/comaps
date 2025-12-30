@@ -105,4 +105,5 @@
   <string name="count_label" translatable="false">× %d</string>
   <string name="kw_label" translatable="false">%s kW</string>
   <string name="phone_format" translatable="false">+ XX X XX XX XX</string>
+  <string name="download_resources_custom_url_hint" translatable="false">https://cdn-fi-1.comaps.app/</string>
 </resources>

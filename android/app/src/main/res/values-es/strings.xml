@@ -927,5 +927,4 @@
     <string name="download_resources_custom_url_message">Sobreescribe el servidor de mapas por defecto. Deja en blanco para usar el servidor de CoMaps por defecto.</string>
     <string name="download_resources_custom_url_summary_none">No establecido</string>
     <string name="download_resources_custom_url_error_scheme">Por favor introduce un URL completo empezando con https:// y terminando con /</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
 </resources>

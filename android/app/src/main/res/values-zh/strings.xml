@@ -917,7 +917,6 @@
     <string name="place_page_app_too_old_description">您当前的地图数据非常旧，请更新 CoMaps 应用。</string>
     <string name="place_page_update_too_old_map">更新地图区域</string>
     <string name="place_page_too_old_to_edit">由于地图数据太旧，OpenStreetMap 编辑被禁用。</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
     <string name="download_resources_custom_url_summary_none">未设置</string>
     <string name="download_resources_custom_url_error_scheme">请输入以 https:// 开头、以 / 结尾的完整 URL</string>
     <string name="advanced">高级</string>

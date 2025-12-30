@@ -920,5 +920,4 @@
     <string name="download_resources_custom_url_summary_none">Nicht konfiguriert</string>
     <string name="download_resources_custom_url_message">Standardserver für Kartendownloads überschreiben. Leer lassen, um den CoMaps-Standardserver zu nutzen.</string>
     <string name="download_resources_custom_url_error_scheme">Bitte eine vollständige URL eingeben, die mit https:// beginnt und mit / endet</string>
-    <string name="download_resources_custom_url_hint">https://cdn-fi-1.comaps.app/</string>
 </resources>
