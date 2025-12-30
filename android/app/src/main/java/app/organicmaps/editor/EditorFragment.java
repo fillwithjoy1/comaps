@@ -196,10 +196,8 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
       {
         final Context context = mInputBuildingLevels.getContext();
         final boolean isValid = Editor.nativeIsLevelValid(s.toString());
-        UiUtils.setInputError(mInputBuildingLevels,
-                              isValid ? null
-                                      : context.getString(R.string.error_enter_correct_storey_number,
-                                                          Editor.nativeGetMaxEditableBuildingLevels()));
+        mInputBuildingLevels.setError(isValid ? null : context.getString(R.string.error_enter_correct_storey_number,
+                Editor.nativeGetMaxEditableBuildingLevels()));
       }
     });
 

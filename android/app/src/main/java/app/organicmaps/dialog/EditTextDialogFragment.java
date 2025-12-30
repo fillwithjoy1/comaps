@@ -152,7 +152,7 @@ public class EditTextDialogFragment extends BaseMwmDialogFragment
     if (mInputValidator != null)
     {
       final String maybeError = mInputValidator.validate(activity, input);
-      mEtInputLayout.getEditText().setError(maybeError);
+      mEtInputLayout.setError(maybeError);
       mEtInputLayout.requestFocus();
       return maybeError == null;
     }

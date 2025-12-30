@@ -24,7 +24,6 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
-import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.WindowCompat;
@@ -209,15 +208,7 @@ public final class UiUtils
   }
   public static void setInputError(@NonNull TextInputLayout layout, @StringRes int error)
   {
-    setInputError(layout, error == 0 ? null : layout.getContext().getString(error));
-  }
-
-  public static void setInputError(@NonNull TextInputLayout layout, String error)
-  {
-    layout.getEditText().setError(error);
-    layout.getEditText().setTextColor(error == null
-                                          ? ThemeUtils.getColor(layout.getContext(), android.R.attr.textColorPrimary)
-                                          : ContextCompat.getColor(layout.getContext(), R.color.base_red));
+    layout.setError(error == 0 ? null : layout.getContext().getString(error));
   }
 
   public static void setFullscreen(@NonNull Activity activity, boolean fullscreen)
