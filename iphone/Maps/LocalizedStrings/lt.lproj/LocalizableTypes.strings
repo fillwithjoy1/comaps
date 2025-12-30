@@ -2,12 +2,7 @@
 "type.addr_interpolation.even" = "Adresas / blokas";
 "type.addr_interpolation.odd" = "Adresas / blokas";
 "type.aerialway" = "Oro keltuvas";
-"type.aerialway.cable_car" = "Cable Car";
-"type.aerialway.chair_lift" = "Chair Lift";
-"type.aerialway.drag_lift" = "Drag Lift";
 "type.aerialway.gondola" = "Gondola";
-"type.aerialway.mixed_lift" = "Mixed Lift";
-"type.aerialway.station" = "Aerialway Station";
 "type.aeroway" = "Oro transporto infrastruktūra";
 "type.aeroway.aerodrome" = "Oro uostas";
 "type.aeroway.aerodrome.international" = "Tarptautinis oro uostas";
@@ -80,7 +75,6 @@
 "type.amenity.internet_cafe" = "Interneto kavinė";
 "type.amenity.kindergarten" = "Vaikų darželis";
 "type.amenity.library" = "Biblioteka";
-"type.amenity.loading_dock" = "Loading Dock";
 "type.amenity.marketplace" = "Turgavietė";
 "type.amenity.motorcycle_parking" = "Motociklų stovėjimo aikštelė";
 "type.amenity.nightclub" = "Naktinis klubas";
@@ -354,7 +348,6 @@
 "type.cuisine.vegan" = "Veganiška virtuvė";
 "type.cuisine.vegetarian" = "Vegetariška virtuvė";
 "type.cuisine.vietnamese" = "Vietnamiečių virtuvė";
-"type.emergency" = "Emergency";
 "type.emergency.assembly_point" = "Evakuacijos susirinkimo vieta";
 "type.emergency.defibrillator" = "Defibriliatorius";
 "type.emergency.fire_hydrant" = "Gaisrinis hidrantas";
@@ -550,13 +543,9 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.tertiary_link.tunnel" = "Tunelis";
-"type.highway.track" = "Track";
-"type.highway.track.area" = "Track";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.track.bridge" = "Tiltas";
-"type.highway.track.grade1" = "Track";
-"type.highway.track.no.access" = "Track";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.track.tunnel" = "Tunelis";
@@ -595,13 +584,11 @@
 "type.area_highway.service" = "Privažiuojamasis kelias";
 "type.area_highway.tertiary" = "Tretinės svarbos kelias";
 "type.area_highway.steps" = "Laiptai";
-"type.area_highway.track" = "Track";
 "type.area_highway.trunk" = "Magistralinis kelias";
 "type.area_highway.unclassified" = "Vietinės reikšmės kelias";
 "type.historic" = "Senovinis / istorinis objektas";
 "type.historic.aircraft" = "Senovinis orlaivis";
 "type.historic.anchor" = "Senovinis inkaras";
-"type.historic.archaeological_site" = "Archaeological Site";
 "type.historic.battlefield" = "Istorinio mūšio laukas";
 "type.historic.boundary_stone" = "Senovinis riboženklis";
 "type.historic.cannon" = "Patranka";
@@ -715,7 +702,7 @@
 "type.leisure.sauna" = "Sauna";
 "type.leisure.slipway" = "Slipas";
 "type.leisure.sports_centre" = "Sporto centras";
-"type.sport.climbing" = "Alpinizmo centras";
+"type.sport.climbing" = "Laipiojimo centras";
 "type.sport.yoga" = "Joga";
 "type.leisure.stadium" = "Stadionas";
 "type.leisure.swimming_pool" = "Plaukimo baseinas";
@@ -1418,13 +1405,6 @@
 "type.wheelchair.limited" = "Ribota prieiga neįgaliojo vežimėliu";
 "type.wheelchair.no" = "Prieigos neįgaliojo vežimėliu nėra";
 "type.wheelchair.yes" = "Visapusė prieiga neįgaliojo vežimėliu";
-"type.aerialway.j.bar" = "J-bar Lift";
-"type.aerialway.magic_carpet" = "Magic Carpet";
-"type.aerialway.platter" = "Platter Lift";
-"type.aerialway.rope_tow" = "Rope Tow";
-"type.aerialway.t.bar" = "T-bar Lift";
-"type.piste_type.downhill" = "Downhill Ski Run";
-"type.piste_type.downhill.area" = "Downhill Ski Run";
 "type.piste_type.downhill.advanced" = "Downhill Ski Run";
 "type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
 "type.piste_type.downhill.easy" = "Downhill Ski Run";
@@ -1436,9 +1416,6 @@
 "type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
 "type.piste_type.downhill.novice" = "Downhill Ski Run";
 "type.piste_type.downhill.novice.area" = "Downhill Ski Run";
-"type.piste_type.nordic" = "Nordic Ski Trail";
-"type.piste_type.sled" = "Sledding Piste";
-"type.piste_type.sled.area" = "Sledding Piste";
 "type.piste_type.snow_park" = "Sniego parkas";
 "type.piste_type.hike" = "Sniego pėsčiųjų takas";
 "type.piste_type.connection" = "\"Piste Connection";
@@ -1482,7 +1459,6 @@
 "type.amenity.luggage_locker" = "Bagažo pasaugojimo automatas";
 "type.amenity.ranger_station" = "Parko lankytojų centras";
 "type.amenity.bicycle_parking.covered" = "Dengta dviračių stovėjimo aikštelė";
-"type.post_office.post_partner" = "Post Partner";
 "type.barrier.wicket_gate" = "Varteliai";
 "type.amenity.animal_shelter" = "Gyvūnų prieglauda";
 "type.office.security" = "Saugos tarnyba";

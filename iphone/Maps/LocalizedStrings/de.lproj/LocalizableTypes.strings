@@ -397,9 +397,9 @@
 "type.spherical_buoy.special_purpose" = "Kugelförmige Spezialboje";
 "type.lateral.port" = "Backbord";
 "type.lateral.starboard" = "Steuerbord";
-"type.cardinal.east" = "Ost";
-"type.cardinal.north" = "Nord";
-"type.cardinal.south" = "Süd";
+"type.cardinal.east" = "Osten";
+"type.cardinal.north" = "Norden";
+"type.cardinal.south" = "Süden";
 "type.cardinal.west" = "Westen";
 
 /* A mountain rescue base for search and rescue activities. */

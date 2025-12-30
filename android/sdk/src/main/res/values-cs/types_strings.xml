@@ -145,7 +145,7 @@
     <string name="type.amenity.vending_machine.cigarettes">Automat na cigarety</string>
     <string name="type.amenity.vending_machine.drinks">Automat na nápoje</string>
     <string name="type.amenity.vending_machine.parking_tickets">Parkovací automat</string>
-    <string name="type.amenity.vending_machine.public_transport_tickets">Automat na jízdenky</string>
+    <string name="type.amenity.vending_machine.public_transport_tickets">Automat na jízdenky MHD</string>
     <string name="type.amenity.vehicle_inspection">Kontrola vozidla</string>
     <string name="type.amenity.veterinary">Veterinář</string>
     <string name="type.amenity.waste_basket">Odpadkový koš</string>
@@ -1260,7 +1260,7 @@
     <string name="type.recycling.cardboard">Lepenka</string>
     <string name="type.recycling.shoes">Boty</string>
     <string name="type.building.warehouse">Sklad</string>
-    <string name="type.amenity.shelter.lean_to">Otevřený přístřešek</string>
+    <string name="type.amenity.shelter.lean_to">Otevřený spací přístřešek</string>
     <string name="type.amenity.vending_machine.coffee">Automat na kávu</string>
     <string name="type.amenity.taxi">Stanoviště taxislužby</string>
     <string name="type.amenity.vending_machine">Prodejní automat</string>

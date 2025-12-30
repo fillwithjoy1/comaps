@@ -154,7 +154,7 @@
     <!-- Compared to wilderness_hut its smaller and simpler, without a fireplace. -->
     <string name="type.amenity.shelter.basic_hut">Biwakschachtel</string>
     <!-- A traditional 3-walled shelter (one side open), suitable for overnight camping. -->
-    <string name="type.amenity.shelter.lean_to">Überdachung zum Schlafen</string>
+    <string name="type.amenity.shelter.lean_to">Lean-to Schlafunterstand</string>
     <string name="type.amenity.public_bath">Öffentliches Bad</string>
     <string name="type.amenity.shower">Dusche</string>
     <string name="type.amenity.stripclub">Stripclub</string>
@@ -173,7 +173,7 @@
     <string name="type.amenity.vending_machine.food">Essensautomat</string>
     <string name="type.amenity.vending_machine.newspapers">Zeitungsautomat</string>
     <string name="type.amenity.vending_machine.parking_tickets">Parkautomat</string>
-    <string name="type.amenity.vending_machine.public_transport_tickets">5Fahrkartenautomat|4Ticketautomat|4Busticket|4Zugticket|5Bahnticket|4Zugfahrschein|U+1F3AB|U+1F39F|U+1F9FE</string>
+    <string name="type.amenity.vending_machine.public_transport_tickets">Fahrkartenautomat</string>
     <string name="type.amenity.vending_machine.sweets">Süßigkeitenautomat</string>
     <string name="type.amenity.vending_machine.excrement_bags">Hundekotbeutelspender</string>
     <string name="type.amenity.parcel_locker">Paketstation</string>
@@ -374,9 +374,9 @@
     <string name="type.spherical_buoy.special_purpose">Kugelförmige Spezialboje</string>
     <string name="type.lateral.port">Backbord</string>
     <string name="type.lateral.starboard">Steuerbord</string>
-    <string name="type.cardinal.east">Ost</string>
-    <string name="type.cardinal.north">Nord</string>
-    <string name="type.cardinal.south">Süd</string>
+    <string name="type.cardinal.east">Osten</string>
+    <string name="type.cardinal.north">Norden</string>
+    <string name="type.cardinal.south">Süden</string>
     <string name="type.cardinal.west">Westen</string>
     <!-- A mountain rescue base for search and rescue activities. -->
     <string name="type.emergency.mountain_rescue">Bergrettungsstation</string>

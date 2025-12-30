@@ -957,7 +957,7 @@
 "app_tip_01" = "Med dine donasjoner og støtte kan vi lage de beste kartene i verden!";
 
 /* App tip #02 */
-"app_tip_02" = "Liker du appen vår? Vennligst doner for å støtte utviklingen! Liker du det ikke ennå? Gi oss beskjed, så fikser vi det!";
+"app_tip_02" = "Liker du appen vår? Vennligst doner for å støtte utviklingen! Liker du den ikke ennå? La oss få vite hvorfor, så fikser vi det!";
 
 /* App tip #03 */
 "app_tip_03" = "Hvis du kjenner en programvareutvikler, kan du be ham eller henne implementere en funksjon du trenger.";
@@ -978,7 +978,7 @@
 "app_tip_08" = "Du kan enkelt fikse og forbedre kartdataene.";
 
 /* App tip #09 */
-"app_tip_09" = "Vårt hovedmål er å bygge raske, personvernfokuserte, brukervennlige kart som du vil elske.";
+"app_tip_09" = "Vårt hovedmål er å lage raske, personvernfokuserte, brukervennlige kart som du vil like.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
 "car_used_on_the_phone_screen" = "Du bruker nå CoMaps på telefonskjermen";

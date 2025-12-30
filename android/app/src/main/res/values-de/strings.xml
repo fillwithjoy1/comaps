@@ -9,7 +9,7 @@
     <string name="delete">Löschen</string>
     <string name="download_maps">Karten herunterladen</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Das Herunterladen ist fehlgeschlagen, Antippen für einen neuen Versuch</string>
+    <string name="download_has_failed">Das Herunterladen ist fehlgeschlagen – antippen für einen erneuten Versuch</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Wird heruntergeladen …</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -27,7 +27,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Eingeschränkte Genauigkeit</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Um eine genaue Navigation zu gewährleisten, aktivieren Sie „Genauer Standort“ in den Einstellungen</string>
+    <string name="precise_location_is_disabled_long_text">Um eine genaue Navigation zu gewährleisten, aktiviere „Genauer Standort“ in den Einstellungen</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Auf der Karte anzeigen</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -36,7 +36,7 @@
     <string name="try_again">Erneut versuchen</string>
     <string name="about_menu_title">Über CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Offenes Projekt, von der Gemeinschaft entwickelt</string>
+    <string name="about_headline">Freies Projekt, von der Gemeinschaft entwickelt</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Ausgereift und einfach zu bedienen</string>
     <!-- Text in About screen -->
@@ -53,10 +53,10 @@
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable">Bitte USB-Kabel entfernen oder Speicherkarte einsetzen, um CoMaps zu verwenden</string>
     <!-- Used in DownloadResources startup screen -->
-    <string name="not_enough_free_space_on_sdcard">Bitte zuerst Speicherplatz auf SD-Karte/USB-Speicher freigeben, um die Anwendung zu nutzen</string>
-    <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter. \nEs werden %s Speicherplatz benötigt.</string>
+    <string name="not_enough_free_space_on_sdcard">Bitte zuerst den Speicherplatz auf der SD-Karte/USB-Speicher freigeben, um die Anwendung nutzen zu können</string>
+    <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter. \nEs werden %s des Speicherplatzes benötigt.</string>
     <string name="download_resources_continue">Zur Karte</string>
-    <string name="downloading_country_can_proceed">%1$s (%2$s) wird heruntergeladen. Sie können jetzt \nzur Karte weitergehen.</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) wird heruntergeladen. \nSie können jetzt zur Karte weitergehen.</string>
     <string name="download_country_ask">%1$s herunterladen? (%2$s)</string>
     <string name="update_country_ask">%1$s aktualisieren? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -84,7 +84,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Karten speichern auf</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Wählen Sie den Speicherort für die herunterzuladenden Karten</string>
+    <string name="maps_storage_summary">Wähle den Speicherort für die herunterzuladenden Karten</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Heruntergeladene Karten</string>
     <!-- Free space out of total storage size in Maps Storage settings, e.g. "300 MB free of 2 GB" -->
@@ -94,7 +94,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Fehler beim Verschieben der Karten</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dies kann einige Minuten in Anspruch nehmen. \nBitte warten …</string>
+    <string name="wait_several_minutes">Dies kann einige Minuten in Anspruch nehmen. \nBitte warten …</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Maßeinheiten</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -105,7 +105,7 @@
     <!-- Search category for grocery stores; any changes should be duplicated in categories.txt @category_food! -->
     <string name="category_food">Lebensmittel</string>
     <!-- Search category for public transport; any changes should be duplicated in categories.txt @category_transport! -->
-    <string name="category_transport">Verkehr</string>
+    <string name="category_transport">ÖPNV</string>
     <!-- Search category for fuel stations; any changes should be duplicated in categories.txt @category_fuel! -->
     <string name="category_fuel">Tankstelle</string>
     <!-- Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! -->
@@ -125,7 +125,7 @@
     <!-- Search category for nightclubs/bars; any changes should be duplicated in categories.txt @category_nightlife! -->
     <string name="category_nightlife">Nachtleben</string>
     <!-- Search category for water park/disneyland/playground/toys store; any changes should be duplicated in categories.txt @category_children! -->
-    <string name="category_children">Freizeit mit Kindern</string>
+    <string name="category_children">Familienfreizeit</string>
     <!-- Search category for banks; any changes should be duplicated in categories.txt @category_bank! -->
     <string name="category_bank">Bank</string>
     <!-- Search category for pharmacies; any changes should be duplicated in categories.txt @category_pharmacy! -->
@@ -137,7 +137,7 @@
     <!-- Search category for post offices; any changes should be duplicated in categories.txt @category_post! -->
     <string name="category_post">Post</string>
     <!-- Search category for police; any changes should be duplicated in categories.txt @category_police! -->
-    <string name="category_police">Polizeistation</string>
+    <string name="category_police">Polizei</string>
     <!-- Search category for recycling; any changes should be duplicated in categories.txt @category_recycling! -->
     <string name="category_recycling">Recycling</string>
     <!-- Search category for water; any changes should be duplicated in categories.txt @category_water! also used to sort bookmarks by type -->
@@ -148,8 +148,8 @@
     <!-- Notes field in Bookmarks view -->
     <string name="description">Notizen</string>
     <!-- Email Subject when sharing bookmark list -->
-    <string name="share_bookmarks_email_subject">CoMaps-Lesezeichen wurden mit Ihnen geteilt</string>
-    <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen der CoMaps App. Sie können sie mit CoMaps öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://www.comaps.app/download/ für iOS oder Android herunterladen. \n \nViel Spaß beim Reisen mit CoMaps!</string>
+    <string name="share_bookmarks_email_subject">CoMaps-Lesezeichen wurden mit dir geteilt</string>
+    <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen der CoMaps-App. Du kannst in CoMaps öffnen. Wenn du die App nicht installiert hast, kannst du sie von https://www.comaps.app/download/ für iOS oder Android herunterladen. \n \nViel Spaß beim Navigieren mit CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Lesezeichen werden geladen</string>
     <!-- Kmz file successful loading -->
@@ -163,15 +163,15 @@
     <!-- resource for context menu -->
     <string name="edit">Bearbeiten</string>
     <!-- Warning message when doing search around current position -->
-    <string name="unknown_current_position">Ihr Standort konnte noch nicht ermittelt werden</string>
+    <string name="unknown_current_position">Dein Standort konnte noch nicht ermittelt werden</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
     <string name="cant_change_this_setting">Entschuldige, die Einstellungen für die Kartenspeicherung sind aktuell deaktiviert</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Die Karte wird heruntergeladen</string>
+    <string name="downloading_is_active">Die Karte wird jetzt heruntergeladen</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Keine Offline-Karten installiert? Hier herunterladen: https://www.comaps.app/download/</string>
+    <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Keine Offline-Karten installiert? Hier herunterladen: https://www.comaps.app/de/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hey, sieh dir meine Stecknadel auf der CoMaps-Karte an!</string>
+    <string name="bookmark_share_email_subject">Hey, sieh dir meine Stecknadel in der CoMaps-App an!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, sieh dir meinen aktuellen Standort auf der CoMaps-Karte an!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
@@ -179,7 +179,7 @@
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Teilen</string>
     <!-- Share by email button text, also used in editor and About. -->
-    <string name="email">Email</string>
+    <string name="email">E-Mail</string>
     <!-- Text for message when used successfully copied something -->
     <string name="copied_to_clipboard">In die Zwischenablage kopiert: %s</string>
     <!-- Used for bookmark editing -->
@@ -197,7 +197,7 @@
     <string name="prefs_group_information">Information</string>
     <string name="prefs_group_route">Navigation</string>
     <string name="pref_zoom_title">Zoom-Tasten</string>
-    <string name="pref_zoom_summary">Auf der Karte anzeigen</string>
+    <string name="pref_zoom_summary">Zur Anzeige auf der Karte</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Nachtmodus</string>
     <!-- Generic «Off» string -->
@@ -219,9 +219,9 @@
     <!-- Settings «Route» category: «Tts announce street names» description -->
     <string name="pref_tts_street_names_description">Wenn aktiviert, wird der Name der Straße oder Ausfahrt, in die abgebogen werden soll, laut angekündigt.</string>
     <!-- Settings «Route» category: «Tts language» title -->
-    <string name="pref_tts_language_title">Sprache für Sprachführung</string>
+    <string name="pref_tts_language_title">Sprache der Sprachführung</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen</string>
+    <string name="pref_tts_test_voice_title">Teste die Sprachanweisungen</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-To-Speech-Einstellungen des Systems, wenn du die Stimme jetzt nicht hören kannst</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -330,7 +330,7 @@
     <string name="blue_gray">Graublau</string>
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">Wenn Sie der Route folgen, beachten Sie bitte:</string>
-    <string name="dialog_routing_disclaimer_priority">– Zustand der Straßen, die Verkehrsordnung und Straßenschilder haben stets Vorrang vor Navigationsanweisungen;</string>
+    <string name="dialog_routing_disclaimer_priority">— Zustand der Straßen, die Verkehrsordnung und Straßenschilder haben stets Vorrang vor Navigationsanweisungen;</string>
     <string name="dialog_routing_disclaimer_precision">– Die Karte kann ungenau sein, und die vorgeschlagene Route ist möglicherweise nicht der optimale Weg, um das Ziel zu erreichen;</string>
     <string name="dialog_routing_disclaimer_recommendations">— Die vorgeschlagenen Routen sind als Empfehlungen zu verstehen;</string>
     <string name="dialog_routing_disclaimer_borders">— Bitte seien Sie vorsichtig bei Routen in Grenzgebieten: die Routen, die unsere App erstellt, können manchmal Landesgrenzen in gesperrten Gebieten überschreiten.</string>
@@ -543,7 +543,7 @@
     <string name="big_font">Schrift auf der Karte vergrößern</string>
     <string name="traffic_update_app">Bitte aktualisieren Sie CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
-    <string name="traffic_data_unavailable">Verkehrsdaten sind nicht verfügbar</string>
+    <string name="traffic_data_unavailable">Es sind keine Verkehrsdaten verfügbar</string>
     <string name="enable_logging">Protokollierung aktivieren</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Allgemeines Feedback</string>
@@ -873,7 +873,7 @@
     <string name="avoid_steps">Treppen vermeiden</string>
     <string name="editor_place_doesnt_exist_description">Beschreibe wie der Ort jetzt aussieht um eine Fehlermeldung an die OpenStreetMap Community zu senden</string>
     <string name="offline_explanation_title">Offline-Karten</string>
-    <string name="offline_explanation_text">Um die Gegend anzusehen, muss eine Karte heruntergeladen werden.\nLaden Sie Karten für die Gebiete herunter, die Sie bereisen möchten.</string>
+    <string name="offline_explanation_text">Um die Gegend anzusehen und zu erkunden, musst du eine Karte runterladen.\nLade dir Karten für die Gebiete runter, die du bereisen willst.</string>
     <string name="charge_socket_type2">Typ 2 (ohne Kabel)</string>
     <string name="charge_socket_type2_cable">Typ 2 (mit Kabel)</string>
     <string name="charge_socket_type2_combo">Typ 2 Combo</string>
@@ -898,15 +898,15 @@
     <string name="opens_day_at">Öffnet am %1$s um %2$s</string>
     <string name="closes_day_at">Schließt am %1$s um %2$s</string>
     <plurals name="minutes_short">
-        <item quantity="one">%d min</item>
-        <item quantity="other">%d min</item>
+        <item quantity="one">(%d min)</item>
+        <item quantity="other">(%d min)</item>
     </plurals>
     <string name="editor_business_vacant_button">Geschäft steht leer</string>
     <string name="editor_mark_business_vacant_title">Geschäft auf leerstehend setzen</string>
     <string name="editor_submit">Absenden</string>
     <string name="editor_mark_business_vacant_description">Verwenden Sie diese Option, wenn das Geschäft ausgezogen ist und ein neues Geschäft die leerstehenden Räume übernehmen könnte.</string>
     <string name="charge_socket_schuko">Schuko</string>
-    <string name="power_management">Energiemanagement</string>
+    <string name="power_management">Stromverbrauch verwalten</string>
     <string name="place_page_map_too_old_title">Kartendaten veraltet</string>
     <string name="place_page_map_too_old_description">Die aktuellen Kartendaten sind sehr alt, bitte aktualisiere die Karte.</string>
     <string name="place_page_app_too_old_description">Die aktuellen Kartendaten sind sehr alt, bitte aktualisiere die CoMaps-App.</string>
