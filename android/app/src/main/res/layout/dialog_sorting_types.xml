@@ -27,7 +27,7 @@
     android:layout_marginTop="@dimen/margin_base">
 
     <RadioButton
-      style="@style/TextAppearance.Subtitle1"
+      style="@style/MwmTextAppearance.Subtitle1"
       android:id="@+id/sort_by_default"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
