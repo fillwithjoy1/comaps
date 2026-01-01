@@ -21,7 +21,7 @@
     <item name="android:statusBarColor">?colorPrimary</item>
     <item name="android:windowTranslucentNavigation">false</item>
 
-    <item name="alertDialogTheme">@style/MwmTheme.AlertDialog</item>
+    <item name="alertDialogTheme">@style/MwmTheme.M3.AlertDialog</item>
     <item name="windowBackgroundForced">@color/bg_window</item>
     <item name="cardBackground">@color/bg_cards</item>
     <item name="titleDialogTheme">@color/white_primary</item>
