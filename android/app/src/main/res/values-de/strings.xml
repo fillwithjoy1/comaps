@@ -23,7 +23,7 @@
     <!-- Search box placeholder text; Used when searching on the map itself, not when searching for a map -->
     <string name="search_map">Auf der Karte suchen</string>
     <!-- Location services are disabled by user alert - message -->
-    <string name="location_is_disabled_long_text">Standortdienste sind für dieses Gerät oder diese App deaktiviert. Bitte aktivieren Sie diese in den Einstellungen.</string>
+    <string name="location_is_disabled_long_text">Standortdienste sind für dieses Gerät oder diese App deaktiviert. Bitte aktiviere diese in den Einstellungen.</string>
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Eingeschränkte Genauigkeit</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
@@ -54,9 +54,9 @@
     <string name="disconnect_usb_cable">Bitte USB-Kabel entfernen oder Speicherkarte einsetzen, um CoMaps zu verwenden</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Bitte zuerst den Speicherplatz auf der SD-Karte/USB-Speicher freigeben, um die Anwendung nutzen zu können</string>
-    <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter. \nEs werden %s des Speicherplatzes benötigt.</string>
+    <string name="download_resources">Bevor du die App verwendest, lade bitte die weltweite Übersichtskarte herunter. \nEs werden %s des Speicherplatzes benötigt.</string>
     <string name="download_resources_continue">Zur Karte</string>
-    <string name="downloading_country_can_proceed">%1$s (%2$s) wird heruntergeladen. \nSie können jetzt zur Karte weitergehen.</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) wird heruntergeladen. \nDu kannst jetzt zur Karte weitergehen.</string>
     <string name="download_country_ask">%1$s herunterladen? (%2$s)</string>
     <string name="update_country_ask">%1$s aktualisieren? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -149,7 +149,7 @@
     <string name="description">Notizen</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMaps-Lesezeichen wurden mit dir geteilt</string>
-    <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen der CoMaps-App. Du kannst in CoMaps öffnen. Wenn du die App nicht installiert hast, kannst du sie von https://www.comaps.app/download/ für iOS oder Android herunterladen. \n \nViel Spaß beim Navigieren mit CoMaps!</string>
+    <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen aus der CoMaps-App. Du kannst sie in CoMaps öffnen. Wenn du die App nicht installiert hast, kannst du sie unter https://www.comaps.app/de/download/ herunterladen. \n \nViel Spaß beim Navigieren mit CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Lesezeichen werden geladen</string>
     <!-- Kmz file successful loading -->
@@ -169,7 +169,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Die Karte wird jetzt heruntergeladen</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Keine Offline-Karten installiert? Hier herunterladen: https://www.comaps.app/de/download/</string>
+    <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Du hast CoMaps nicht installiert? Lade die App hier herunter: https://www.comaps.app/de/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hey, sieh dir meine Stecknadel in der CoMaps-App an!</string>
     <!-- Subject for emailed position -->
@@ -181,7 +181,7 @@
     <!-- Share by email button text, also used in editor and About. -->
     <string name="email">E-Mail</string>
     <!-- Text for message when used successfully copied something -->
-    <string name="copied_to_clipboard">In die Zwischenablage kopiert: %s</string>
+    <string name="copied_to_clipboard">Kopiert in der Zwischenablage: %s</string>
     <!-- Used for bookmark editing -->
     <string name="done">Fertig</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -236,11 +236,11 @@
     <!-- Settings: Send feedback button and dialog title -->
     <string name="feedback">Feedback</string>
     <!-- Text in menu -->
-    <string name="rate_the_app">Bewerten Sie die App</string>
+    <string name="rate_the_app">Bewerte die App</string>
     <!-- Text in menu -->
     <string name="help">Hilfe</string>
     <!-- Button in the main Help dialog -->
-    <string name="faq">Häufige Fragen und Antworten</string>
+    <string name="faq">Häufige Fragen und Antworten (FAQ)</string>
     <!-- Button in the main menu -->
     <string name="donate">Spenden</string>
     <!-- Button in the main Help dialog -->
@@ -254,9 +254,9 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Bewegen Sie das Telefon in einer Achterbewegung, um den Kompass zu kalibrieren und die Pfeilrichtung auf der Karte festzulegen.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Tippe erneut lange auf die Karte, um die Benutzeroberfläche zu sehen</string>
+    <string name="long_tap_toast">Tippe erneut lange auf die Karte, um die Benutzeroberfläche wiederzusehen</string>
     <!-- Update all button text -->
-    <string name="downloader_update_all_button">Alle aktualisieren</string>
+    <string name="downloader_update_all_button">Alle Karten aktualisieren</string>
     <!-- Cancel all button text -->
     <string name="downloader_cancel_all">Alle abbrechen</string>
     <!-- Downloaded maps list header -->
@@ -329,23 +329,23 @@
     <!-- blue gray color -->
     <string name="blue_gray">Graublau</string>
     <!-- SECTION: Routing dialogs strings -->
-    <string name="dialog_routing_disclaimer_title">Wenn Sie der Route folgen, beachten Sie bitte:</string>
+    <string name="dialog_routing_disclaimer_title">Wenn du der Route folgst, beachte bitte:</string>
     <string name="dialog_routing_disclaimer_priority">— Zustand der Straßen, die Verkehrsordnung und Straßenschilder haben stets Vorrang vor Navigationsanweisungen;</string>
-    <string name="dialog_routing_disclaimer_precision">– Die Karte kann ungenau sein, und die vorgeschlagene Route ist möglicherweise nicht der optimale Weg, um das Ziel zu erreichen;</string>
+    <string name="dialog_routing_disclaimer_precision">— Die Karte kann ungenau sein, und die vorgeschlagene Route ist möglicherweise nicht der optimale Weg, um das Ziel zu erreichen;</string>
     <string name="dialog_routing_disclaimer_recommendations">— Die vorgeschlagenen Routen sind als Empfehlungen zu verstehen;</string>
     <string name="dialog_routing_disclaimer_borders">— Bitte seien Sie vorsichtig bei Routen in Grenzgebieten: die Routen, die unsere App erstellt, können manchmal Landesgrenzen in gesperrten Gebieten überschreiten.</string>
-    <string name="dialog_routing_disclaimer_beware">Bitte fahren Sie aufmerksam und sicher!</string>
+    <string name="dialog_routing_disclaimer_beware">Bitte fahre aufmerksam und sicher!</string>
     <string name="dialog_routing_check_gps">GPS-Signal prüfen</string>
     <string name="dialog_routing_error_location_not_found">Route kann nicht erstellt werden. Aktuelle GPS-Koordinaten konnten nicht ermittelt werden.</string>
-    <string name="dialog_routing_location_turn_wifi">Bitte prüfen Sie Ihr GPS-Signal. WLAN verbessert Ihre Standortgenauigkeit.</string>
+    <string name="dialog_routing_location_turn_wifi">Bitte prüfe dein GPS-Signal. Aktiviertes W-LAN verbessert deine Standortgenauigkeit.</string>
     <string name="dialog_routing_location_turn_on">Standortdienste aktivieren</string>
-    <string name="dialog_routing_location_unknown_turn_on">Aktuelle GPS-Koordinaten können nicht ermittelt werden. Aktivieren Sie Standortdienste, um die Route zu berechnen.</string>
+    <string name="dialog_routing_location_unknown_turn_on">Aktuelle GPS-Koordinaten können nicht ermittelt werden. Aktiviere die Standortdienste, um die Route zu berechnen.</string>
     <string name="dialog_routing_unable_locate_route">Route kann nicht ermittelt werden</string>
     <string name="dialog_routing_cant_build_route">Route konnte nicht erstellt werden</string>
-    <string name="dialog_routing_change_start_or_end">Bitte passen Sie Ihren Startpunkt oder Ihr Ziel an.</string>
+    <string name="dialog_routing_change_start_or_end">Bitte passe deinen Startpunkt oder Ziel an.</string>
     <string name="dialog_routing_change_start">Startpunkt anpassen</string>
     <string name="dialog_routing_start_not_determined">Route wurde nicht erstellt. Startpunkt konnte nicht gefunden werden.</string>
-    <string name="dialog_routing_select_closer_start">Bitte wählen Sie einen Startpunkt, der näher an einer Straße liegt.</string>
+    <string name="dialog_routing_select_closer_start">Bitte wähle einen Startpunkt, der näher an einer Straße liegt.</string>
     <string name="dialog_routing_change_end">Ziel anpassen</string>
     <string name="dialog_routing_end_not_determined">Route wurde nicht erstellt. Ziel konnte nicht gefunden werden.</string>
     <string name="dialog_routing_select_closer_end">Bitte wählen Sie einen Zielort näher an einer Straße</string>
@@ -353,10 +353,10 @@
     <string name="dialog_routing_intermediate_not_determined">Bitte passen Sie Ihren Zwischenstopp an</string>
     <string name="dialog_routing_system_error">Systemfehler</string>
     <string name="dialog_routing_application_error">Wegen eines Anwendungsfehlers konnte keine Route erstellt werden</string>
-    <string name="dialog_routing_try_again">Bitte versuchen Sie es erneut</string>
+    <string name="dialog_routing_try_again">Bitte versuche es erneut</string>
     <string name="not_now">Nicht jetzt</string>
-    <string name="dialog_routing_download_and_build_cross_route">Möchten Sie die Karte herunterladen und eine bessere Route erstellen, die mehr als eine Karte umfasst?</string>
-    <string name="dialog_routing_download_cross_route">Laden Sie zusätzliche Karten herunter, um eine bessere Route zu erstellen, welche die Grenzen dieser Karte überschreitet.</string>
+    <string name="dialog_routing_download_and_build_cross_route">Möchtest du die Karte herunterladen und eine bessere Route erstellen, die mehr als eine Karte umfasst?</string>
+    <string name="dialog_routing_download_cross_route">Lade zusätzliche Karten herunter, um eine bessere Route zu erstellen, welche die Grenzen dieser Karte überschreitet.</string>
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">Um mit der Suche und dem Erstellen von Routen zu beginnen, laden Sie bitte die Karte herunter. Sie benötigen danach keine Internetverbindung mehr.</string>
     <string name="search_select_map">Karte auswählen</string>
@@ -368,16 +368,16 @@
     <string name="history">Verlauf</string>
     <string name="search_not_found">Uups, kein Ergebnis gefunden</string>
     <!-- The message when user did not find anything in the search. -->
-    <string name="search_not_found_query">Laden Sie die Region herunter, in der Sie suchen, oder fügen Sie den Namen einer nahe gelegenen Stadt oder eines Dorfes hinzu.</string>
+    <string name="search_not_found_query">Lade die Region herunter, in der du suchst, oder füge den Namen einer nahe gelegenen Stadt oder eines Dorfes hinzu.</string>
     <string name="search_history_title">Suchverlauf</string>
     <string name="search_history_text">Ihre letzten Suchanfragen anzeigen</string>
     <string name="clear_search">Suchverlauf löschen</string>
-    <string name="p2p_your_location">Ihr Standort</string>
+    <string name="p2p_your_location">Dein Standort</string>
     <string name="p2p_start">Start</string>
-    <string name="p2p_from_here">Von</string>
-    <string name="p2p_to_here">Nach</string>
+    <string name="p2p_from_here">Route von</string>
+    <string name="p2p_to_here">Route nach</string>
     <string name="p2p_only_from_current">Die Navigation ist nur von Ihrem aktuellen Standort aus möglich</string>
-    <string name="p2p_reroute_from_current">Soll eine Route von Ihrem aktuellen Standort aus berechnet werden?</string>
+    <string name="p2p_reroute_from_current">Soll eine Route von deinem aktuellen Standort aus berechnet werden?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Weiter</string>
     <!-- Tab title in the Edit Opening Hours time picker -->
@@ -395,17 +395,17 @@
     <string name="editor_time_advanced">Erweiterter Modus</string>
     <string name="editor_time_simple">Einfacher Modus</string>
     <string name="editor_hours_closed">Schließzeiten</string>
-    <string name="editor_example_values">Beispiele</string>
+    <string name="editor_example_values">Beispielwerte</string>
     <string name="editor_correct_mistake">Fehler korrigieren</string>
     <string name="editor_add_select_location">Standort auswählen</string>
     <string name="editor_report_problem_desription_1">Bitte beschreiben Sie das Problem detailliert, damit die OpenStreetMap-Community den Fehler korrigieren kann.</string>
-    <string name="editor_report_problem_desription_2">Oder korrigieren Sie es selbst auf https://www.openstreetmap.org/</string>
+    <string name="editor_report_problem_desription_2">Oder korrigiere es selbst auf https://www.openstreetmap.org/</string>
     <string name="editor_report_problem_send_button">Senden</string>
     <string name="editor_report_problem_title">Problem</string>
     <string name="editor_report_problem_no_place_title">Dieser Ort existiert nicht</string>
     <string name="editor_report_problem_under_construction_title">Wegen Bauarbeiten geschlossen</string>
     <string name="editor_report_problem_duplicate_place_title">Doppelt vorhanderer Ort</string>
-    <string name="autodownload">Karten automatisch herunterladen</string>
+    <string name="autodownload">Automatisch herunterladen</string>
     <!-- Place Page opening hours text -->
     <string name="daily">Täglich</string>
     <string name="twentyfour_seven">24/7</string>
@@ -427,7 +427,7 @@
     <string name="street">Straße</string>
     <!-- Editable House Number text field (in address block). -->
     <string name="house_number">Hausnummer</string>
-    <string name="details">Details</string>
+    <string name="details">Einzelheiten</string>
     <string name="social_media">Social Media</string>
     <string name="building">Gebäude</string>
     <!-- Text field to enter non-existing street name, below list of known streets around -->
@@ -480,7 +480,7 @@
     <!-- Hint of the input field in the OSM note section of the editor -->
     <string name="editor_note_hint">Beschreiben Sie Kartenfehler oder Dinge, die mit CoMaps nicht bearbeitet werden können</string>
     <!-- Information about OSM at the top of the editing page -->
-    <string name="editor_about_osm">Ihre Bearbeitungen werden in die öffentliche <a href="https://wiki.openstreetmap.org/wiki/DE:Über_OSM">OpenStreetMap</a> Datenbank hochgeladen. Bitte tragen Sie keine privaten oder urheberrechtlich geschützten Informationen ein.</string>
+    <string name="editor_about_osm">Deine Bearbeitungen werden in die öffentliche <a href="https://wiki.openstreetmap.org/wiki/DE:Über_OSM">OpenStreetMap</a> Datenbank hochgeladen. Bitte trage keine privaten oder urheberrechtlich geschützten Informationen ein.</string>
     <string name="editor_more_about_osm">Mehr Informationen über OpenStreetMap</string>
     <string name="editor_osm_history">Ihr Bearbeitungsverlauf</string>
     <string name="editor_osm_notes">Ihre Hinweise zu den Kartendaten</string>
@@ -488,7 +488,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Betreiber: %s</string>
     <string name="editor_category_unsuitable_title">Keine passende Kategorie gefunden?</string>
-    <string name="editor_category_unsuitable_text">Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, dass bedeutet keine Städte, Straßen, Seen, Gebäudeumrisse etc. Bitte füge solche Kategorien direkt bei <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> hinzu. In unserem <a href="https://www.comaps.app/support/advanced-map-editing/">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt Anleitung.</string>
+    <string name="editor_category_unsuitable_text">Mit CoMaps kannst du nur einfache Punktkategorien hinzufügen, dass bedeutet keine Städte, Straßen, Seen, Gebäudeumrisse etc. Bitte füge solche Kategorien direkt bei <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> hinzu. In unserem <a href="https://www.comaps.app/support/advanced-map-editing/">Leitfaden (auf Englisch)</a> findest du eine detaillierte Schritt-für-Schritt Anleitung.</string>
     <string name="downloader_no_downloaded_maps_title">Keine Karten heruntergeladen</string>
     <string name="downloader_no_downloaded_maps_message">Laden Sie Karten für die Offline-Suche und Navigation herunter</string>
     <string name="current_location_unknown_error_title">Aktueller Standort ist unbekannt</string>
@@ -547,7 +547,7 @@
     <string name="enable_logging">Protokollierung aktivieren</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Allgemeines Feedback</string>
-    <string name="prefs_languages_information">Wir verwenden Text-to-Speech-Systeme für Sprachanweisungen. Viele Android-Geräte nutzen Google-TTS, das Sie bei Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) herunterladen oder aktualisieren können</string>
+    <string name="prefs_languages_information">Wir verwenden Text-to-Speech-Systeme (TTS; zu deutsch: Text-zu-Sprache) für Sprachanweisungen. Viele Android-Geräte nutzen Google-TTS, das du bei Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) herunterladen oder aktualisieren kannst</string>
     <string name="prefs_languages_information_off">Für einige Sprachen müssen Sie einen anderen Sprachgenerator oder ein zusätzliches Sprachpaket aus dem App Store installieren (Google Play, Galaxy Store, App Gallery, FDroid).\nÖffnen Sie die Einstellungen Ihres Gerätes → Sprache und Eingabe → Sprache → Text-to-Speech-Ausgabe.\nHier können Sie die Einstellungen für Sprachsynthese verwalten (beispielsweise ein Sprachpaket für die Offline-Verwendung herunterladen) und ein anderes Sprachausgabeprogramm auswählen.</string>
     <string name="prefs_languages_information_off_link">Weitere Informationen finden Sie in dieser Anleitung</string>
     <string name="transliteration_title">Transliteration ins lateinische Alphabet</string>
@@ -871,7 +871,7 @@
     <string name="hours_confirmed_time_ago">Bestätigt %s</string>
     <string name="pref_tts_no_system_tts_short">Kein Text-zu-Sprache-Modul gefunden, überprüfe die App-Einstellungen</string>
     <string name="avoid_steps">Treppen vermeiden</string>
-    <string name="editor_place_doesnt_exist_description">Beschreibe wie der Ort jetzt aussieht um eine Fehlermeldung an die OpenStreetMap Community zu senden</string>
+    <string name="editor_place_doesnt_exist_description">Beschreibe wie der Ort jetzt aussieht, um eine Fehlermeldung an die OpenStreetMap Community zu senden</string>
     <string name="offline_explanation_title">Offline-Karten</string>
     <string name="offline_explanation_text">Um die Gegend anzusehen und zu erkunden, musst du eine Karte runterladen.\nLade dir Karten für die Gebiete runter, die du bereisen willst.</string>
     <string name="charge_socket_type2">Typ 2 (ohne Kabel)</string>
@@ -919,5 +919,5 @@
     <string name="advanced">Fortgeschritten</string>
     <string name="download_resources_custom_url_summary_none">Nicht konfiguriert</string>
     <string name="download_resources_custom_url_message">Standardserver für Kartendownloads überschreiben. Leer lassen, um den CoMaps-Standardserver zu nutzen.</string>
-    <string name="download_resources_custom_url_error_scheme">Bitte eine vollständige URL eingeben, die mit https:// beginnt und mit / endet</string>
+    <string name="download_resources_custom_url_error_scheme">Bitte eine vollständige URL eingeben, die mit https:// oder http:// anfängt</string>
 </resources>
