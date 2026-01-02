@@ -61,7 +61,7 @@
     <string name="type.shop.rental.bicycle">Dviračių nuomos punktas</string>
     <!-- Typically serviced, staff is present and food is available (compared to wilderness_hut). -->
     <string name="type.tourism.alpine_hut">Kalnų namelis</string>
-    <string name="type.tourism.apartment">Atostogoms nuomojami butai</string>
+    <string name="type.tourism.apartment">Atostogoms nuomojamas butas</string>
     <string name="type.attraction.amusement_ride">Atrakcionas</string>
     <string name="type.attraction.animal">Gyvūnų aptvaras</string>
     <string name="type.attraction.carousel">Karuselė</string>
@@ -155,7 +155,7 @@
     <string name="type.amenity.money_transfer">Pinigų perlaidos</string>
     <string name="type.amenity.music_school">Muzikos mokykla</string>
     <string name="type.amenity.sailing_school">Buriavimo mokykla</string>
-    <string name="type.amenity.flight_school">Orlaivių pilotavimo mokykla</string>
+    <string name="type.amenity.flight_school">Aviacijos mokykla</string>
     <string name="type.amenity.prep_school">Parengiamoji mokykla</string>
     <string name="type.amenity.language_school">Kalbų mokykla</string>
     <string name="type.office.diplomatic">Ambasada</string>
@@ -207,7 +207,7 @@
     <string name="type.amenity.parking_space.underground">Stovėjimo vieta</string>
     <string name="type.amenity.parking_space.disabled">Stovėjimo vieta neįgaliesiems</string>
     <string name="type.amenity.payment_terminal">Savitarnos mokėjimų terminalas</string>
-    <string name="type.amenity.payment_centre">Mokėjimų kasa</string>
+    <string name="type.amenity.payment_centre">Mokėjimų centras</string>
     <string name="type.amenity.pharmacy">Vaistinė</string>
     <string name="type.amenity.place_of_worship">Maldos namai</string>
     <string name="type.amenity.place_of_worship.buddhist">Budistų šventykla</string>
@@ -321,7 +321,7 @@
     <string name="type.cemetery.grave">Kapas</string>
     <string name="type.craft">Amatininkai</string>
     <string name="type.craft.beekeeper">Bitininkystės ūkis</string>
-    <string name="type.craft.blacksmith">Kalvystės cechas</string>
+    <string name="type.craft.blacksmith">Kalvė</string>
     <string name="type.craft.brewery">Bravoras</string>
     <string name="type.craft.caterer">Užsakomojo maitinimo įmonė</string>
     <string name="type.craft.carpenter">Dailidės biuras</string>
@@ -330,7 +330,7 @@
     <string name="type.craft.electronics_repair">Elektronikos taisykla</string>
     <string name="type.craft.gardener">Sodininko biuras</string>
     <string name="type.craft.grinding_mill">Malūnas</string>
-    <string name="type.craft.handicraft">Rankų darbo gaminių cechas</string>
+    <string name="type.craft.handicraft">Amatininko dirbtuvė</string>
     <string name="type.craft.hvac">Šildymo, vėdinimo, kondicionavimo įrangos įrengimas ir priežiūra</string>
     <string name="type.craft.key_cutter">Raktų dirbtuvė</string>
     <string name="type.craft.locksmith">Spynininko dirbtuvė</string>
@@ -342,7 +342,7 @@
     <string name="type.craft.sawmill">Lentpjūvė</string>
     <string name="type.craft.shoemaker">Avalynės taisykla</string>
     <string name="type.craft.winery">Vyno darykla</string>
-    <string name="type.craft.tailor">Siuvėjo dirbtuvė</string>
+    <string name="type.craft.tailor">Siuvykla</string>
     <string name="type.cuisine.african">Afrikietiška virtuvė</string>
     <string name="type.cuisine.american">Amerikiečių virtuvė</string>
     <string name="type.cuisine.arab">Arabų virtuvė</string>
@@ -648,7 +648,7 @@
     <string name="type.leisure.miniature_golf">Minigolfo aikštynas</string>
     <string name="type.leisure.hackerspace">Techninės kūrybos erdvė</string>
     <string name="type.leisure.ice_rink">Ledo arena</string>
-    <string name="type.leisure.indoor_play">Vaikų žaidimų kambarys</string>
+    <string name="type.leisure.indoor_play">Vaikų žaidimų erdvė</string>
     <string name="type.leisure.marina">Marina</string>
     <string name="type.leisure.nature_reserve">Gamtos rezervatas</string>
     <string name="type.leisure.outdoor_seating">Lauko sėdimos vietos</string>
@@ -1156,8 +1156,8 @@
     <string name="type.shop.cannabis">Kanapių parduotuvė</string>
     <string name="type.shop.car">Automobilių salonas</string>
     <string name="type.shop.car_parts">Automobilių dalių parduotuvė</string>
-    <string name="type.shop.car_repair">Automobilių remonto dirbtuvės</string>
-    <string name="type.shop.car_repair.tyres">Padangų remonto dirbtuvės</string>
+    <string name="type.shop.car_repair">Automobilių remonto dirbtuvė</string>
+    <string name="type.shop.car_repair.tyres">Padangų remonto dirbtuvė</string>
     <string name="type.shop.caravan">Kemperių salonas</string>
     <string name="type.shop.carpet">Kilimų salonas</string>
     <string name="type.shop.chemist">Buitinės chemijos parduotuvė</string>
@@ -1167,7 +1167,7 @@
     <string name="type.shop.computer">Kompiuterių parduotuvė</string>
     <string name="type.shop.confectionery">Saldainių parduotuvė</string>
     <string name="type.shop.convenience">Vietinė parduotuvė</string>
-    <string name="type.shop.copyshop">Kopijavimo salonas</string>
+    <string name="type.shop.copyshop">Kopijavimo centras</string>
     <string name="type.shop.cosmetics">Kosmetikos parduotuvė</string>
     <string name="type.shop.curtain">Užuolaidų salonas</string>
     <string name="type.shop.deli">Delikatesų parduotuvė</string>
@@ -1198,12 +1198,12 @@
     <string name="type.shop.kitchen">Virtuvės studija</string>
     <string name="type.shop.laundry">Skalbykla</string>
     <string name="type.shop.mall">Parduotuvių centras</string>
-    <string name="type.shop.beauty.day_spa">SPA</string>
+    <string name="type.shop.beauty.day_spa">Dienos poilsio namai (SPA)</string>
     <string name="type.shop.massage">Masažo salonas</string>
     <string name="type.shop.mobile_phone">Mobiliųjų telefonų salonas</string>
     <string name="type.shop.money_lender">Greitosios paskolos</string>
     <string name="type.shop.motorcycle">Motociklų salonas</string>
-    <string name="type.shop.motorcycle_repair">Motociklų remonto dirbtuvės</string>
+    <string name="type.shop.motorcycle_repair">Motociklų remonto dirbtuvė</string>
     <string name="type.shop.music">Garso įrašų parduotuvė</string>
     <string name="type.shop.musical_instrument">Muzikos instrumentų salonas</string>
     <string name="type.shop.newsagent">Laikraščių stendas</string>
