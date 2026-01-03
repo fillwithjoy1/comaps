@@ -1377,6 +1377,7 @@ leisure-slipway                                     # icon z17- (also has captio
 leisure-track                                       # caption z16- (also has line z15-)
 leisure-track-area                                  # caption z16- (also has area z15-)
 man_made-petroleum_well                             # icon z14- (also has caption(optional) z18-)
+man_made-wastewater_plant                           # caption z15- (also has area z13-)
 power-generator                                     # icon z17- (also has area z13-)
 power-generator-gas                                 # icon z17- (also has area z13-)
 power-generator-hydro                               # icon z17- (also has area z13-)
