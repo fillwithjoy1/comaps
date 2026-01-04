@@ -9,7 +9,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/margin_half"
-    android:background="?cardBackground"
     android:paddingStart="@dimen/margin_half_plus"
     android:paddingEnd="@dimen/margin_half_plus">
 
