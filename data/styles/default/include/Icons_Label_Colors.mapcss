@@ -70,7 +70,7 @@ node[amenity=arts_centre],
 node[amenity=community_centre],
 node[amenity=conference_centre],
 node[amenity=exhibition_centre],
-node[amenity=place_of_worship]
+node[amenity=place_of_worship],
 node[amenity=social_facility],
 node[historic=castle][castle_type=castrum],
 node[historic=castle][castle_type=defensive],
