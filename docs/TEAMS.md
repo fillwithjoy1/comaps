@@ -8,6 +8,12 @@ CoMaps is led by community contributors, with functional domains occasionally es
 
 Active contributors on different projects around CoMaps
 
+## Mergers
+
+- [compaps/mergers](https://codeberg.org/org/comaps/teams/mergers)
+
+Contributors who have merge permissions on the `comaps/comaps` repository, can do "official reviews" (those that count towards blocking merges), and can create branches/tags
+
 ## Owners
 
 - [@comaps/owners](https://codeberg.org/org/comaps/teams/owners)
@@ -18,7 +24,7 @@ Owners of the CoMaps team and repositories on Codeberg
 
 - [@comaps/admins](https://codeberg.org/org/comaps/teams/admins)
 
-- Administrators of different repositories on Codeberg
+Administrators of different repositories on Codeberg
 
 ## Android
 
