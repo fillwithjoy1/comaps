@@ -3,10 +3,6 @@ name: Build F-Droid Beta (debug-signed APK)
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
-    paths:
-      - "android/**"
-      - ".github/workflows/fdroid-beta-debug-apk.yml"
 
 jobs:
   build-fdroid-beta:
