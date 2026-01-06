@@ -3,59 +3,12 @@ on:
   workflow_dispatch:  # Manual trigger
   push:
 
+
 env:
   RELEASE_NOTES: android/app/src/google/play/release-notes/en-US/default.txt
   FDROID_VERSION: android/app/src/fdroid/play/version.yaml
 
 jobs:
-  tag:
-    name: Tag
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - name: Checkout sources
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 100  # Enough to get all commits for the last day.
-          ssh-key: ${{ secrets.RELEASE_SSH_KEY }}
-
-      - name: Tag
-        id: tag
-        shell: bash
-        run: |
-          set -x
-          git config user.name '${{ github.actor }}'
-          git config user.email '${{ github.actor }}@users.noreply.github.com'
-          version=$(tools/unix/version.sh ios_version)
-          # +1 because below a "Bump versions" commit is created.
-          # TODO: Find a way to refactor FDroid versioning without that additional commit.
-          build=$(($(tools/unix/version.sh count) + 1))
-          code=$(($(tools/unix/version.sh android_code) + 1))
-          tag=$version-$build-android
-          echo "::set-output name=version::$version"
-          echo "::set-output name=build::$build"
-          echo "::set-output name=tag::$tag"
-          echo "::set-output name=code::$code"
-          echo "version: ${version}-${build}-FDroid+${code}" > ${{ env.FDROID_VERSION }}
-          git add ${{ env.FDROID_VERSION }}
-          {
-            echo $tag
-            echo
-            cat ${{ env.RELEASE_NOTES }}
-          } > ${{ runner.temp }}/tag.txt
-          branch="${GITHUB_REF#refs/heads/}"
-          test -n "$branch"
-          git commit -m "Bump versions" -s
-          git tag -a $tag -F ${{ runner.temp }}/tag.txt
-          git show $tag
-          git push origin $branch:$branch
-          git push origin $tag:$tag
-    outputs:
-      version: ${{ steps.tag.outputs.version }}
-      build: ${{ steps.tag.outputs.build }}
-      code: ${{ steps.tag.outputs.code }}
-      tag: ${{ steps.tag.outputs.tag }}
-
   android-release:
     name: Android Release
     runs-on: ubuntu-latest
