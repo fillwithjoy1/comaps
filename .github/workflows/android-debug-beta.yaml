@@ -1,128 +1,71 @@
-name: Android Release
+name: Build F-Droid Beta (debug-signed APK)
+
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
   push:
-
-
-env:
-  RELEASE_NOTES: android/app/src/google/play/release-notes/en-US/default.txt
-  FDROID_VERSION: android/app/src/fdroid/play/version.yaml
+    branches: [ main ]
+    paths:
+      - "android/**"
+      - ".github/workflows/fdroid-beta-debug-apk.yml"
 
 jobs:
-  android-release:
-    name: Android Release
+  build-fdroid-beta:
     runs-on: ubuntu-latest
-    environment: production
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - flavor: google
-          - flavor: huawei
-          - flavor: web
+
     steps:
-      - name: Install build tools and dependencies
+      - name: Checkout sources (with submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+
+      - name: Install build tools
         shell: bash
         run: |
           sudo apt-get update -y
           sudo apt-get install -y ninja-build
 
-      - name: Checkout sources
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 100 # enough to get all commits for the current day
-          ref: 'refs/tags/${{ needs.tag.outputs.tag }}'
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
 
-      - name: Check tag
+      - name: Create local.properties (sdk.dir)
         shell: bash
         run: |
-          git show HEAD
-          test -n "${{ needs.tag.outputs.tag }}"
-          test "$(git tag --points-at HEAD)" = "${{ needs.tag.outputs.tag }}"
+          echo "sdk.dir=${ANDROID_SDK_ROOT}" > android/local.properties
+          cat android/local.properties
 
-      - name: Parallel submodules checkout
-        shell: bash
-        run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
-
-      - name: Checkout screenshots
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ secrets.SCREENSHOTS_REPO }}
-          ssh-key: ${{ secrets.SCREENSHOTS_SSH_KEY }}
-          ref: main
-          path: screenshots
-
-      - name: Restore release keys
+      - name: Install Android NDK
         shell: bash
         run: |
-          echo "$PRIVATE_H" | base64 -d > private.h
-          echo "$GOOGLE_PLAY_JSON" | base64 -d > android/app/google-play.json
-          echo "$HUAWEI_APPGALLERY_JSON" | base64 -d > android/app/huawei-appgallery.json
-          echo "$AGCONNECT_SERVICES_JSON" | base64 -d > android/app/agconnect-services.json
-          echo "$SECURE_PROPERTIES" | base64 -d > android/app/secure.properties
-          echo "$RELEASE_KEYSTORE" | base64 -d > android/app/release.keystore
-        env:
-          PRIVATE_H: ${{ secrets.PRIVATE_H }}
-          GOOGLE_PLAY_JSON: ${{ secrets.GOOGLE_PLAY_JSON }}
-          HUAWEI_APPGALLERY_JSON: ${{ secrets.HUAWEI_APPGALLERY_JSON }}
-          AGCONNECT_SERVICES_JSON: ${{ secrets.AGCONNECT_SERVICES_JSON }}
-          SECURE_PROPERTIES: ${{ secrets.SECURE_PROPERTIES }}
-          RELEASE_KEYSTORE: ${{ secrets.RELEASE_KEYSTORE }}
+          sdkmanager --install "ndk;28.2.13676358"
 
-      - name: Set up SDK
-        shell: bash
-        run: echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
-
-      - name: Compile and upload to Google Play
+      - name: Build F-Droid Beta APK (debug signing)
         shell: bash
         working-directory: android
         run: |
-          ./gradlew bundleGoogleRelease publishGoogleReleaseBundle
-        if: ${{ matrix.flavor == 'google' }}
+          ./gradlew --version
+          ./gradlew :app:assembleFdroidBeta
 
-      - name: Compile and upload to Huawei AppGallery
-        shell: bash
-        working-directory: android
-        run: |
-          ./gradlew bundleHuaweiRelease
-          ./gradlew publishHuaweiAppGalleryHuaweiRelease
-        if: ${{ matrix.flavor == 'huawei' }}
-
-      - name: Compile universal APK
-        shell: bash
-        working-directory: android
-        run: |
-          ./gradlew assembleWebRelease
-        if: ${{ matrix.flavor == 'web' }}
-
-      - name: Prepare release notes
-        if: ${{ matrix.flavor == 'web' }}
+      - name: Locate APK
+        id: locate
         shell: bash
         run: |
-          (cd ./android/app/build/outputs/apk/web/release/ && sha256sum OrganicMaps-${{ needs.tag.outputs.code }}-web-release.apk > OrganicMaps-${{ needs.tag.outputs.code }}-web-release.apk.sha256sum)
-          {
-            cat ${{ env.RELEASE_NOTES }}
-            echo ""
-            echo "See [a detailed announce](https://organicmaps.app/news/) on our website when app updates are published in all stores."
-            echo "You can get automatic app updates from Codeberg [using Obtainium](https://codeberg.org/comaps/comaps/wiki/Installing-Organic-Maps-from-GitHub-using-Obtainium)."
-            echo ""
-            echo "sha256sum:"
-            echo -e '\n```'
-            tr -d '\n' < ./android/app/build/outputs/apk/web/release/OrganicMaps-${{ needs.tag.outputs.code }}-web-release.apk.sha256sum
-            echo -e '\n```'
-          } > ${{ runner.temp }}/release-notes.txt
+          set -euo pipefail
+          APK_PATH="$(find android/app/build -type f -name "*.apk" | sort | tail -n 1)"
+          test -n "$APK_PATH"
+          echo "apk_path=$APK_PATH" >> "$GITHUB_OUTPUT"
+          echo "Found APK: $APK_PATH"
 
-      - name: Upload universal APK to Codeberg
-        uses: softprops/action-gh-release@v1
-        if: ${{ matrix.flavor == 'web' }}
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
         with:
-          body_path: ${{ runner.temp }}/release-notes.txt
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: ${{ needs.tag.outputs.tag }}
-          tag_name: ${{ needs.tag.outputs.tag }}
-          discussion_category_name: 'Announcements'
-          prerelease: true
-          files: |
-            ./android/app/build/outputs/apk/web/release/OrganicMaps-${{ needs.tag.outputs.code }}-web-release.apk
-            ./android/app/build/outputs/apk/web/release/OrganicMaps-${{ needs.tag.outputs.code }}-web-release.apk.sha256sum
-          fail_on_unmatched_files: true
+          name: fdroidBeta-debug-signed-apk
+          path: ${{ steps.locate.outputs.apk_path }}
+          if-no-files-found: error
