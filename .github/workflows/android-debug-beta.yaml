@@ -17,6 +17,11 @@ jobs:
       - name: Checkout repo
         run: git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
 
+      - name: Prepare repo for development
+        run: |
+          cd comaps
+          ./configure.sh
+
       - name: Set up Java 21
         uses: actions/setup-java@v4
         with:
@@ -43,11 +48,6 @@ jobs:
         shell: bash
         run: |
           sdkmanager --install "ndk;28.2.13676358"
-
-      - name: Prepare repo for development
-        run: |
-          cd comaps
-          ./configure.sh
 
       - name: Build F-Droid Beta APK (debug signing)
         shell: bash
