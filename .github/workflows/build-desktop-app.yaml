@@ -13,6 +13,10 @@ jobs:
           sudo apt-get update -y
           sudo apt-get upgrade -y
 
+      - name: Checkout repository
+        run: |
+          git clone https://github.com/fillwithjoy1/comaps
+
       - name: Install dependencies
         run: |
           sudo apt install -y \
