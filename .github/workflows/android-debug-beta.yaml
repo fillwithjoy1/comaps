@@ -9,11 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout sources (with submodules)
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
+      - name: Update local machine
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
+      
+      - name: Checkout repo
+        run: git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
@@ -25,7 +27,6 @@ jobs:
       - name: Install build tools
         shell: bash
         run: |
-          sudo apt-get update -y
           sudo apt-get install -y build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng python3-pip ninja-build
           pip install "protobuf<3.21" --break-system-packages
 
