@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Increase disk space
+        uses: AdityaGarg8/remove-unwanted-software@v5
+
       - name: Update local machine
         run: |
           sudo apt-get update -y
