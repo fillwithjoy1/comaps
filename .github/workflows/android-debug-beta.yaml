@@ -2,6 +2,7 @@ name: Build F-Droid Beta (debug-signed APK)
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   build-fdroid-beta:
@@ -16,11 +17,11 @@ jobs:
       - name: Checkout repo
         run: git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
 
-      - name: Set up Java 17
+      - name: Set up Java 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
           cache: gradle
 
       - name: Install build tools
