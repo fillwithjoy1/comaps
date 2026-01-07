@@ -59,3 +59,9 @@ jobs:
           pwd
           cd omim-build-release
           find
+
+      - name: Upload release binary
+        uses: actions/upload-artifact@v6
+        with:
+          name: 'Desktop Release'
+          path: 'omim-build-release/CoMaps'
