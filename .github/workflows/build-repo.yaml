@@ -1,4 +1,4 @@
-name: build-repo.yaml
+name: Build Beta APKs
 on:
   workflow_dispatch:
   push:
