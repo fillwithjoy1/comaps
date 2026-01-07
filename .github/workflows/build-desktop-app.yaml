@@ -53,5 +53,8 @@ jobs:
         run: |
           cd comaps
           ./tools/unix/build_omim.sh -r desktop
-          cd omim-build-release
+
+      - name: Find binaries
+        run: |
+          pwd
           find
