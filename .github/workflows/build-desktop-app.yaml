@@ -1,0 +1,14 @@
+name: Build Desktop App
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build-desktop-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prepare Linux Machine
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
