@@ -41,4 +41,8 @@ jobs:
         run: |
           cd comaps/android
           ./gradlew assembleBeta
-          find
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v6
+        with:
+          path: app/build/outputs/apk/*.apk
