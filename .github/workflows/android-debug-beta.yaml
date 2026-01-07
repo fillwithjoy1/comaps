@@ -2,7 +2,6 @@ name: Build F-Droid Beta (debug-signed APK)
 
 on:
   workflow_dispatch:
-  push:
 
 jobs:
   build-fdroid-beta:
