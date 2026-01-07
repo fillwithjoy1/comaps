@@ -26,3 +26,9 @@ jobs:
         run: |
           cd comaps
           ./configure.sh
+
+      - name: Install OpenJDK 21
+        run:
+          sudo apt install openjdk-21-jdk
+          # I don't know if I need to install JRE but who knows
+          sudo apt install openjdk-21-jre
