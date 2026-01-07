@@ -41,8 +41,9 @@ jobs:
       - name: Create local.properties (sdk.dir)
         shell: bash
         run: |
-          echo "sdk.dir=${ANDROID_SDK_ROOT}" > android/local.properties
-          cat android/local.properties
+          pwd
+          echo "sdk.dir=${ANDROID_SDK_ROOT}" > comaps/android/local.properties
+          cat comaps/android/local.properties
 
       - name: Install Android NDK
         shell: bash
