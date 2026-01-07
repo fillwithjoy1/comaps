@@ -1,0 +1,14 @@
+name: build-repo.yaml
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update local machine
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
