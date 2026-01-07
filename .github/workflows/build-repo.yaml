@@ -31,3 +31,9 @@ jobs:
         run: |
           sudo apt install openjdk-21-jdk
           sudo apt install openjdk-21-jre
+
+      - name: Compile APK
+        run: |
+          cd comaps/android
+          ./gradlew assembleBeta
+          find
