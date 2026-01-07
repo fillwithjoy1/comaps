@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Increase disk space
-        uses: AdityaGarg8/remove-unwanted-software@v5
+        uses: jlumbroso/free-disk-space@main
 
       - name: Update local machine
         run: |
