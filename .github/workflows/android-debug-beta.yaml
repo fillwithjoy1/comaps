@@ -54,6 +54,7 @@ jobs:
         shell: bash
         working-directory: android
         run: |
+          cd comaps/android
           ./gradlew --version
           ./gradlew :app:assembleFdroidBeta
 
