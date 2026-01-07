@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Increase disk space
         uses: jlumbroso/free-disk-space@main
+        with:
+          android: 'false'
 
       - name: Update local machine
         run: |
