@@ -12,3 +12,7 @@ jobs:
         run: |
           sudo apt-get update -y
           sudo apt-get upgrade -y
+
+      - name: Checkout repo
+        run: |
+          git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
