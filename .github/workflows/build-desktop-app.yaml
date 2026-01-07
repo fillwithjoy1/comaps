@@ -39,3 +39,7 @@ jobs:
               libxi-dev \
               python3-protobuf \
               zlib1g-dev
+
+      - name: Build Desktop App
+        run: |
+          tools/unix/build_omim.sh -r desktop
