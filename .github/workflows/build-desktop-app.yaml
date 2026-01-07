@@ -57,4 +57,5 @@ jobs:
       - name: Find binaries
         run: |
           pwd
+          cd omim-build-release
           find
