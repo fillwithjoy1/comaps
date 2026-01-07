@@ -46,6 +46,5 @@ jobs:
 
       - name: Build Desktop App
         run: |
-          find
           ./tools/unix/build_omim.sh -r desktop
           find
