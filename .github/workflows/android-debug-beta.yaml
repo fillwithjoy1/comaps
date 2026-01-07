@@ -50,8 +50,7 @@ jobs:
       - name: Build F-Droid Beta APK (debug signing)
         working-directory: android
         run: |
-          find
-          cd android
+          pwd
           ./gradlew --version
           ./gradlew :app:assembleFdroidBeta
 
