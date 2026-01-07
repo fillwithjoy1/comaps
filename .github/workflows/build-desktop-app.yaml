@@ -54,12 +54,6 @@ jobs:
           cd comaps
           ./tools/unix/build_omim.sh -r desktop
 
-      - name: Find binaries
-        run: |
-          pwd
-          cd omim-build-release
-          find
-
       - name: Upload release binary
         uses: actions/upload-artifact@v6
         with:
