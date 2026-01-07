@@ -44,6 +44,11 @@ jobs:
               python3-protobuf \
               zlib1g-dev
 
+      - name: Install protobuf
+        run: |
+          pip3 install "protobuf<3.21" --break-system-packages
+          
+
       - name: Build Desktop App
         run: |
           cd comaps
