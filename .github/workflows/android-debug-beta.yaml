@@ -1,0 +1,70 @@
+name: Build F-Droid Beta (debug-signed APK)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-fdroid-beta:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update local machine
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
+      
+      - name: Checkout repo
+        run: git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: gradle
+
+      - name: Install build tools
+        run: |
+          sudo apt-get install -y build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng python3-pip ninja-build
+          pip install "protobuf<3.21" --break-system-packages
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Create local.properties (sdk.dir)
+        run: |
+          pwd
+          echo "sdk.dir=${ANDROID_SDK_ROOT}" > comaps/android/local.properties
+          cat comaps/android/local.properties
+
+      - name: Install Android NDK
+        run: |
+          sdkmanager --install "ndk;28.2.13676358"
+
+      - name: Prepare repo for development
+        run: |
+          cd comaps
+          ./configure.sh
+
+      - name: Build F-Droid Beta APK (debug signing)
+        working-directory: android
+        run: |
+          pwd
+          ./gradlew --version
+          ./gradlew :app:assembleFdroidBeta
+
+      - name: Locate APK
+        id: locate
+        run: |
+          set -euo pipefail
+          APK_PATH="$(find android/app/build -type f -name "*.apk" | sort | tail -n 1)"
+          test -n "$APK_PATH"
+          echo "apk_path=$APK_PATH" >> "$GITHUB_OUTPUT"
+          echo "Found APK: $APK_PATH"
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fdroidBeta-debug-signed-apk
+          path: ${{ steps.locate.outputs.apk_path }}
+          if-no-files-found: error

@@ -1,0 +1,62 @@
+name: Build Desktop App
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  build-desktop-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prepare Linux Machine
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
+
+      - name: Checkout repository
+        run: |
+          git clone https://github.com/fillwithjoy1/comaps
+
+      - name: Install dependencies
+        run: |
+          sudo apt install -y \
+              build-essential \
+              clang \
+              cmake \
+              ninja-build \
+              python3 \
+              qt6-base-dev \
+              qt6-positioning-dev \
+              libc++-dev \
+              libfreetype-dev \
+              libglvnd-dev \
+              libgl1-mesa-dev \
+              libharfbuzz-dev \
+              libicu-dev \
+              libqt6svg6-dev \
+              libqt6positioning6-plugins \
+              libqt6positioning6 \
+              libsqlite3-dev \
+              libxrandr-dev \
+              libxinerama-dev \
+              libxcursor-dev \
+              libxi-dev \
+              python3-protobuf \
+              zlib1g-dev
+
+      - name: Install protobuf
+        run: |
+          pip3 install "protobuf<3.21" --break-system-packages
+          
+
+      - name: Build Desktop App
+        run: |
+          cd comaps
+          ./tools/unix/build_omim.sh -r desktop
+
+      - name: Upload release binary
+        uses: actions/upload-artifact@v6
+        with:
+          name: 'Desktop Release'
+          path: 'omim-build-release/CoMaps'
