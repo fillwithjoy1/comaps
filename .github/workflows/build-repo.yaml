@@ -2,6 +2,7 @@ name: Build Beta APKs
 on:
   workflow_dispatch:
   push:
+  pull_request:
 
 jobs:
   build-apk:
