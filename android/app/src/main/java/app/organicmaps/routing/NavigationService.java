@@ -32,6 +32,7 @@ import androidx.core.content.ContextCompat;
 import app.organicmaps.MwmActivity;
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
+import app.organicmaps.notifications.LiveUpdateHelper;
 import app.organicmaps.sdk.Framework;
 import app.organicmaps.sdk.location.LocationHelper;
 import app.organicmaps.sdk.location.LocationListener;
@@ -160,6 +161,13 @@ public class NavigationService extends Service implements LocationListener
                                .addAction(0, context.getString(R.string.navigation_stop_button), exitPendingIntent)
                                .setColorized(isColorizedSupported())
                                .setColor(ContextCompat.getColor(context, R.color.notification));
+
+    LiveUpdateHelper.applyLiveUpdateMetadata(context,
+                                             mNotificationBuilder,
+                                             "navigation_live",
+                                             contentIntent,
+                                             context.getString(R.string.app_name),
+                                             context.getString(R.string.pref_navigation));
 
     return mNotificationBuilder;
   }

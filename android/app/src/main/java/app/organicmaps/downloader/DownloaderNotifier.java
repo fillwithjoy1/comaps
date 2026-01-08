@@ -17,6 +17,7 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import app.organicmaps.MwmActivity;
 import app.organicmaps.R;
+import app.organicmaps.notifications.LiveUpdateHelper;
 import app.organicmaps.sdk.downloader.MapManager;
 import app.organicmaps.sdk.util.StringUtils;
 import app.organicmaps.sdk.util.log.Logger;
@@ -65,18 +66,25 @@ public class DownloaderNotifier
     final String countryName = MapManager.nativeGetName(countryId);
     final String content = mContext.getString(R.string.download_country_failed, countryName);
 
-    final Notification notification = new NotificationCompat.Builder(mContext, CHANNEL_ID)
-                                          .setAutoCancel(true)
-                                          .setCategory(NotificationCompat.CATEGORY_ERROR)
-                                          .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-                                          .setSmallIcon(R.drawable.ic_logo_small)
-                                          .setColor(ContextCompat.getColor(mContext, R.color.notification))
-                                          .setContentTitle(title)
-                                          .setContentText(content)
-                                          .setShowWhen(true)
-                                          .setTicker(getTicker(mContext, title, content))
-                                          .setContentIntent(getNotificationPendingIntent(countryId))
-                                          .setOnlyAlertOnce(true)
+    final Intent contentIntent = createContentIntent(countryId);
+    final Notification notification = LiveUpdateHelper
+                                          .applyLiveUpdateMetadata(mContext,
+                                                                   new NotificationCompat.Builder(mContext, CHANNEL_ID)
+                                                                       .setAutoCancel(true)
+                                                                       .setCategory(NotificationCompat.CATEGORY_ERROR)
+                                                                       .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                                                                       .setSmallIcon(R.drawable.ic_logo_small)
+                                                                       .setColor(ContextCompat.getColor(mContext, R.color.notification))
+                                                                       .setContentTitle(title)
+                                                                       .setContentText(content)
+                                                                       .setShowWhen(true)
+                                                                       .setTicker(getTicker(mContext, title, content))
+                                                                       .setContentIntent(getNotificationPendingIntent(contentIntent))
+                                                                       .setOnlyAlertOnce(true),
+                                                                   "downloader_live",
+                                                                   contentIntent,
+                                                                   title,
+                                                                   content)
                                           .build();
 
     Logger.i(TAG, "Notifying about failed map download");
@@ -125,31 +133,44 @@ public class DownloaderNotifier
     {
       mNotificationCountryId = countryId;
       final String countryName = countryId != null ? MapManager.nativeGetName(countryId) : "";
+      final Intent contentIntent = createContentIntent(countryId);
 
       mProgressNotificationBuilder =
-          new NotificationCompat.Builder(mContext, CHANNEL_ID)
-              .setAutoCancel(true)
-              .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-              .setSmallIcon(R.drawable.ic_logo_small)
-              .setColor(ContextCompat.getColor(mContext, R.color.notification))
-              .setShowWhen(true)
-              .setContentTitle(mContext.getString(R.string.app_name))
-              .setContentIntent(getNotificationPendingIntent(countryId))
-              .setContentText(mContext.getString(R.string.downloader_downloading) + " " + countryName)
-              .setSound(null);
+          LiveUpdateHelper.applyLiveUpdateMetadata(mContext,
+                                                   new NotificationCompat.Builder(mContext, CHANNEL_ID)
+                                                       .setAutoCancel(true)
+                                                       .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                                                       .setSmallIcon(R.drawable.ic_logo_small)
+                                                       .setColor(ContextCompat.getColor(mContext, R.color.notification))
+                                                       .setShowWhen(true)
+                                                       .setContentTitle(mContext.getString(R.string.app_name))
+                                                       .setContentIntent(getNotificationPendingIntent(contentIntent))
+                                                       .setContentText(mContext.getString(R.string.downloader_downloading)
+                                                                         + " " + countryName)
+                                                       .setSound(null),
+                                                   "downloader_live",
+                                                   contentIntent,
+                                                   mContext.getString(R.string.app_name),
+                                                   mContext.getString(R.string.downloader_downloading) + " " + countryName);
     }
     return mProgressNotificationBuilder;
   }
 
   @NonNull
-  private PendingIntent getNotificationPendingIntent(@Nullable String countryId)
+  private PendingIntent getNotificationPendingIntent(@NonNull Intent contentIntent)
   {
     /// @todo Zooming to the countryId when tapping on the notification?
     /// Shows very low zoom level, need z=9/10, I suppose ...
     final int FLAG_IMMUTABLE = Build.VERSION.SDK_INT < Build.VERSION_CODES.M ? 0 : PendingIntent.FLAG_IMMUTABLE;
+    return PendingIntent.getActivity(mContext, 0, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT | FLAG_IMMUTABLE);
+  }
+
+  @NonNull
+  private Intent createContentIntent(@Nullable String countryId)
+  {
     final Intent contentIntent = MwmActivity.createShowMapIntent(mContext, countryId);
     contentIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-    return PendingIntent.getActivity(mContext, 0, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT | FLAG_IMMUTABLE);
+    return contentIntent;
   }
 
   @NonNull
